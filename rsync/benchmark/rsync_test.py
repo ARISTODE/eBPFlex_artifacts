@@ -9,7 +9,7 @@ src = pwd+"/src_dir/"
 dst = pwd+"/dst_dir/"
 rsync = "/usr/bin/rsync"
 rsync_eBPF = "/usr/local/bin/rsync"
-arguments = "  -aq --recursive --update -p -t "+src+" "+dst
+arguments = " -q -4 --recursive -X --times -p --executability "+src+" "+dst
 time_no_eBPF = []
 time_eBPF = []
 
