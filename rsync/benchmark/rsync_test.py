@@ -7,8 +7,8 @@ import subprocess
 pwd = os.environ["PWD"]
 src = pwd+"/src_dir/"
 dst = pwd+"/dst_dir/"
-rsync = "/usr/bin/rsync"
-rsync_eBPF = "/usr/local/bin/rsync"
+rsync = "~/Research/rsync-3.3.0-og/rsync"
+rsync_eBPF = "~/Research/rsync-3.3.0/rsync"
 arguments = " -q -4 --recursive -X --times -p --executability "+src+" "+dst
 time_no_eBPF = []
 time_eBPF = []
@@ -39,6 +39,8 @@ def proc():
     time_no_eBPF.append(res)
     cleanup()
 
+    #input("Press enter to continue\n")
+
     st=time.process_time()
     exec(rsync_eBPF,arguments)
     et=time.process_time()
@@ -49,8 +51,9 @@ def proc():
 
 
 create_data()
+times=30
 
-for i in range(30):
+for i in range(times):
     proc()
 
 col_width=30
