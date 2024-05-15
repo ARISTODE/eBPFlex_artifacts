@@ -1,0 +1,3 @@
+pcre2_match_data_free_8
+pcre2_get_ovector_pointer_8
+pcre2_match_data_create_8
