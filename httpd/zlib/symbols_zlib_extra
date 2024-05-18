@@ -1,0 +1,4 @@
+deflateInit2_
+deflate
+deflateEnd
+crc32
