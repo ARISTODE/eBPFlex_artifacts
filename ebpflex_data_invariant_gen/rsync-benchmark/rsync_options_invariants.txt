@@ -1,0 +1,1449 @@
+Daikon version 5.8.21, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files .[2025-05-27T06:24:39.075167171]:                                                                                                                              (read 1 decls file)
+                                                                               Processing trace data; reading 1 dtrace file:
+[2025-05-27T06:24:40.083225255]: Reading rsync_options.dtrace (line 1703, 61...[2025-05-27T06:24:40.392350880]: Finished reading rsync_options.dtrace         [2025-05-27T06:24:40.392486963]: Finished reading rsync_options.dtrace         
+                                                                               ===========================================================================
+..free_options():::ENTER
+opts[].quiet == opts[].delete_before
+opts[].quiet == opts[].delete_during
+opts[].quiet == opts[].delete_after
+opts[].quiet == opts[].force
+opts[].quiet == opts[].dry_run
+opts[].quiet == opts[].checksum
+opts[].quiet == opts[].size_only
+opts[].quiet == opts[].one_file_system
+opts[].quiet == opts[].update
+opts[].quiet == opts[].inplace
+opts[].quiet == opts[].append
+opts[].quiet == opts[].dirs
+opts[].quiet == opts[].compress
+opts[].quiet == opts[].numeric_ids
+opts[].quiet == opts[].cvs_exclude
+opts[].quiet == opts[].progress
+opts[].quiet == opts[].itemize_changes
+opts[].quiet == opts[].human_readable
+opts[].quiet == opts[].no_implied_dirs
+opts[].quiet == opts[].list_only
+opts[].quiet == opts[].timeout
+opts has only one value
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [1]
+opts[].verbose elements == 1
+opts[].quiet == [0]
+opts[].quiet elements == 0
+opts[].archive == [1]
+opts[].archive elements == 1
+opts[].recursive == [1]
+opts[].recursive elements == 1
+opts[].preserve_links == [1]
+opts[].preserve_links elements == 1
+opts[].preserve_perms == [1]
+opts[].preserve_perms elements == 1
+opts[].preserve_times == [1]
+opts[].preserve_times elements == 1
+opts[].preserve_owner == [1]
+opts[].preserve_owner elements == 1
+opts[].preserve_group == [1]
+opts[].preserve_group elements == 1
+opts[].preserve_devices == [1]
+opts[].preserve_devices elements == 1
+opts[].delete_mode == [1]
+opts[].delete_mode elements == 1
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].backup == [1]
+opts[].backup elements == 1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].backup_dir == [/backup]
+opts[].backup_dir elements == "/backup"
+opts[].backup_suffix == [~]
+opts[].backup_suffix elements == "~"
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+size(opts[]) == 1
+opts[].verbose elements == size(opts[])
+size(opts[]) in opts[].verbose
+opts[].quiet elements == size(opts[])-1
+size(opts[])-1 in opts[].quiet
+opts[].archive elements == size(opts[])
+size(opts[]) in opts[].archive
+opts[].recursive elements == size(opts[])
+size(opts[]) in opts[].recursive
+opts[].preserve_links elements == size(opts[])
+size(opts[]) in opts[].preserve_links
+opts[].preserve_perms elements == size(opts[])
+size(opts[]) in opts[].preserve_perms
+opts[].preserve_times elements == size(opts[])
+size(opts[]) in opts[].preserve_times
+opts[].preserve_owner elements == size(opts[])
+size(opts[]) in opts[].preserve_owner
+opts[].preserve_group elements == size(opts[])
+size(opts[]) in opts[].preserve_group
+opts[].preserve_devices elements == size(opts[])
+size(opts[]) in opts[].preserve_devices
+opts[].delete_mode elements == size(opts[])
+size(opts[]) in opts[].delete_mode
+opts[].backup elements == size(opts[])
+size(opts[]) in opts[].backup
+===========================================================================
+..free_options():::EXIT
+opts[] == orig(opts[])
+opts[].verbose == orig(opts[].verbose)
+opts[].quiet == opts[].delete_before
+opts[].quiet == opts[].delete_during
+opts[].quiet == opts[].delete_after
+opts[].quiet == opts[].force
+opts[].quiet == opts[].dry_run
+opts[].quiet == opts[].checksum
+opts[].quiet == opts[].size_only
+opts[].quiet == opts[].one_file_system
+opts[].quiet == opts[].update
+opts[].quiet == opts[].inplace
+opts[].quiet == opts[].append
+opts[].quiet == opts[].dirs
+opts[].quiet == opts[].compress
+opts[].quiet == opts[].numeric_ids
+opts[].quiet == opts[].cvs_exclude
+opts[].quiet == opts[].progress
+opts[].quiet == opts[].itemize_changes
+opts[].quiet == opts[].human_readable
+opts[].quiet == opts[].no_implied_dirs
+opts[].quiet == opts[].list_only
+opts[].quiet == opts[].timeout
+opts[].quiet == orig(opts[].quiet)
+opts[].quiet == orig(opts[].delete_before)
+opts[].quiet == orig(opts[].delete_during)
+opts[].quiet == orig(opts[].delete_after)
+opts[].quiet == orig(opts[].force)
+opts[].quiet == orig(opts[].dry_run)
+opts[].quiet == orig(opts[].checksum)
+opts[].quiet == orig(opts[].size_only)
+opts[].quiet == orig(opts[].one_file_system)
+opts[].quiet == orig(opts[].update)
+opts[].quiet == orig(opts[].inplace)
+opts[].quiet == orig(opts[].append)
+opts[].quiet == orig(opts[].dirs)
+opts[].quiet == orig(opts[].compress)
+opts[].quiet == orig(opts[].numeric_ids)
+opts[].quiet == orig(opts[].cvs_exclude)
+opts[].quiet == orig(opts[].progress)
+opts[].quiet == orig(opts[].itemize_changes)
+opts[].quiet == orig(opts[].human_readable)
+opts[].quiet == orig(opts[].no_implied_dirs)
+opts[].quiet == orig(opts[].list_only)
+opts[].quiet == orig(opts[].timeout)
+opts[].archive == orig(opts[].archive)
+opts[].recursive == orig(opts[].recursive)
+opts[].preserve_links == orig(opts[].preserve_links)
+opts[].preserve_perms == orig(opts[].preserve_perms)
+opts[].preserve_times == orig(opts[].preserve_times)
+opts[].preserve_owner == orig(opts[].preserve_owner)
+opts[].preserve_group == orig(opts[].preserve_group)
+opts[].preserve_devices == orig(opts[].preserve_devices)
+opts[].delete_mode == orig(opts[].delete_mode)
+opts[].whole_file == orig(opts[].whole_file)
+opts[].backup == orig(opts[].backup)
+opts[].relative_paths == orig(opts[].relative_paths)
+opts[].port == orig(opts[].port)
+opts[].block_size == orig(opts[].block_size)
+opts[].max_delete == orig(opts[].max_delete)
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [1]
+opts[].verbose elements == 1
+opts[].quiet == [0]
+opts[].quiet elements == 0
+opts[].archive == [1]
+opts[].archive elements == 1
+opts[].recursive == [1]
+opts[].recursive elements == 1
+opts[].preserve_links == [1]
+opts[].preserve_links elements == 1
+opts[].preserve_perms == [1]
+opts[].preserve_perms elements == 1
+opts[].preserve_times == [1]
+opts[].preserve_times elements == 1
+opts[].preserve_owner == [1]
+opts[].preserve_owner elements == 1
+opts[].preserve_group == [1]
+opts[].preserve_group elements == 1
+opts[].preserve_devices == [1]
+opts[].preserve_devices elements == 1
+opts[].delete_mode == [1]
+opts[].delete_mode elements == 1
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].backup == [1]
+opts[].backup elements == 1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+opts[].verbose elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].verbose
+opts[].quiet elements == size(opts[])-1
+size(opts[])-1 in opts[].quiet
+opts[].archive elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].archive
+opts[].recursive elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].recursive
+opts[].preserve_links elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_links
+opts[].preserve_perms elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_perms
+opts[].preserve_times elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_times
+opts[].preserve_owner elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_owner
+opts[].preserve_group elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_group
+opts[].preserve_devices elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_devices
+opts[].delete_mode elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].delete_mode
+opts[].backup elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].backup
+===========================================================================
+..init_options():::ENTER
+opts has only one value
+===========================================================================
+..init_options():::EXIT
+opts[].verbose == opts[].quiet
+opts[].verbose == opts[].archive
+opts[].verbose == opts[].recursive
+opts[].verbose == opts[].preserve_links
+opts[].verbose == opts[].preserve_perms
+opts[].verbose == opts[].preserve_times
+opts[].verbose == opts[].preserve_owner
+opts[].verbose == opts[].preserve_group
+opts[].verbose == opts[].preserve_devices
+opts[].verbose == opts[].delete_mode
+opts[].verbose == opts[].delete_before
+opts[].verbose == opts[].delete_during
+opts[].verbose == opts[].delete_after
+opts[].verbose == opts[].force
+opts[].verbose == opts[].dry_run
+opts[].verbose == opts[].checksum
+opts[].verbose == opts[].size_only
+opts[].verbose == opts[].one_file_system
+opts[].verbose == opts[].backup
+opts[].verbose == opts[].update
+opts[].verbose == opts[].inplace
+opts[].verbose == opts[].append
+opts[].verbose == opts[].dirs
+opts[].verbose == opts[].compress
+opts[].verbose == opts[].numeric_ids
+opts[].verbose == opts[].cvs_exclude
+opts[].verbose == opts[].progress
+opts[].verbose == opts[].itemize_changes
+opts[].verbose == opts[].human_readable
+opts[].verbose == opts[].no_implied_dirs
+opts[].verbose == opts[].list_only
+opts[].verbose == opts[].timeout
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [0]
+opts[].verbose elements == 0
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+opts[].verbose elements == size(opts[])-1
+size(opts[])-1 in opts[].verbose
+===========================================================================
+..main():::ENTER
+argc == 6
+argv has only one value
+argv[] == [./rsync_simple_option_test]
+argv[] elements == "./rsync_simple_option_test"
+size(argv[]) == 1
+===========================================================================
+..main():::EXIT
+return == size(argv[])-1
+argv[] == [./rsync_simple_option_test]
+argv[] elements == "./rsync_simple_option_test"
+return == 0
+===========================================================================
+..parse_arguments():::ENTER
+opts[].verbose == opts[].quiet
+opts[].verbose == opts[].archive
+opts[].verbose == opts[].recursive
+opts[].verbose == opts[].preserve_links
+opts[].verbose == opts[].preserve_perms
+opts[].verbose == opts[].preserve_times
+opts[].verbose == opts[].preserve_owner
+opts[].verbose == opts[].preserve_group
+opts[].verbose == opts[].preserve_devices
+opts[].verbose == opts[].delete_mode
+opts[].verbose == opts[].delete_before
+opts[].verbose == opts[].delete_during
+opts[].verbose == opts[].delete_after
+opts[].verbose == opts[].force
+opts[].verbose == opts[].dry_run
+opts[].verbose == opts[].checksum
+opts[].verbose == opts[].size_only
+opts[].verbose == opts[].one_file_system
+opts[].verbose == opts[].backup
+opts[].verbose == opts[].update
+opts[].verbose == opts[].inplace
+opts[].verbose == opts[].append
+opts[].verbose == opts[].dirs
+opts[].verbose == opts[].compress
+opts[].verbose == opts[].numeric_ids
+opts[].verbose == opts[].cvs_exclude
+opts[].verbose == opts[].progress
+opts[].verbose == opts[].itemize_changes
+opts[].verbose == opts[].human_readable
+opts[].verbose == opts[].no_implied_dirs
+opts[].verbose == opts[].list_only
+opts[].verbose == opts[].timeout
+size(argv[]) == size(opts[])
+argc == 6
+argv has only one value
+argv[] == [./rsync_simple_option_test]
+argv[] elements == "./rsync_simple_option_test"
+opts has only one value
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [0]
+opts[].verbose elements == 0
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+size(argv[]) == 1
+opts[].verbose elements == size(argv[])-1
+size(argv[])-1 in opts[].verbose
+===========================================================================
+..parse_arguments():::EXIT
+opts[] == orig(opts[])
+opts[].verbose == opts[].archive
+opts[].verbose == opts[].recursive
+opts[].verbose == opts[].preserve_links
+opts[].verbose == opts[].preserve_perms
+opts[].verbose == opts[].preserve_times
+opts[].verbose == opts[].preserve_owner
+opts[].verbose == opts[].preserve_group
+opts[].verbose == opts[].preserve_devices
+opts[].verbose == opts[].delete_mode
+opts[].verbose == opts[].backup
+opts[].quiet == opts[].delete_before
+opts[].quiet == opts[].delete_during
+opts[].quiet == opts[].delete_after
+opts[].quiet == opts[].force
+opts[].quiet == opts[].dry_run
+opts[].quiet == opts[].checksum
+opts[].quiet == opts[].size_only
+opts[].quiet == opts[].one_file_system
+opts[].quiet == opts[].update
+opts[].quiet == opts[].inplace
+opts[].quiet == opts[].append
+opts[].quiet == opts[].dirs
+opts[].quiet == opts[].compress
+opts[].quiet == opts[].numeric_ids
+opts[].quiet == opts[].cvs_exclude
+opts[].quiet == opts[].progress
+opts[].quiet == opts[].itemize_changes
+opts[].quiet == opts[].human_readable
+opts[].quiet == opts[].no_implied_dirs
+opts[].quiet == opts[].list_only
+opts[].quiet == opts[].timeout
+opts[].quiet == orig(opts[].verbose)
+opts[].quiet == orig(opts[].quiet)
+opts[].quiet == orig(opts[].archive)
+opts[].quiet == orig(opts[].recursive)
+opts[].quiet == orig(opts[].preserve_links)
+opts[].quiet == orig(opts[].preserve_perms)
+opts[].quiet == orig(opts[].preserve_times)
+opts[].quiet == orig(opts[].preserve_owner)
+opts[].quiet == orig(opts[].preserve_group)
+opts[].quiet == orig(opts[].preserve_devices)
+opts[].quiet == orig(opts[].delete_mode)
+opts[].quiet == orig(opts[].delete_before)
+opts[].quiet == orig(opts[].delete_during)
+opts[].quiet == orig(opts[].delete_after)
+opts[].quiet == orig(opts[].force)
+opts[].quiet == orig(opts[].dry_run)
+opts[].quiet == orig(opts[].checksum)
+opts[].quiet == orig(opts[].size_only)
+opts[].quiet == orig(opts[].one_file_system)
+opts[].quiet == orig(opts[].backup)
+opts[].quiet == orig(opts[].update)
+opts[].quiet == orig(opts[].inplace)
+opts[].quiet == orig(opts[].append)
+opts[].quiet == orig(opts[].dirs)
+opts[].quiet == orig(opts[].compress)
+opts[].quiet == orig(opts[].numeric_ids)
+opts[].quiet == orig(opts[].cvs_exclude)
+opts[].quiet == orig(opts[].progress)
+opts[].quiet == orig(opts[].itemize_changes)
+opts[].quiet == orig(opts[].human_readable)
+opts[].quiet == orig(opts[].no_implied_dirs)
+opts[].quiet == orig(opts[].list_only)
+opts[].quiet == orig(opts[].timeout)
+opts[].whole_file == orig(opts[].whole_file)
+opts[].relative_paths == orig(opts[].relative_paths)
+opts[].port == orig(opts[].port)
+opts[].block_size == orig(opts[].block_size)
+opts[].max_delete == orig(opts[].max_delete)
+return == orig(size(argv[]))
+size(argv[])-1 == opts[return-1].quiet
+size(argv[])-1 == opts[return-1].delete_before
+size(argv[])-1 == opts[return-1].delete_during
+size(argv[])-1 == opts[return-1].delete_after
+size(argv[])-1 == opts[return-1].force
+size(argv[])-1 == opts[return-1].dry_run
+size(argv[])-1 == opts[return-1].checksum
+size(argv[])-1 == opts[return-1].size_only
+size(argv[])-1 == opts[return-1].one_file_system
+size(argv[])-1 == opts[return-1].update
+size(argv[])-1 == opts[return-1].inplace
+size(argv[])-1 == opts[return-1].append
+size(argv[])-1 == opts[return-1].dirs
+size(argv[])-1 == opts[return-1].compress
+size(argv[])-1 == opts[return-1].numeric_ids
+size(argv[])-1 == opts[return-1].cvs_exclude
+size(argv[])-1 == opts[return-1].progress
+size(argv[])-1 == opts[return-1].itemize_changes
+size(argv[])-1 == opts[return-1].human_readable
+size(argv[])-1 == opts[return-1].no_implied_dirs
+size(argv[])-1 == opts[return-1].list_only
+size(argv[])-1 == opts[return-1].timeout
+size(argv[])-1 == orig(opts[post(return)-1].verbose)
+size(argv[])-1 == orig(opts[post(return)-1].quiet)
+size(argv[])-1 == orig(opts[post(return)-1].archive)
+size(argv[])-1 == orig(opts[post(return)-1].recursive)
+size(argv[])-1 == orig(opts[post(return)-1].preserve_links)
+size(argv[])-1 == orig(opts[post(return)-1].preserve_perms)
+size(argv[])-1 == orig(opts[post(return)-1].preserve_times)
+size(argv[])-1 == orig(opts[post(return)-1].preserve_owner)
+size(argv[])-1 == orig(opts[post(return)-1].preserve_group)
+size(argv[])-1 == orig(opts[post(return)-1].preserve_devices)
+size(argv[])-1 == orig(opts[post(return)-1].delete_mode)
+size(argv[])-1 == orig(opts[post(return)-1].delete_before)
+size(argv[])-1 == orig(opts[post(return)-1].delete_during)
+size(argv[])-1 == orig(opts[post(return)-1].delete_after)
+size(argv[])-1 == orig(opts[post(return)-1].force)
+size(argv[])-1 == orig(opts[post(return)-1].dry_run)
+size(argv[])-1 == orig(opts[post(return)-1].checksum)
+size(argv[])-1 == orig(opts[post(return)-1].size_only)
+size(argv[])-1 == orig(opts[post(return)-1].one_file_system)
+size(argv[])-1 == orig(opts[post(return)-1].backup)
+size(argv[])-1 == orig(opts[post(return)-1].update)
+size(argv[])-1 == orig(opts[post(return)-1].inplace)
+size(argv[])-1 == orig(opts[post(return)-1].append)
+size(argv[])-1 == orig(opts[post(return)-1].dirs)
+size(argv[])-1 == orig(opts[post(return)-1].compress)
+size(argv[])-1 == orig(opts[post(return)-1].numeric_ids)
+size(argv[])-1 == orig(opts[post(return)-1].cvs_exclude)
+size(argv[])-1 == orig(opts[post(return)-1].progress)
+size(argv[])-1 == orig(opts[post(return)-1].itemize_changes)
+size(argv[])-1 == orig(opts[post(return)-1].human_readable)
+size(argv[])-1 == orig(opts[post(return)-1].no_implied_dirs)
+size(argv[])-1 == orig(opts[post(return)-1].list_only)
+size(argv[])-1 == orig(opts[post(return)-1].timeout)
+orig(size(argv[])) == opts[return-1].verbose
+orig(size(argv[])) == opts[return-1].archive
+orig(size(argv[])) == opts[return-1].recursive
+orig(size(argv[])) == opts[return-1].preserve_links
+orig(size(argv[])) == opts[return-1].preserve_perms
+orig(size(argv[])) == opts[return-1].preserve_times
+orig(size(argv[])) == opts[return-1].preserve_owner
+orig(size(argv[])) == opts[return-1].preserve_group
+orig(size(argv[])) == opts[return-1].preserve_devices
+orig(size(argv[])) == opts[return-1].delete_mode
+orig(size(argv[])) == opts[return-1].backup
+opts[return-1].whole_file == opts[return-1].relative_paths
+opts[return-1].whole_file == opts[return-1].max_delete
+opts[return-1].whole_file == orig(opts[post(return)-1].relative_paths)
+opts[return-1].whole_file == orig(opts[post(return)-1].max_delete)
+argv[] == [./rsync_simple_option_test]
+argv[] elements == "./rsync_simple_option_test"
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [1]
+opts[].verbose elements == 1
+opts[].quiet == [0]
+opts[].quiet elements == 0
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].backup_dir == [/backup]
+opts[].backup_dir elements == "/backup"
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+return == 1
+opts[] elements == opts[return-1]
+opts[].verbose elements == return
+return in opts[].verbose
+opts[].verbose elements == orig(size(argv[]))
+opts[].quiet elements == size(argv[])-1
+opts[].whole_file elements == opts[return-1].whole_file
+opts[].relative_paths elements == opts[return-1].whole_file
+opts[].port elements == opts[return-1].port
+opts[].block_size elements == opts[return-1].block_size
+opts[].max_delete elements == opts[return-1].whole_file
+===========================================================================
+..parse_long_option():::ENTER
+                                                                               opts[].quiet == opts[].delete_before
+opts[].quiet == opts[].delete_during
+opts[].quiet == opts[].delete_after
+opts[].quiet == opts[].force
+opts[].quiet == opts[].dry_run
+opts[].quiet == opts[].checksum
+opts[].quiet == opts[].size_only
+opts[].quiet == opts[].one_file_system
+opts[].quiet == opts[].backup
+opts[].quiet == opts[].update
+opts[].quiet == opts[].inplace
+opts[].quiet == opts[].append
+opts[].quiet == opts[].dirs
+opts[].quiet == opts[].compress
+opts[].quiet == opts[].numeric_ids
+opts[].quiet == opts[].cvs_exclude
+opts[].quiet == opts[].progress
+opts[].quiet == opts[].itemize_changes
+opts[].quiet == opts[].human_readable
+opts[].quiet == opts[].no_implied_dirs
+opts[].quiet == opts[].list_only
+opts[].quiet == opts[].timeout
+opt one of { "backup-dir", "delete" }
+arg == "/backup"
+opts has only one value
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [1]
+opts[].verbose elements == 1
+opts[].quiet == [0]
+opts[].quiet elements == 0
+opts[].archive == [1]
+opts[].archive elements == 1
+opts[].recursive == [1]
+opts[].recursive elements == 1
+opts[].preserve_links == [1]
+opts[].preserve_links elements == 1
+opts[].preserve_perms == [1]
+opts[].preserve_perms elements == 1
+opts[].preserve_times == [1]
+opts[].preserve_times elements == 1
+opts[].preserve_owner == [1]
+opts[].preserve_owner elements == 1
+opts[].preserve_group == [1]
+opts[].preserve_group elements == 1
+opts[].preserve_devices == [1]
+opts[].preserve_devices elements == 1
+opts[].delete_mode elements one of { 0, 1 }
+opts[].delete_mode one of { [0], [1] }
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+size(opts[]) == 1
+opts[].verbose elements == size(opts[])
+size(opts[]) in opts[].verbose
+opts[].quiet elements == size(opts[])-1
+size(opts[])-1 in opts[].quiet
+opts[].archive elements == size(opts[])
+size(opts[]) in opts[].archive
+opts[].recursive elements == size(opts[])
+size(opts[]) in opts[].recursive
+opts[].preserve_links elements == size(opts[])
+size(opts[]) in opts[].preserve_links
+opts[].preserve_perms elements == size(opts[])
+size(opts[]) in opts[].preserve_perms
+opts[].preserve_times elements == size(opts[])
+size(opts[]) in opts[].preserve_times
+opts[].preserve_owner elements == size(opts[])
+size(opts[]) in opts[].preserve_owner
+opts[].preserve_group elements == size(opts[])
+size(opts[]) in opts[].preserve_group
+opts[].preserve_devices elements == size(opts[])
+size(opts[]) in opts[].preserve_devices
+===========================================================================
+..parse_long_option():::EXIT
+opts[] == orig(opts[])
+opts[].verbose == opts[].delete_mode
+opts[].verbose == orig(opts[].verbose)
+opts[].quiet == opts[].delete_before
+opts[].quiet == opts[].delete_during
+opts[].quiet == opts[].delete_after
+opts[].quiet == opts[].force
+opts[].quiet == opts[].dry_run
+opts[].quiet == opts[].checksum
+opts[].quiet == opts[].size_only
+opts[].quiet == opts[].one_file_system
+opts[].quiet == opts[].update
+opts[].quiet == opts[].inplace
+opts[].quiet == opts[].append
+opts[].quiet == opts[].dirs
+opts[].quiet == opts[].compress
+opts[].quiet == opts[].numeric_ids
+opts[].quiet == opts[].cvs_exclude
+opts[].quiet == opts[].progress
+opts[].quiet == opts[].itemize_changes
+opts[].quiet == opts[].human_readable
+opts[].quiet == opts[].no_implied_dirs
+opts[].quiet == opts[].list_only
+opts[].quiet == opts[].timeout
+opts[].quiet == orig(opts[].quiet)
+opts[].quiet == orig(opts[].delete_before)
+opts[].quiet == orig(opts[].delete_during)
+opts[].quiet == orig(opts[].delete_after)
+opts[].quiet == orig(opts[].force)
+opts[].quiet == orig(opts[].dry_run)
+opts[].quiet == orig(opts[].checksum)
+opts[].quiet == orig(opts[].size_only)
+opts[].quiet == orig(opts[].one_file_system)
+opts[].quiet == orig(opts[].backup)
+opts[].quiet == orig(opts[].update)
+opts[].quiet == orig(opts[].inplace)
+opts[].quiet == orig(opts[].append)
+opts[].quiet == orig(opts[].dirs)
+opts[].quiet == orig(opts[].compress)
+opts[].quiet == orig(opts[].numeric_ids)
+opts[].quiet == orig(opts[].cvs_exclude)
+opts[].quiet == orig(opts[].progress)
+opts[].quiet == orig(opts[].itemize_changes)
+opts[].quiet == orig(opts[].human_readable)
+opts[].quiet == orig(opts[].no_implied_dirs)
+opts[].quiet == orig(opts[].list_only)
+opts[].quiet == orig(opts[].timeout)
+opts[].archive == orig(opts[].archive)
+opts[].recursive == orig(opts[].recursive)
+opts[].preserve_links == orig(opts[].preserve_links)
+opts[].preserve_perms == orig(opts[].preserve_perms)
+opts[].preserve_times == orig(opts[].preserve_times)
+opts[].preserve_owner == orig(opts[].preserve_owner)
+opts[].preserve_group == orig(opts[].preserve_group)
+opts[].preserve_devices == orig(opts[].preserve_devices)
+opts[].whole_file == orig(opts[].whole_file)
+opts[].backup == orig(opts[].delete_mode)
+opts[].relative_paths == orig(opts[].relative_paths)
+opts[].port == orig(opts[].port)
+opts[].block_size == orig(opts[].block_size)
+opts[].max_delete == orig(opts[].max_delete)
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [1]
+opts[].verbose elements == 1
+opts[].quiet == [0]
+opts[].quiet elements == 0
+opts[].archive == [1]
+opts[].archive elements == 1
+opts[].recursive == [1]
+opts[].recursive elements == 1
+opts[].preserve_links == [1]
+opts[].preserve_links elements == 1
+opts[].preserve_perms == [1]
+opts[].preserve_perms elements == 1
+opts[].preserve_times == [1]
+opts[].preserve_times elements == 1
+opts[].preserve_owner == [1]
+opts[].preserve_owner elements == 1
+opts[].preserve_group == [1]
+opts[].preserve_group elements == 1
+opts[].preserve_devices == [1]
+opts[].preserve_devices elements == 1
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].backup elements one of { 0, 1 }
+opts[].backup one of { [0], [1] }
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].backup_dir == [/backup]
+opts[].backup_dir elements == "/backup"
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+return one of { 1, 2 }
+opts[].verbose elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].verbose
+opts[].quiet elements == size(opts[])-1
+size(opts[])-1 in opts[].quiet
+opts[].archive elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].archive
+opts[].recursive elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].recursive
+opts[].preserve_links elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_links
+opts[].preserve_perms elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_perms
+opts[].preserve_times elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_times
+opts[].preserve_owner elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_owner
+opts[].preserve_group elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_group
+opts[].preserve_devices elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_devices
+orig(arg) in opts[].backup_dir
+===========================================================================
+..parse_short_option():::ENTER
+opts[].verbose == opts[].quiet
+opts[].verbose == opts[].delete_mode
+opts[].verbose == opts[].delete_before
+opts[].verbose == opts[].delete_during
+opts[].verbose == opts[].delete_after
+opts[].verbose == opts[].force
+opts[].verbose == opts[].dry_run
+opts[].verbose == opts[].checksum
+opts[].verbose == opts[].size_only
+opts[].verbose == opts[].one_file_system
+opts[].verbose == opts[].backup
+opts[].verbose == opts[].update
+opts[].verbose == opts[].inplace
+opts[].verbose == opts[].append
+opts[].verbose == opts[].dirs
+opts[].verbose == opts[].compress
+opts[].verbose == opts[].numeric_ids
+opts[].verbose == opts[].cvs_exclude
+opts[].verbose == opts[].progress
+opts[].verbose == opts[].itemize_changes
+opts[].verbose == opts[].human_readable
+opts[].verbose == opts[].no_implied_dirs
+opts[].verbose == opts[].list_only
+opts[].verbose == opts[].timeout
+opts[].archive == opts[].recursive
+opts[].archive == opts[].preserve_links
+opts[].archive == opts[].preserve_perms
+opts[].archive == opts[].preserve_times
+opts[].archive == opts[].preserve_owner
+opts[].archive == opts[].preserve_group
+opts[].archive == opts[].preserve_devices
+opt one of { 97, 118 }
+opts has only one value
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [0]
+opts[].verbose elements == 0
+opts[].archive elements one of { 0, 1 }
+opts[].archive one of { [0], [1] }
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+size(opts[]) == 1
+opts[].verbose elements == size(opts[])-1
+size(opts[])-1 in opts[].verbose
+===========================================================================
+..parse_short_option():::EXIT
+opts[] == orig(opts[])
+opts[].verbose == orig(opts[].archive)
+opts[].verbose == orig(opts[].recursive)
+opts[].verbose == orig(opts[].preserve_links)
+opts[].verbose == orig(opts[].preserve_perms)
+opts[].verbose == orig(opts[].preserve_times)
+opts[].verbose == orig(opts[].preserve_owner)
+opts[].verbose == orig(opts[].preserve_group)
+opts[].verbose == orig(opts[].preserve_devices)
+opts[].quiet == opts[].delete_mode
+opts[].quiet == opts[].delete_before
+opts[].quiet == opts[].delete_during
+opts[].quiet == opts[].delete_after
+opts[].quiet == opts[].force
+opts[].quiet == opts[].dry_run
+opts[].quiet == opts[].checksum
+opts[].quiet == opts[].size_only
+opts[].quiet == opts[].one_file_system
+opts[].quiet == opts[].backup
+opts[].quiet == opts[].update
+opts[].quiet == opts[].inplace
+opts[].quiet == opts[].append
+opts[].quiet == opts[].dirs
+opts[].quiet == opts[].compress
+opts[].quiet == opts[].numeric_ids
+opts[].quiet == opts[].cvs_exclude
+opts[].quiet == opts[].progress
+opts[].quiet == opts[].itemize_changes
+opts[].quiet == opts[].human_readable
+opts[].quiet == opts[].no_implied_dirs
+opts[].quiet == opts[].list_only
+opts[].quiet == opts[].timeout
+opts[].quiet == orig(opts[].verbose)
+opts[].quiet == orig(opts[].quiet)
+opts[].quiet == orig(opts[].delete_mode)
+opts[].quiet == orig(opts[].delete_before)
+opts[].quiet == orig(opts[].delete_during)
+opts[].quiet == orig(opts[].delete_after)
+opts[].quiet == orig(opts[].force)
+opts[].quiet == orig(opts[].dry_run)
+opts[].quiet == orig(opts[].checksum)
+opts[].quiet == orig(opts[].size_only)
+opts[].quiet == orig(opts[].one_file_system)
+opts[].quiet == orig(opts[].backup)
+opts[].quiet == orig(opts[].update)
+opts[].quiet == orig(opts[].inplace)
+opts[].quiet == orig(opts[].append)
+opts[].quiet == orig(opts[].dirs)
+opts[].quiet == orig(opts[].compress)
+opts[].quiet == orig(opts[].numeric_ids)
+opts[].quiet == orig(opts[].cvs_exclude)
+opts[].quiet == orig(opts[].progress)
+opts[].quiet == orig(opts[].itemize_changes)
+opts[].quiet == orig(opts[].human_readable)
+opts[].quiet == orig(opts[].no_implied_dirs)
+opts[].quiet == orig(opts[].list_only)
+opts[].quiet == orig(opts[].timeout)
+opts[].archive == opts[].recursive
+opts[].archive == opts[].preserve_links
+opts[].archive == opts[].preserve_perms
+opts[].archive == opts[].preserve_times
+opts[].archive == opts[].preserve_owner
+opts[].archive == opts[].preserve_group
+opts[].archive == opts[].preserve_devices
+opts[].whole_file == orig(opts[].whole_file)
+opts[].relative_paths == orig(opts[].relative_paths)
+opts[].port == orig(opts[].port)
+opts[].block_size == orig(opts[].block_size)
+opts[].max_delete == orig(opts[].max_delete)
+return == orig(size(opts[]))
+size(opts[])-1 == opts[return-1].quiet
+size(opts[])-1 == opts[return-1].delete_mode
+size(opts[])-1 == opts[return-1].delete_before
+size(opts[])-1 == opts[return-1].delete_during
+size(opts[])-1 == opts[return-1].delete_after
+size(opts[])-1 == opts[return-1].force
+size(opts[])-1 == opts[return-1].dry_run
+size(opts[])-1 == opts[return-1].checksum
+size(opts[])-1 == opts[return-1].size_only
+size(opts[])-1 == opts[return-1].one_file_system
+size(opts[])-1 == opts[return-1].backup
+size(opts[])-1 == opts[return-1].update
+size(opts[])-1 == opts[return-1].inplace
+size(opts[])-1 == opts[return-1].append
+size(opts[])-1 == opts[return-1].dirs
+size(opts[])-1 == opts[return-1].compress
+size(opts[])-1 == opts[return-1].numeric_ids
+size(opts[])-1 == opts[return-1].cvs_exclude
+size(opts[])-1 == opts[return-1].progress
+size(opts[])-1 == opts[return-1].itemize_changes
+size(opts[])-1 == opts[return-1].human_readable
+size(opts[])-1 == opts[return-1].no_implied_dirs
+size(opts[])-1 == opts[return-1].list_only
+size(opts[])-1 == opts[return-1].timeout
+size(opts[])-1 == orig(opts[post(return)-1].verbose)
+size(opts[])-1 == orig(opts[post(return)-1].quiet)
+size(opts[])-1 == orig(opts[post(return)-1].delete_mode)
+size(opts[])-1 == orig(opts[post(return)-1].delete_before)
+size(opts[])-1 == orig(opts[post(return)-1].delete_during)
+size(opts[])-1 == orig(opts[post(return)-1].delete_after)
+size(opts[])-1 == orig(opts[post(return)-1].force)
+size(opts[])-1 == orig(opts[post(return)-1].dry_run)
+size(opts[])-1 == orig(opts[post(return)-1].checksum)
+size(opts[])-1 == orig(opts[post(return)-1].size_only)
+size(opts[])-1 == orig(opts[post(return)-1].one_file_system)
+size(opts[])-1 == orig(opts[post(return)-1].backup)
+size(opts[])-1 == orig(opts[post(return)-1].update)
+size(opts[])-1 == orig(opts[post(return)-1].inplace)
+size(opts[])-1 == orig(opts[post(return)-1].append)
+size(opts[])-1 == orig(opts[post(return)-1].dirs)
+size(opts[])-1 == orig(opts[post(return)-1].compress)
+size(opts[])-1 == orig(opts[post(return)-1].numeric_ids)
+size(opts[])-1 == orig(opts[post(return)-1].cvs_exclude)
+size(opts[])-1 == orig(opts[post(return)-1].progress)
+size(opts[])-1 == orig(opts[post(return)-1].itemize_changes)
+size(opts[])-1 == orig(opts[post(return)-1].human_readable)
+size(opts[])-1 == orig(opts[post(return)-1].no_implied_dirs)
+size(opts[])-1 == orig(opts[post(return)-1].list_only)
+size(opts[])-1 == orig(opts[post(return)-1].timeout)
+orig(size(opts[])) == opts[return-1].archive
+orig(size(opts[])) == opts[return-1].recursive
+orig(size(opts[])) == opts[return-1].preserve_links
+orig(size(opts[])) == opts[return-1].preserve_perms
+orig(size(opts[])) == opts[return-1].preserve_times
+orig(size(opts[])) == opts[return-1].preserve_owner
+orig(size(opts[])) == opts[return-1].preserve_group
+orig(size(opts[])) == opts[return-1].preserve_devices
+opts[return-1].whole_file == opts[return-1].relative_paths
+opts[return-1].whole_file == opts[return-1].max_delete
+opts[return-1].whole_file == orig(opts[post(return)-1].relative_paths)
+opts[return-1].whole_file == orig(opts[post(return)-1].max_delete)
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose elements one of { 0, 1 }
+opts[].verbose one of { [0], [1] }
+opts[].quiet == [0]
+opts[].quiet elements == 0
+opts[].archive == [1]
+opts[].archive elements == 1
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+return == 1
+opts[] elements == opts[return-1]
+opts[].verbose elements == opts[return-1].verbose
+opts[].quiet elements == size(opts[])-1
+opts[].archive elements == return
+return in opts[].archive
+opts[].archive elements == orig(size(opts[]))
+opts[].whole_file elements == opts[return-1].whole_file
+opts[].relative_paths elements == opts[return-1].whole_file
+opts[].port elements == opts[return-1].port
+opts[].block_size elements == opts[return-1].block_size
+opts[].max_delete elements == opts[return-1].whole_file
+===========================================================================
+..print_options():::ENTER
+opts[].quiet == opts[].delete_before
+opts[].quiet == opts[].delete_during
+opts[].quiet == opts[].delete_after
+opts[].quiet == opts[].force
+opts[].quiet == opts[].dry_run
+opts[].quiet == opts[].checksum
+opts[].quiet == opts[].size_only
+opts[].quiet == opts[].one_file_system
+opts[].quiet == opts[].update
+opts[].quiet == opts[].inplace
+opts[].quiet == opts[].append
+opts[].quiet == opts[].dirs
+opts[].quiet == opts[].compress
+opts[].quiet == opts[].numeric_ids
+opts[].quiet == opts[].cvs_exclude
+opts[].quiet == opts[].progress
+opts[].quiet == opts[].itemize_changes
+opts[].quiet == opts[].human_readable
+opts[].quiet == opts[].no_implied_dirs
+opts[].quiet == opts[].list_only
+opts[].quiet == opts[].timeout
+opts has only one value
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [1]
+opts[].verbose elements == 1
+opts[].quiet == [0]
+opts[].quiet elements == 0
+opts[].archive == [1]
+opts[].archive elements == 1
+opts[].recursive == [1]
+opts[].recursive elements == 1
+opts[].preserve_links == [1]
+opts[].preserve_links elements == 1
+opts[].preserve_perms == [1]
+opts[].preserve_perms elements == 1
+opts[].preserve_times == [1]
+opts[].preserve_times elements == 1
+opts[].preserve_owner == [1]
+opts[].preserve_owner elements == 1
+opts[].preserve_group == [1]
+opts[].preserve_group elements == 1
+opts[].preserve_devices == [1]
+opts[].preserve_devices elements == 1
+opts[].delete_mode == [1]
+opts[].delete_mode elements == 1
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].backup == [1]
+opts[].backup elements == 1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].backup_dir == [/backup]
+opts[].backup_dir elements == "/backup"
+opts[].backup_suffix == [~]
+opts[].backup_suffix elements == "~"
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+size(opts[]) == 1
+opts[].verbose elements == size(opts[])
+size(opts[]) in opts[].verbose
+opts[].quiet elements == size(opts[])-1
+size(opts[])-1 in opts[].quiet
+opts[].archive elements == size(opts[])
+size(opts[]) in opts[].archive
+opts[].recursive elements == size(opts[])
+size(opts[]) in opts[].recursive
+opts[].preserve_links elements == size(opts[])
+size(opts[]) in opts[].preserve_links
+opts[].preserve_perms elements == size(opts[])
+size(opts[]) in opts[].preserve_perms
+opts[].preserve_times elements == size(opts[])
+size(opts[]) in opts[].preserve_times
+opts[].preserve_owner elements == size(opts[])
+size(opts[]) in opts[].preserve_owner
+opts[].preserve_group elements == size(opts[])
+size(opts[]) in opts[].preserve_group
+opts[].preserve_devices elements == size(opts[])
+size(opts[]) in opts[].preserve_devices
+opts[].delete_mode elements == size(opts[])
+size(opts[]) in opts[].delete_mode
+opts[].backup elements == size(opts[])
+size(opts[]) in opts[].backup
+===========================================================================
+..print_options():::EXIT
+opts[] == orig(opts[])
+opts[].verbose == orig(opts[].verbose)
+opts[].quiet == opts[].delete_before
+opts[].quiet == opts[].delete_during
+opts[].quiet == opts[].delete_after
+opts[].quiet == opts[].force
+opts[].quiet == opts[].dry_run
+opts[].quiet == opts[].checksum
+opts[].quiet == opts[].size_only
+opts[].quiet == opts[].one_file_system
+opts[].quiet == opts[].update
+opts[].quiet == opts[].inplace
+opts[].quiet == opts[].append
+opts[].quiet == opts[].dirs
+opts[].quiet == opts[].compress
+opts[].quiet == opts[].numeric_ids
+opts[].quiet == opts[].cvs_exclude
+opts[].quiet == opts[].progress
+opts[].quiet == opts[].itemize_changes
+opts[].quiet == opts[].human_readable
+opts[].quiet == opts[].no_implied_dirs
+opts[].quiet == opts[].list_only
+opts[].quiet == opts[].timeout
+opts[].quiet == orig(opts[].quiet)
+opts[].quiet == orig(opts[].delete_before)
+opts[].quiet == orig(opts[].delete_during)
+opts[].quiet == orig(opts[].delete_after)
+opts[].quiet == orig(opts[].force)
+opts[].quiet == orig(opts[].dry_run)
+opts[].quiet == orig(opts[].checksum)
+opts[].quiet == orig(opts[].size_only)
+opts[].quiet == orig(opts[].one_file_system)
+opts[].quiet == orig(opts[].update)
+opts[].quiet == orig(opts[].inplace)
+opts[].quiet == orig(opts[].append)
+opts[].quiet == orig(opts[].dirs)
+opts[].quiet == orig(opts[].compress)
+opts[].quiet == orig(opts[].numeric_ids)
+opts[].quiet == orig(opts[].cvs_exclude)
+opts[].quiet == orig(opts[].progress)
+opts[].quiet == orig(opts[].itemize_changes)
+opts[].quiet == orig(opts[].human_readable)
+opts[].quiet == orig(opts[].no_implied_dirs)
+opts[].quiet == orig(opts[].list_only)
+opts[].quiet == orig(opts[].timeout)
+opts[].archive == orig(opts[].archive)
+opts[].recursive == orig(opts[].recursive)
+opts[].preserve_links == orig(opts[].preserve_links)
+opts[].preserve_perms == orig(opts[].preserve_perms)
+opts[].preserve_times == orig(opts[].preserve_times)
+opts[].preserve_owner == orig(opts[].preserve_owner)
+opts[].preserve_group == orig(opts[].preserve_group)
+opts[].preserve_devices == orig(opts[].preserve_devices)
+opts[].delete_mode == orig(opts[].delete_mode)
+opts[].whole_file == orig(opts[].whole_file)
+opts[].backup == orig(opts[].backup)
+opts[].relative_paths == orig(opts[].relative_paths)
+opts[].port == orig(opts[].port)
+opts[].block_size == orig(opts[].block_size)
+opts[].max_delete == orig(opts[].max_delete)
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [1]
+opts[].verbose elements == 1
+opts[].quiet == [0]
+opts[].quiet elements == 0
+opts[].archive == [1]
+opts[].archive elements == 1
+opts[].recursive == [1]
+opts[].recursive elements == 1
+opts[].preserve_links == [1]
+opts[].preserve_links elements == 1
+opts[].preserve_perms == [1]
+opts[].preserve_perms elements == 1
+opts[].preserve_times == [1]
+opts[].preserve_times elements == 1
+opts[].preserve_owner == [1]
+opts[].preserve_owner elements == 1
+opts[].preserve_group == [1]
+opts[].preserve_group elements == 1
+opts[].preserve_devices == [1]
+opts[].preserve_devices elements == 1
+opts[].delete_mode == [1]
+opts[].delete_mode elements == 1
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].backup == [1]
+opts[].backup elements == 1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].backup_dir == [/backup]
+opts[].backup_dir elements == "/backup"
+opts[].backup_suffix == [~]
+opts[].backup_suffix elements == "~"
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+opts[].verbose elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].verbose
+opts[].quiet elements == size(opts[])-1
+size(opts[])-1 in opts[].quiet
+opts[].archive elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].archive
+opts[].recursive elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].recursive
+opts[].preserve_links elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_links
+opts[].preserve_perms elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_perms
+opts[].preserve_times elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_times
+opts[].preserve_owner elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_owner
+opts[].preserve_group elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_group
+opts[].preserve_devices elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].preserve_devices
+opts[].delete_mode elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].delete_mode
+opts[].backup elements == orig(size(opts[]))
+orig(size(opts[])) in opts[].backup
+===========================================================================
+..validate_options():::ENTER
+opts[].quiet == opts[].delete_before
+opts[].quiet == opts[].delete_during
+opts[].quiet == opts[].delete_after
+opts[].quiet == opts[].force
+opts[].quiet == opts[].dry_run
+opts[].quiet == opts[].checksum
+opts[].quiet == opts[].size_only
+opts[].quiet == opts[].one_file_system
+opts[].quiet == opts[].update
+opts[].quiet == opts[].inplace
+opts[].quiet == opts[].append
+opts[].quiet == opts[].dirs
+opts[].quiet == opts[].compress
+opts[].quiet == opts[].numeric_ids
+opts[].quiet == opts[].cvs_exclude
+opts[].quiet == opts[].progress
+opts[].quiet == opts[].itemize_changes
+opts[].quiet == opts[].human_readable
+opts[].quiet == opts[].no_implied_dirs
+opts[].quiet == opts[].list_only
+opts[].quiet == opts[].timeout
+opts has only one value
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [1]
+opts[].verbose elements == 1
+opts[].quiet == [0]
+opts[].quiet elements == 0
+opts[].archive == [1]
+opts[].archive elements == 1
+opts[].recursive == [1]
+opts[].recursive elements == 1
+opts[].preserve_links == [1]
+opts[].preserve_links elements == 1
+opts[].preserve_perms == [1]
+opts[].preserve_perms elements == 1
+opts[].preserve_times == [1]
+opts[].preserve_times elements == 1
+opts[].preserve_owner == [1]
+opts[].preserve_owner elements == 1
+opts[].preserve_group == [1]
+opts[].preserve_group elements == 1
+opts[].preserve_devices == [1]
+opts[].preserve_devices elements == 1
+opts[].delete_mode == [1]
+opts[].delete_mode elements == 1
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].backup == [1]
+opts[].backup elements == 1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].backup_dir == [/backup]
+opts[].backup_dir elements == "/backup"
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+size(opts[]) == 1
+opts[].verbose elements == size(opts[])
+size(opts[]) in opts[].verbose
+opts[].quiet elements == size(opts[])-1
+size(opts[])-1 in opts[].quiet
+opts[].archive elements == size(opts[])
+size(opts[]) in opts[].archive
+opts[].recursive elements == size(opts[])
+size(opts[]) in opts[].recursive
+opts[].preserve_links elements == size(opts[])
+size(opts[]) in opts[].preserve_links
+opts[].preserve_perms elements == size(opts[])
+size(opts[]) in opts[].preserve_perms
+opts[].preserve_times elements == size(opts[])
+size(opts[]) in opts[].preserve_times
+opts[].preserve_owner elements == size(opts[])
+size(opts[]) in opts[].preserve_owner
+opts[].preserve_group elements == size(opts[])
+size(opts[]) in opts[].preserve_group
+opts[].preserve_devices elements == size(opts[])
+size(opts[]) in opts[].preserve_devices
+opts[].delete_mode elements == size(opts[])
+size(opts[]) in opts[].delete_mode
+opts[].backup elements == size(opts[])
+size(opts[]) in opts[].backup
+===========================================================================
+..validate_options():::EXIT
+opts[] == orig(opts[])
+opts[].verbose == orig(opts[].verbose)
+opts[].quiet == opts[].delete_before
+opts[].quiet == opts[].delete_during
+opts[].quiet == opts[].delete_after
+opts[].quiet == opts[].force
+opts[].quiet == opts[].dry_run
+opts[].quiet == opts[].checksum
+opts[].quiet == opts[].size_only
+opts[].quiet == opts[].one_file_system
+opts[].quiet == opts[].update
+opts[].quiet == opts[].inplace
+opts[].quiet == opts[].append
+opts[].quiet == opts[].dirs
+opts[].quiet == opts[].compress
+opts[].quiet == opts[].numeric_ids
+opts[].quiet == opts[].cvs_exclude
+opts[].quiet == opts[].progress
+opts[].quiet == opts[].itemize_changes
+opts[].quiet == opts[].human_readable
+opts[].quiet == opts[].no_implied_dirs
+opts[].quiet == opts[].list_only
+opts[].quiet == opts[].timeout
+opts[].quiet == orig(opts[].quiet)
+opts[].quiet == orig(opts[].delete_before)
+opts[].quiet == orig(opts[].delete_during)
+opts[].quiet == orig(opts[].delete_after)
+opts[].quiet == orig(opts[].force)
+opts[].quiet == orig(opts[].dry_run)
+opts[].quiet == orig(opts[].checksum)
+opts[].quiet == orig(opts[].size_only)
+opts[].quiet == orig(opts[].one_file_system)
+opts[].quiet == orig(opts[].update)
+opts[].quiet == orig(opts[].inplace)
+opts[].quiet == orig(opts[].append)
+opts[].quiet == orig(opts[].dirs)
+opts[].quiet == orig(opts[].compress)
+opts[].quiet == orig(opts[].numeric_ids)
+opts[].quiet == orig(opts[].cvs_exclude)
+opts[].quiet == orig(opts[].progress)
+opts[].quiet == orig(opts[].itemize_changes)
+opts[].quiet == orig(opts[].human_readable)
+opts[].quiet == orig(opts[].no_implied_dirs)
+opts[].quiet == orig(opts[].list_only)
+opts[].quiet == orig(opts[].timeout)
+opts[].archive == orig(opts[].archive)
+opts[].recursive == orig(opts[].recursive)
+opts[].preserve_links == orig(opts[].preserve_links)
+opts[].preserve_perms == orig(opts[].preserve_perms)
+opts[].preserve_times == orig(opts[].preserve_times)
+opts[].preserve_owner == orig(opts[].preserve_owner)
+opts[].preserve_group == orig(opts[].preserve_group)
+opts[].preserve_devices == orig(opts[].preserve_devices)
+opts[].delete_mode == orig(opts[].delete_mode)
+opts[].whole_file == orig(opts[].whole_file)
+opts[].backup == orig(opts[].backup)
+opts[].relative_paths == orig(opts[].relative_paths)
+opts[].port == orig(opts[].port)
+opts[].block_size == orig(opts[].block_size)
+opts[].max_delete == orig(opts[].max_delete)
+return == orig(size(opts[]))
+size(opts[])-1 == opts[return-1].quiet
+size(opts[])-1 == opts[return-1].delete_before
+size(opts[])-1 == opts[return-1].delete_during
+size(opts[])-1 == opts[return-1].delete_after
+size(opts[])-1 == opts[return-1].force
+size(opts[])-1 == opts[return-1].dry_run
+size(opts[])-1 == opts[return-1].checksum
+size(opts[])-1 == opts[return-1].size_only
+size(opts[])-1 == opts[return-1].one_file_system
+size(opts[])-1 == opts[return-1].update
+size(opts[])-1 == opts[return-1].inplace
+size(opts[])-1 == opts[return-1].append
+size(opts[])-1 == opts[return-1].dirs
+size(opts[])-1 == opts[return-1].compress
+size(opts[])-1 == opts[return-1].numeric_ids
+size(opts[])-1 == opts[return-1].cvs_exclude
+size(opts[])-1 == opts[return-1].progress
+size(opts[])-1 == opts[return-1].itemize_changes
+size(opts[])-1 == opts[return-1].human_readable
+size(opts[])-1 == opts[return-1].no_implied_dirs
+size(opts[])-1 == opts[return-1].list_only
+size(opts[])-1 == opts[return-1].timeout
+size(opts[])-1 == orig(opts[post(return)-1].quiet)
+size(opts[])-1 == orig(opts[post(return)-1].delete_before)
+size(opts[])-1 == orig(opts[post(return)-1].delete_during)
+size(opts[])-1 == orig(opts[post(return)-1].delete_after)
+size(opts[])-1 == orig(opts[post(return)-1].force)
+size(opts[])-1 == orig(opts[post(return)-1].dry_run)
+size(opts[])-1 == orig(opts[post(return)-1].checksum)
+size(opts[])-1 == orig(opts[post(return)-1].size_only)
+size(opts[])-1 == orig(opts[post(return)-1].one_file_system)
+size(opts[])-1 == orig(opts[post(return)-1].update)
+size(opts[])-1 == orig(opts[post(return)-1].inplace)
+size(opts[])-1 == orig(opts[post(return)-1].append)
+size(opts[])-1 == orig(opts[post(return)-1].dirs)
+size(opts[])-1 == orig(opts[post(return)-1].compress)
+size(opts[])-1 == orig(opts[post(return)-1].numeric_ids)
+size(opts[])-1 == orig(opts[post(return)-1].cvs_exclude)
+size(opts[])-1 == orig(opts[post(return)-1].progress)
+size(opts[])-1 == orig(opts[post(return)-1].itemize_changes)
+size(opts[])-1 == orig(opts[post(return)-1].human_readable)
+size(opts[])-1 == orig(opts[post(return)-1].no_implied_dirs)
+size(opts[])-1 == orig(opts[post(return)-1].list_only)
+size(opts[])-1 == orig(opts[post(return)-1].timeout)
+orig(size(opts[])) == opts[return-1].verbose
+orig(size(opts[])) == opts[return-1].archive
+orig(size(opts[])) == opts[return-1].recursive
+orig(size(opts[])) == opts[return-1].preserve_links
+orig(size(opts[])) == opts[return-1].preserve_perms
+orig(size(opts[])) == opts[return-1].preserve_times
+orig(size(opts[])) == opts[return-1].preserve_owner
+orig(size(opts[])) == opts[return-1].preserve_group
+orig(size(opts[])) == opts[return-1].preserve_devices
+orig(size(opts[])) == opts[return-1].delete_mode
+orig(size(opts[])) == opts[return-1].backup
+orig(size(opts[])) == orig(opts[post(return)-1].verbose)
+orig(size(opts[])) == orig(opts[post(return)-1].archive)
+orig(size(opts[])) == orig(opts[post(return)-1].recursive)
+orig(size(opts[])) == orig(opts[post(return)-1].preserve_links)
+orig(size(opts[])) == orig(opts[post(return)-1].preserve_perms)
+orig(size(opts[])) == orig(opts[post(return)-1].preserve_times)
+orig(size(opts[])) == orig(opts[post(return)-1].preserve_owner)
+orig(size(opts[])) == orig(opts[post(return)-1].preserve_group)
+orig(size(opts[])) == orig(opts[post(return)-1].preserve_devices)
+orig(size(opts[])) == orig(opts[post(return)-1].delete_mode)
+orig(size(opts[])) == orig(opts[post(return)-1].backup)
+opts[return-1].whole_file == opts[return-1].relative_paths
+opts[return-1].whole_file == opts[return-1].max_delete
+opts[return-1].whole_file == orig(opts[post(return)-1].relative_paths)
+opts[return-1].whole_file == orig(opts[post(return)-1].max_delete)
+opts[] contains no nulls and has only one value, of length 1
+opts[] elements has only one value
+opts[].verbose == [1]
+opts[].verbose elements == 1
+opts[].quiet == [0]
+opts[].quiet elements == 0
+opts[].archive == [1]
+opts[].archive elements == 1
+opts[].recursive == [1]
+opts[].recursive elements == 1
+opts[].preserve_links == [1]
+opts[].preserve_links elements == 1
+opts[].preserve_perms == [1]
+opts[].preserve_perms elements == 1
+opts[].preserve_times == [1]
+opts[].preserve_times elements == 1
+opts[].preserve_owner == [1]
+opts[].preserve_owner elements == 1
+opts[].preserve_group == [1]
+opts[].preserve_group elements == 1
+opts[].preserve_devices == [1]
+opts[].preserve_devices elements == 1
+opts[].delete_mode == [1]
+opts[].delete_mode elements == 1
+opts[].whole_file == [-1]
+opts[].whole_file elements == -1
+opts[].backup == [1]
+opts[].backup elements == 1
+opts[].relative_paths == [-1]
+opts[].relative_paths elements == -1
+opts[].backup_dir == [/backup]
+opts[].backup_dir elements == "/backup"
+opts[].backup_suffix == [~]
+opts[].backup_suffix elements == "~"
+opts[].port == [873]
+opts[].port elements == 873
+opts[].block_size == [700]
+opts[].block_size elements == 700
+opts[].max_delete == [-1]
+opts[].max_delete elements == -1
+return == 1
+opts[] elements == opts[return-1]
+opts[].verbose elements == return
+return in opts[].verbose
+opts[].verbose elements == orig(size(opts[]))
+opts[].quiet elements == size(opts[])-1
+opts[].archive elements == return
+return in opts[].archive
+opts[].archive elements == orig(size(opts[]))
+opts[].recursive elements == return
+return in opts[].recursive
+opts[].recursive elements == orig(size(opts[]))
+opts[].preserve_links elements == return
+return in opts[].preserve_links
+opts[].preserve_links elements == orig(size(opts[]))
+opts[].preserve_perms elements == return
+return in opts[].preserve_perms
+opts[].preserve_perms elements == orig(size(opts[]))
+opts[].preserve_times elements == return
+return in opts[].preserve_times
+opts[].preserve_times elements == orig(size(opts[]))
+opts[].preserve_owner elements == return
+return in opts[].preserve_owner
+opts[].preserve_owner elements == orig(size(opts[]))
+opts[].preserve_group elements == return
+return in opts[].preserve_group
+opts[].preserve_group elements == orig(size(opts[]))
+opts[].preserve_devices elements == return
+return in opts[].preserve_devices
+opts[].preserve_devices elements == orig(size(opts[]))
+opts[].delete_mode elements == return
+return in opts[].delete_mode
+opts[].delete_mode elements == orig(size(opts[]))
+opts[].whole_file elements == opts[return-1].whole_file
+opts[].backup elements == return
+return in opts[].backup
+opts[].backup elements == orig(size(opts[]))
+opts[].relative_paths elements == opts[return-1].whole_file
+opts[].port elements == opts[return-1].port
+opts[].block_size elements == opts[return-1].block_size
+opts[].max_delete elements == opts[return-1].whole_file
+Exiting Daikon.

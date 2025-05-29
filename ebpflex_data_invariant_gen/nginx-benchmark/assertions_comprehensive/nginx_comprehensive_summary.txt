@@ -1,0 +1,29 @@
+Daikon Invariant Export Summary
+==============================
+Generated: Mon May 26 04:05:11 UTC 2025
+Source: nginx_comprehensive.inv.gz
+
+Files created:
+- nginx_comprehensive_invariants.java: Raw Java-formatted invariants
+- nginx_comprehensiveAssertions.java: Generated assertion classes
+- nginx_comprehensive_esc.txt: ESC/Java format (for static checking)
+- nginx_comprehensive_jml.txt: JML format (Java Modeling Language)
+
+Usage:
+1. Include the generated assertion class in your project
+2. Call assertion methods at appropriate points:
+   - assertPreconditions() at method entry
+   - assertPostconditions() at method exit
+3. Run with assertions enabled: java -ea YourClass
+
+Example:
+    public int myMethod(int param) {
+        MyMethodAssertions.assertPreconditions(param);
+        int oldParam = param;
+        
+        // Your method logic here
+        int result = ...;
+        
+        MyMethodAssertions.assertPostconditions(param, result, oldParam);
+        return result;
+    }

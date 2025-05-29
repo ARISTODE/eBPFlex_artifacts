@@ -1,0 +1,74 @@
+Summary of nginx/libpcre Interface Data Invariants
+================================================
+
+1. pcre_compile() - Compile a regular expression pattern
+   Preconditions:
+   - pattern must not be null
+   - options must be non-negative
+   
+   Postconditions:
+   - If successful (result != null), error pointer is null
+   - If failed (result == null), error pointer and offset are set
+   - Error offset is non-negative when error occurs
+
+2. pcre_exec() - Execute a compiled pattern against a subject string
+   Preconditions:
+   - Compiled pattern (code) must not be null
+   - Subject string must not be null
+   - Length must be non-negative
+   - Start offset must be between 0 and length
+   - Output vector must not be null with size >= 3 and divisible by 3
+   
+   Postconditions:
+   - Return value >= -1 (error codes are negative)
+   - If match found (result >= 0):
+     * ovector[0] contains start of match (>= startoffset)
+     * ovector[1] contains end of match (> start, <= length)
+   - If no match (result == -1), ovector is unchanged
+
+3. ngx_regex_compile() - Nginx wrapper for regex compilation
+   Preconditions:
+   - Regex compile structure must not be null
+   - Pattern data must not be null with positive length
+   - Options must be non-negative
+   
+   Postconditions:
+   - Returns 0 (success) or -1 (error)
+   - On success, regex field is populated
+   - On error, error message is set
+
+4. ngx_regex_exec() - Nginx wrapper for regex execution
+   Preconditions:
+   - Compiled regex must not be null
+   - String data must not be null with non-negative length
+   - Captures array must not be null with positive size
+   
+   Postconditions:
+   - Return value >= -1
+   - If match found (result >= 0):
+     * captures[0] = start position (>= 0)
+     * captures[1] = end position (> start, <= string length)
+
+5. pcre_study() - Study a compiled pattern for optimization
+   Preconditions:
+   - Compiled pattern must not be null
+   - Options must be 0 or 1 (PCRE_STUDY_JIT_COMPILE)
+   
+   Postconditions:
+   - If error occurs, result is null and error message is set
+
+6. pcre_fullinfo() - Query information about a compiled pattern
+   Preconditions:
+   - Compiled pattern must not be null
+   - Info type (what) must be valid (0-23)
+   - Output location (where) must not be null
+   
+   Postconditions:
+   - Returns 0 (success), -1 (null code), -2 (bad magic), or -3 (unknown option)
+
+Key Invariant Patterns:
+- Null pointer checks on all input pointers
+- Range validation for offsets and indices
+- Size constraints (e.g., ovecsize divisible by 3)
+- Consistent error return values (-1 for most functions)
+- Output validity guarantees when operations succeed

@@ -1,0 +1,2 @@
+2025/05/26 06:01:15 [notice] 63864#0: signal process started
+2025/05/26 06:01:15 [error] 63864#0: open() "/home/nginx-install/logs/nginx.pid" failed (2: No such file or directory)

@@ -1,0 +1,369 @@
+decl-version 2.0
+var-comparability implicit
+
+ppt SimpleNginx.checkAlloc(int):::ENTER
+  ppt-type enter
+  variable size
+    var-kind variable
+    rep-type int
+    dec-type int
+    comparability 1
+
+ppt SimpleNginx.checkAlloc(int):::EXIT
+  ppt-type exit
+  variable size
+    var-kind variable
+    rep-type int
+    dec-type int
+    comparability 1
+  variable return
+    var-kind return
+    rep-type int
+    dec-type int
+    comparability 2
+
+ppt SimpleNginx.checkStatus(int):::ENTER
+  ppt-type enter
+  variable status
+    var-kind variable
+    rep-type int
+    dec-type int
+    comparability 1
+
+ppt SimpleNginx.checkStatus(int):::EXIT
+  ppt-type exit
+  variable status
+    var-kind variable
+    rep-type int
+    dec-type int
+    comparability 1
+  variable return
+    var-kind return
+    rep-type int
+    dec-type int
+    comparability 2
+
+SimpleNginx.checkAlloc(int):::ENTER
+size
+0
+1
+
+SimpleNginx.checkAlloc(int):::EXIT
+size
+0
+1
+return
+-1
+1
+
+SimpleNginx.checkAlloc(int):::ENTER
+size
+512
+1
+
+SimpleNginx.checkAlloc(int):::EXIT
+size
+512
+1
+return
+512
+1
+
+SimpleNginx.checkAlloc(int):::ENTER
+size
+1024
+1
+
+SimpleNginx.checkAlloc(int):::EXIT
+size
+1024
+1
+return
+1024
+1
+
+SimpleNginx.checkAlloc(int):::ENTER
+size
+2048
+1
+
+SimpleNginx.checkAlloc(int):::EXIT
+size
+2048
+1
+return
+2048
+1
+
+SimpleNginx.checkAlloc(int):::ENTER
+size
+4096
+1
+
+SimpleNginx.checkAlloc(int):::EXIT
+size
+4096
+1
+return
+4096
+1
+
+SimpleNginx.checkAlloc(int):::ENTER
+size
+4608
+1
+
+SimpleNginx.checkAlloc(int):::EXIT
+size
+4608
+1
+return
+-1
+1
+
+SimpleNginx.checkAlloc(int):::ENTER
+size
+8192
+1
+
+SimpleNginx.checkAlloc(int):::EXIT
+size
+8192
+1
+return
+-1
+1
+
+SimpleNginx.checkAlloc(int):::ENTER
+size
+-100
+1
+
+SimpleNginx.checkAlloc(int):::EXIT
+size
+-100
+1
+return
+-1
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+100
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+100
+1
+return
+1
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+101
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+101
+1
+return
+1
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+200
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+200
+1
+return
+2
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+201
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+201
+1
+return
+2
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+204
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+204
+1
+return
+2
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+301
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+301
+1
+return
+3
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+302
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+302
+1
+return
+3
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+304
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+304
+1
+return
+3
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+400
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+400
+1
+return
+4
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+401
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+401
+1
+return
+4
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+403
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+403
+1
+return
+4
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+404
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+404
+1
+return
+4
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+500
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+500
+1
+return
+5
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+502
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+502
+1
+return
+5
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+503
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+503
+1
+return
+5
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+600
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+600
+1
+return
+-1
+1
+
+SimpleNginx.checkStatus(int):::ENTER
+status
+99
+1
+
+SimpleNginx.checkStatus(int):::EXIT
+status
+99
+1
+return
+-1
+1

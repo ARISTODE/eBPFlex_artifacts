@@ -1,0 +1,13508 @@
+input-language C/C++
+decl-version 2.0
+var-comparability implicit
+
+
+..main():::ENTER
+this_invocation_nonce
+0
+argc
+4
+1
+argv
+0x1fff000a18
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+
+..init_options():::ENTER
+this_invocation_nonce
+1
+opts
+0x1fff000700
+1
+opts[..]
+nonsensical
+2
+opts[..].verbose
+nonsensical
+2
+opts[..].quiet
+nonsensical
+2
+opts[..].archive
+nonsensical
+2
+opts[..].recursive
+nonsensical
+2
+opts[..].preserve_links
+nonsensical
+2
+opts[..].preserve_perms
+nonsensical
+2
+opts[..].preserve_times
+nonsensical
+2
+opts[..].preserve_owner
+nonsensical
+2
+opts[..].preserve_group
+nonsensical
+2
+opts[..].preserve_devices
+nonsensical
+2
+opts[..].delete_mode
+nonsensical
+2
+opts[..].delete_before
+nonsensical
+2
+opts[..].delete_during
+nonsensical
+2
+opts[..].delete_after
+nonsensical
+2
+opts[..].force
+nonsensical
+2
+opts[..].dry_run
+nonsensical
+2
+opts[..].checksum
+nonsensical
+2
+opts[..].size_only
+nonsensical
+2
+opts[..].one_file_system
+nonsensical
+2
+opts[..].whole_file
+nonsensical
+2
+opts[..].backup
+nonsensical
+2
+opts[..].update
+nonsensical
+2
+opts[..].inplace
+nonsensical
+2
+opts[..].append
+nonsensical
+2
+opts[..].dirs
+nonsensical
+2
+opts[..].compress
+nonsensical
+2
+opts[..].numeric_ids
+nonsensical
+2
+opts[..].cvs_exclude
+nonsensical
+2
+opts[..].progress
+nonsensical
+2
+opts[..].itemize_changes
+nonsensical
+2
+opts[..].human_readable
+nonsensical
+2
+opts[..].relative_paths
+nonsensical
+2
+opts[..].no_implied_dirs
+nonsensical
+2
+opts[..].list_only
+nonsensical
+2
+opts[..].backup_dir
+nonsensical
+2
+opts[..].backup_suffix
+nonsensical
+2
+opts[..].exclude_pattern
+nonsensical
+2
+opts[..].include_pattern
+nonsensical
+2
+opts[..].filter_rule
+nonsensical
+2
+opts[..].files_from
+nonsensical
+2
+opts[..].log_file
+nonsensical
+2
+opts[..].password_file
+nonsensical
+2
+opts[..].timeout
+nonsensical
+2
+opts[..].port
+nonsensical
+2
+opts[..].block_size
+nonsensical
+2
+opts[..].max_delete
+nonsensical
+2
+
+..init_options():::EXIT0
+this_invocation_nonce
+1
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_arguments():::ENTER
+this_invocation_nonce
+2
+argc
+4
+1
+argv
+0x1fff000a18
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_short_option():::ENTER
+this_invocation_nonce
+3
+opt
+114
+1
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_short_option():::EXIT0
+this_invocation_nonce
+3
+opt
+114
+1
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_arguments():::EXIT0
+this_invocation_nonce
+2
+argc
+4
+1
+argv
+0x1fff000a18
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+2
+1
+
+..validate_options():::ENTER
+this_invocation_nonce
+4
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..validate_options():::EXIT0
+this_invocation_nonce
+4
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..print_options():::ENTER
+this_invocation_nonce
+5
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..print_options():::EXIT0
+this_invocation_nonce
+5
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::ENTER
+this_invocation_nonce
+6
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::EXIT0
+this_invocation_nonce
+6
+opts
+0x1fff000700
+1
+opts[..]
+[ 0x1fff000700 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..main():::EXIT0
+this_invocation_nonce
+0
+argc
+4
+1
+argv
+0x1fff000a18
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+return
+0
+1
+
+..main():::ENTER
+this_invocation_nonce
+0
+argc
+4
+1
+argv
+0x1fff000a08
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+
+..init_options():::ENTER
+this_invocation_nonce
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+nonsensical
+2
+opts[..].verbose
+nonsensical
+2
+opts[..].quiet
+nonsensical
+2
+opts[..].archive
+nonsensical
+2
+opts[..].recursive
+nonsensical
+2
+opts[..].preserve_links
+nonsensical
+2
+opts[..].preserve_perms
+nonsensical
+2
+opts[..].preserve_times
+nonsensical
+2
+opts[..].preserve_owner
+nonsensical
+2
+opts[..].preserve_group
+nonsensical
+2
+opts[..].preserve_devices
+nonsensical
+2
+opts[..].delete_mode
+nonsensical
+2
+opts[..].delete_before
+nonsensical
+2
+opts[..].delete_during
+nonsensical
+2
+opts[..].delete_after
+nonsensical
+2
+opts[..].force
+nonsensical
+2
+opts[..].dry_run
+nonsensical
+2
+opts[..].checksum
+nonsensical
+2
+opts[..].size_only
+nonsensical
+2
+opts[..].one_file_system
+nonsensical
+2
+opts[..].whole_file
+nonsensical
+2
+opts[..].backup
+nonsensical
+2
+opts[..].update
+nonsensical
+2
+opts[..].inplace
+nonsensical
+2
+opts[..].append
+nonsensical
+2
+opts[..].dirs
+nonsensical
+2
+opts[..].compress
+nonsensical
+2
+opts[..].numeric_ids
+nonsensical
+2
+opts[..].cvs_exclude
+nonsensical
+2
+opts[..].progress
+nonsensical
+2
+opts[..].itemize_changes
+nonsensical
+2
+opts[..].human_readable
+nonsensical
+2
+opts[..].relative_paths
+nonsensical
+2
+opts[..].no_implied_dirs
+nonsensical
+2
+opts[..].list_only
+nonsensical
+2
+opts[..].backup_dir
+nonsensical
+2
+opts[..].backup_suffix
+nonsensical
+2
+opts[..].exclude_pattern
+nonsensical
+2
+opts[..].include_pattern
+nonsensical
+2
+opts[..].filter_rule
+nonsensical
+2
+opts[..].files_from
+nonsensical
+2
+opts[..].log_file
+nonsensical
+2
+opts[..].password_file
+nonsensical
+2
+opts[..].timeout
+nonsensical
+2
+opts[..].port
+nonsensical
+2
+opts[..].block_size
+nonsensical
+2
+opts[..].max_delete
+nonsensical
+2
+
+..init_options():::EXIT0
+this_invocation_nonce
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_arguments():::ENTER
+this_invocation_nonce
+2
+argc
+4
+1
+argv
+0x1fff000a08
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_short_option():::ENTER
+this_invocation_nonce
+3
+opt
+114
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_short_option():::EXIT0
+this_invocation_nonce
+3
+opt
+114
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_short_option():::ENTER
+this_invocation_nonce
+4
+opt
+108
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_short_option():::EXIT0
+this_invocation_nonce
+4
+opt
+108
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_short_option():::ENTER
+this_invocation_nonce
+5
+opt
+112
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_short_option():::EXIT0
+this_invocation_nonce
+5
+opt
+112
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_short_option():::ENTER
+this_invocation_nonce
+6
+opt
+116
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_short_option():::EXIT0
+this_invocation_nonce
+6
+opt
+116
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_short_option():::ENTER
+this_invocation_nonce
+7
+opt
+103
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_short_option():::EXIT0
+this_invocation_nonce
+7
+opt
+103
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_short_option():::ENTER
+this_invocation_nonce
+8
+opt
+111
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_short_option():::EXIT0
+this_invocation_nonce
+8
+opt
+111
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 1 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_short_option():::ENTER
+this_invocation_nonce
+9
+opt
+68
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 1 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_short_option():::EXIT0
+this_invocation_nonce
+9
+opt
+68
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 1 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 1 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_arguments():::EXIT0
+this_invocation_nonce
+2
+argc
+4
+1
+argv
+0x1fff000a08
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 1 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 1 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+2
+1
+
+..validate_options():::ENTER
+this_invocation_nonce
+10
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 1 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 1 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..validate_options():::EXIT0
+this_invocation_nonce
+10
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 1 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 1 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..print_options():::ENTER
+this_invocation_nonce
+11
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 1 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 1 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..print_options():::EXIT0
+this_invocation_nonce
+11
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 1 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 1 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::ENTER
+this_invocation_nonce
+12
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 1 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 1 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::EXIT0
+this_invocation_nonce
+12
+opts
+0x1fff0006f0
+1
+opts[..]
+[ 0x1fff0006f0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 1 ]
+1
+opts[..].preserve_links
+[ 1 ]
+1
+opts[..].preserve_perms
+[ 1 ]
+1
+opts[..].preserve_times
+[ 1 ]
+1
+opts[..].preserve_owner
+[ 1 ]
+1
+opts[..].preserve_group
+[ 1 ]
+1
+opts[..].preserve_devices
+[ 1 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..main():::EXIT0
+this_invocation_nonce
+0
+argc
+4
+1
+argv
+0x1fff000a08
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+return
+0
+1
+
+..main():::ENTER
+this_invocation_nonce
+0
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+
+..init_options():::ENTER
+this_invocation_nonce
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+nonsensical
+2
+opts[..].verbose
+nonsensical
+2
+opts[..].quiet
+nonsensical
+2
+opts[..].archive
+nonsensical
+2
+opts[..].recursive
+nonsensical
+2
+opts[..].preserve_links
+nonsensical
+2
+opts[..].preserve_perms
+nonsensical
+2
+opts[..].preserve_times
+nonsensical
+2
+opts[..].preserve_owner
+nonsensical
+2
+opts[..].preserve_group
+nonsensical
+2
+opts[..].preserve_devices
+nonsensical
+2
+opts[..].delete_mode
+nonsensical
+2
+opts[..].delete_before
+nonsensical
+2
+opts[..].delete_during
+nonsensical
+2
+opts[..].delete_after
+nonsensical
+2
+opts[..].force
+nonsensical
+2
+opts[..].dry_run
+nonsensical
+2
+opts[..].checksum
+nonsensical
+2
+opts[..].size_only
+nonsensical
+2
+opts[..].one_file_system
+nonsensical
+2
+opts[..].whole_file
+nonsensical
+2
+opts[..].backup
+nonsensical
+2
+opts[..].update
+nonsensical
+2
+opts[..].inplace
+nonsensical
+2
+opts[..].append
+nonsensical
+2
+opts[..].dirs
+nonsensical
+2
+opts[..].compress
+nonsensical
+2
+opts[..].numeric_ids
+nonsensical
+2
+opts[..].cvs_exclude
+nonsensical
+2
+opts[..].progress
+nonsensical
+2
+opts[..].itemize_changes
+nonsensical
+2
+opts[..].human_readable
+nonsensical
+2
+opts[..].relative_paths
+nonsensical
+2
+opts[..].no_implied_dirs
+nonsensical
+2
+opts[..].list_only
+nonsensical
+2
+opts[..].backup_dir
+nonsensical
+2
+opts[..].backup_suffix
+nonsensical
+2
+opts[..].exclude_pattern
+nonsensical
+2
+opts[..].include_pattern
+nonsensical
+2
+opts[..].filter_rule
+nonsensical
+2
+opts[..].files_from
+nonsensical
+2
+opts[..].log_file
+nonsensical
+2
+opts[..].password_file
+nonsensical
+2
+opts[..].timeout
+nonsensical
+2
+opts[..].port
+nonsensical
+2
+opts[..].block_size
+nonsensical
+2
+opts[..].max_delete
+nonsensical
+2
+
+..init_options():::EXIT0
+this_invocation_nonce
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_arguments():::ENTER
+this_invocation_nonce
+2
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_long_option():::ENTER
+this_invocation_nonce
+3
+opt
+"delete"
+1
+arg
+nonsensical
+2
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_long_option():::EXIT0
+this_invocation_nonce
+3
+opt
+"delete"
+1
+arg
+nonsensical
+2
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 1 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_long_option():::ENTER
+this_invocation_nonce
+4
+opt
+"force"
+1
+arg
+"src/"
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 1 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_long_option():::EXIT0
+this_invocation_nonce
+4
+opt
+"force"
+1
+arg
+"src/"
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 1 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 1 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_arguments():::EXIT0
+this_invocation_nonce
+2
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 1 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 1 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+2
+1
+
+..validate_options():::ENTER
+this_invocation_nonce
+5
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 1 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 1 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..validate_options():::EXIT0
+this_invocation_nonce
+5
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 1 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 1 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..print_options():::ENTER
+this_invocation_nonce
+6
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 1 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 1 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..print_options():::EXIT0
+this_invocation_nonce
+6
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 1 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 1 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::ENTER
+this_invocation_nonce
+7
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 1 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 1 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::EXIT0
+this_invocation_nonce
+7
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 1 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 1 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..main():::EXIT0
+this_invocation_nonce
+0
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+return
+0
+1
+
+..main():::ENTER
+this_invocation_nonce
+0
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+
+..init_options():::ENTER
+this_invocation_nonce
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+nonsensical
+2
+opts[..].verbose
+nonsensical
+2
+opts[..].quiet
+nonsensical
+2
+opts[..].archive
+nonsensical
+2
+opts[..].recursive
+nonsensical
+2
+opts[..].preserve_links
+nonsensical
+2
+opts[..].preserve_perms
+nonsensical
+2
+opts[..].preserve_times
+nonsensical
+2
+opts[..].preserve_owner
+nonsensical
+2
+opts[..].preserve_group
+nonsensical
+2
+opts[..].preserve_devices
+nonsensical
+2
+opts[..].delete_mode
+nonsensical
+2
+opts[..].delete_before
+nonsensical
+2
+opts[..].delete_during
+nonsensical
+2
+opts[..].delete_after
+nonsensical
+2
+opts[..].force
+nonsensical
+2
+opts[..].dry_run
+nonsensical
+2
+opts[..].checksum
+nonsensical
+2
+opts[..].size_only
+nonsensical
+2
+opts[..].one_file_system
+nonsensical
+2
+opts[..].whole_file
+nonsensical
+2
+opts[..].backup
+nonsensical
+2
+opts[..].update
+nonsensical
+2
+opts[..].inplace
+nonsensical
+2
+opts[..].append
+nonsensical
+2
+opts[..].dirs
+nonsensical
+2
+opts[..].compress
+nonsensical
+2
+opts[..].numeric_ids
+nonsensical
+2
+opts[..].cvs_exclude
+nonsensical
+2
+opts[..].progress
+nonsensical
+2
+opts[..].itemize_changes
+nonsensical
+2
+opts[..].human_readable
+nonsensical
+2
+opts[..].relative_paths
+nonsensical
+2
+opts[..].no_implied_dirs
+nonsensical
+2
+opts[..].list_only
+nonsensical
+2
+opts[..].backup_dir
+nonsensical
+2
+opts[..].backup_suffix
+nonsensical
+2
+opts[..].exclude_pattern
+nonsensical
+2
+opts[..].include_pattern
+nonsensical
+2
+opts[..].filter_rule
+nonsensical
+2
+opts[..].files_from
+nonsensical
+2
+opts[..].log_file
+nonsensical
+2
+opts[..].password_file
+nonsensical
+2
+opts[..].timeout
+nonsensical
+2
+opts[..].port
+nonsensical
+2
+opts[..].block_size
+nonsensical
+2
+opts[..].max_delete
+nonsensical
+2
+
+..init_options():::EXIT0
+this_invocation_nonce
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_arguments():::ENTER
+this_invocation_nonce
+2
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_long_option():::ENTER
+this_invocation_nonce
+3
+opt
+"dry-run"
+1
+arg
+nonsensical
+2
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_long_option():::EXIT0
+this_invocation_nonce
+3
+opt
+"dry-run"
+1
+arg
+nonsensical
+2
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 1 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_long_option():::ENTER
+this_invocation_nonce
+4
+opt
+"checksum"
+1
+arg
+"src/"
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 1 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_long_option():::EXIT0
+this_invocation_nonce
+4
+opt
+"checksum"
+1
+arg
+"src/"
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 1 ]
+1
+opts[..].checksum
+[ 1 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..parse_arguments():::EXIT0
+this_invocation_nonce
+2
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 1 ]
+1
+opts[..].checksum
+[ 1 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+2
+1
+
+..validate_options():::ENTER
+this_invocation_nonce
+5
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 1 ]
+1
+opts[..].checksum
+[ 1 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..validate_options():::EXIT0
+this_invocation_nonce
+5
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 1 ]
+1
+opts[..].checksum
+[ 1 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..print_options():::ENTER
+this_invocation_nonce
+6
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 1 ]
+1
+opts[..].checksum
+[ 1 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..print_options():::EXIT0
+this_invocation_nonce
+6
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 1 ]
+1
+opts[..].checksum
+[ 1 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::ENTER
+this_invocation_nonce
+7
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 1 ]
+1
+opts[..].checksum
+[ 1 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::EXIT0
+this_invocation_nonce
+7
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 1 ]
+1
+opts[..].checksum
+[ 1 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..main():::EXIT0
+this_invocation_nonce
+0
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+return
+0
+1
+
+..main():::ENTER
+this_invocation_nonce
+0
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+
+..init_options():::ENTER
+this_invocation_nonce
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+nonsensical
+2
+opts[..].verbose
+nonsensical
+2
+opts[..].quiet
+nonsensical
+2
+opts[..].archive
+nonsensical
+2
+opts[..].recursive
+nonsensical
+2
+opts[..].preserve_links
+nonsensical
+2
+opts[..].preserve_perms
+nonsensical
+2
+opts[..].preserve_times
+nonsensical
+2
+opts[..].preserve_owner
+nonsensical
+2
+opts[..].preserve_group
+nonsensical
+2
+opts[..].preserve_devices
+nonsensical
+2
+opts[..].delete_mode
+nonsensical
+2
+opts[..].delete_before
+nonsensical
+2
+opts[..].delete_during
+nonsensical
+2
+opts[..].delete_after
+nonsensical
+2
+opts[..].force
+nonsensical
+2
+opts[..].dry_run
+nonsensical
+2
+opts[..].checksum
+nonsensical
+2
+opts[..].size_only
+nonsensical
+2
+opts[..].one_file_system
+nonsensical
+2
+opts[..].whole_file
+nonsensical
+2
+opts[..].backup
+nonsensical
+2
+opts[..].update
+nonsensical
+2
+opts[..].inplace
+nonsensical
+2
+opts[..].append
+nonsensical
+2
+opts[..].dirs
+nonsensical
+2
+opts[..].compress
+nonsensical
+2
+opts[..].numeric_ids
+nonsensical
+2
+opts[..].cvs_exclude
+nonsensical
+2
+opts[..].progress
+nonsensical
+2
+opts[..].itemize_changes
+nonsensical
+2
+opts[..].human_readable
+nonsensical
+2
+opts[..].relative_paths
+nonsensical
+2
+opts[..].no_implied_dirs
+nonsensical
+2
+opts[..].list_only
+nonsensical
+2
+opts[..].backup_dir
+nonsensical
+2
+opts[..].backup_suffix
+nonsensical
+2
+opts[..].exclude_pattern
+nonsensical
+2
+opts[..].include_pattern
+nonsensical
+2
+opts[..].filter_rule
+nonsensical
+2
+opts[..].files_from
+nonsensical
+2
+opts[..].log_file
+nonsensical
+2
+opts[..].password_file
+nonsensical
+2
+opts[..].timeout
+nonsensical
+2
+opts[..].port
+nonsensical
+2
+opts[..].block_size
+nonsensical
+2
+opts[..].max_delete
+nonsensical
+2
+
+..init_options():::EXIT0
+this_invocation_nonce
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_arguments():::ENTER
+this_invocation_nonce
+2
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_long_option():::ENTER
+this_invocation_nonce
+3
+opt
+"exclude"
+1
+arg
+"*.tmp"
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_long_option():::EXIT0
+this_invocation_nonce
+3
+opt
+"exclude"
+1
+arg
+"*.tmp"
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ "*.tmp" ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+2
+1
+
+..parse_arguments():::EXIT0
+this_invocation_nonce
+2
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ "*.tmp" ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+2
+1
+
+..validate_options():::ENTER
+this_invocation_nonce
+4
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ "*.tmp" ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..validate_options():::EXIT0
+this_invocation_nonce
+4
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ "*.tmp" ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..print_options():::ENTER
+this_invocation_nonce
+5
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ "*.tmp" ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..print_options():::EXIT0
+this_invocation_nonce
+5
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ "*.tmp" ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::ENTER
+this_invocation_nonce
+6
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ "*.tmp" ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::EXIT0
+this_invocation_nonce
+6
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..main():::EXIT0
+this_invocation_nonce
+0
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+return
+0
+1
+
+..main():::ENTER
+this_invocation_nonce
+0
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+
+..init_options():::ENTER
+this_invocation_nonce
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+nonsensical
+2
+opts[..].verbose
+nonsensical
+2
+opts[..].quiet
+nonsensical
+2
+opts[..].archive
+nonsensical
+2
+opts[..].recursive
+nonsensical
+2
+opts[..].preserve_links
+nonsensical
+2
+opts[..].preserve_perms
+nonsensical
+2
+opts[..].preserve_times
+nonsensical
+2
+opts[..].preserve_owner
+nonsensical
+2
+opts[..].preserve_group
+nonsensical
+2
+opts[..].preserve_devices
+nonsensical
+2
+opts[..].delete_mode
+nonsensical
+2
+opts[..].delete_before
+nonsensical
+2
+opts[..].delete_during
+nonsensical
+2
+opts[..].delete_after
+nonsensical
+2
+opts[..].force
+nonsensical
+2
+opts[..].dry_run
+nonsensical
+2
+opts[..].checksum
+nonsensical
+2
+opts[..].size_only
+nonsensical
+2
+opts[..].one_file_system
+nonsensical
+2
+opts[..].whole_file
+nonsensical
+2
+opts[..].backup
+nonsensical
+2
+opts[..].update
+nonsensical
+2
+opts[..].inplace
+nonsensical
+2
+opts[..].append
+nonsensical
+2
+opts[..].dirs
+nonsensical
+2
+opts[..].compress
+nonsensical
+2
+opts[..].numeric_ids
+nonsensical
+2
+opts[..].cvs_exclude
+nonsensical
+2
+opts[..].progress
+nonsensical
+2
+opts[..].itemize_changes
+nonsensical
+2
+opts[..].human_readable
+nonsensical
+2
+opts[..].relative_paths
+nonsensical
+2
+opts[..].no_implied_dirs
+nonsensical
+2
+opts[..].list_only
+nonsensical
+2
+opts[..].backup_dir
+nonsensical
+2
+opts[..].backup_suffix
+nonsensical
+2
+opts[..].exclude_pattern
+nonsensical
+2
+opts[..].include_pattern
+nonsensical
+2
+opts[..].filter_rule
+nonsensical
+2
+opts[..].files_from
+nonsensical
+2
+opts[..].log_file
+nonsensical
+2
+opts[..].password_file
+nonsensical
+2
+opts[..].timeout
+nonsensical
+2
+opts[..].port
+nonsensical
+2
+opts[..].block_size
+nonsensical
+2
+opts[..].max_delete
+nonsensical
+2
+
+..init_options():::EXIT0
+this_invocation_nonce
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_arguments():::ENTER
+this_invocation_nonce
+2
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_long_option():::ENTER
+this_invocation_nonce
+3
+opt
+"timeout"
+1
+arg
+"300"
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 0 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..parse_long_option():::EXIT0
+this_invocation_nonce
+3
+opt
+"timeout"
+1
+arg
+"300"
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 300 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+2
+1
+
+..parse_arguments():::EXIT0
+this_invocation_nonce
+2
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 300 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+2
+1
+
+..validate_options():::ENTER
+this_invocation_nonce
+4
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 300 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..validate_options():::EXIT0
+this_invocation_nonce
+4
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 300 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+return
+1
+1
+
+..print_options():::ENTER
+this_invocation_nonce
+5
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 300 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..print_options():::EXIT0
+this_invocation_nonce
+5
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 300 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::ENTER
+this_invocation_nonce
+6
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 300 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..free_options():::EXIT0
+this_invocation_nonce
+6
+opts
+0x1fff0006e0
+1
+opts[..]
+[ 0x1fff0006e0 ]
+1
+opts[..].verbose
+[ 0 ]
+1
+opts[..].quiet
+[ 0 ]
+1
+opts[..].archive
+[ 0 ]
+1
+opts[..].recursive
+[ 0 ]
+1
+opts[..].preserve_links
+[ 0 ]
+1
+opts[..].preserve_perms
+[ 0 ]
+1
+opts[..].preserve_times
+[ 0 ]
+1
+opts[..].preserve_owner
+[ 0 ]
+1
+opts[..].preserve_group
+[ 0 ]
+1
+opts[..].preserve_devices
+[ 0 ]
+1
+opts[..].delete_mode
+[ 0 ]
+1
+opts[..].delete_before
+[ 0 ]
+1
+opts[..].delete_during
+[ 0 ]
+1
+opts[..].delete_after
+[ 0 ]
+1
+opts[..].force
+[ 0 ]
+1
+opts[..].dry_run
+[ 0 ]
+1
+opts[..].checksum
+[ 0 ]
+1
+opts[..].size_only
+[ 0 ]
+1
+opts[..].one_file_system
+[ 0 ]
+1
+opts[..].whole_file
+[ -1 ]
+1
+opts[..].backup
+[ 0 ]
+1
+opts[..].update
+[ 0 ]
+1
+opts[..].inplace
+[ 0 ]
+1
+opts[..].append
+[ 0 ]
+1
+opts[..].dirs
+[ 0 ]
+1
+opts[..].compress
+[ 0 ]
+1
+opts[..].numeric_ids
+[ 0 ]
+1
+opts[..].cvs_exclude
+[ 0 ]
+1
+opts[..].progress
+[ 0 ]
+1
+opts[..].itemize_changes
+[ 0 ]
+1
+opts[..].human_readable
+[ 0 ]
+1
+opts[..].relative_paths
+[ -1 ]
+1
+opts[..].no_implied_dirs
+[ 0 ]
+1
+opts[..].list_only
+[ 0 ]
+1
+opts[..].backup_dir
+[ nonsensical ]
+1
+opts[..].backup_suffix
+[ nonsensical ]
+1
+opts[..].exclude_pattern
+[ nonsensical ]
+1
+opts[..].include_pattern
+[ nonsensical ]
+1
+opts[..].filter_rule
+[ nonsensical ]
+1
+opts[..].files_from
+[ nonsensical ]
+1
+opts[..].log_file
+[ nonsensical ]
+1
+opts[..].password_file
+[ nonsensical ]
+1
+opts[..].timeout
+[ 300 ]
+1
+opts[..].port
+[ 873 ]
+1
+opts[..].block_size
+[ 700 ]
+1
+opts[..].max_delete
+[ -1 ]
+1
+
+..main():::EXIT0
+this_invocation_nonce
+0
+argc
+5
+1
+argv
+0x1fff0009f8
+1
+argv[..]
+[ "./rsync_simple_option_test" ]
+1
+return
+0
+1

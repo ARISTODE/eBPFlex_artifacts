@@ -1,0 +1,20 @@
+# Protocol specification for FFmpeg filter graph operations
+# Ensures proper initialization, configuration, and cleanup
+
+PROTOCOL ffmpeg_filter_graph
+
+# States  
+STATE UNINITIALIZED initial
+STATE ALLOCATED
+STATE CONFIGURED
+STATE RUNNING
+STATE CLOSED final
+
+# Transitions
+TRANSITION UNINITIALIZED ALLOCATED avfilter_graph_alloc
+TRANSITION ALLOCATED CONFIGURED avfilter_graph_config
+TRANSITION CONFIGURED RUNNING avfilter_graph_request_oldest
+TRANSITION RUNNING RUNNING avfilter_graph_request_oldest
+TRANSITION CONFIGURED CLOSED avfilter_graph_free
+TRANSITION RUNNING CLOSED avfilter_graph_free
+TRANSITION ALLOCATED CLOSED avfilter_graph_free

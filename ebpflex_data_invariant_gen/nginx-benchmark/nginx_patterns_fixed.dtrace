@@ -1,0 +1,194 @@
+decl-version 2.0
+var-comparability implicit
+
+ppt ngx_palloc:::ENTER
+ppt-type enter
+variable pool
+  var-kind variable
+  dec-type pointer
+  rep-type hashcode
+  comparability 1
+variable size
+  var-kind variable
+  dec-type int
+  rep-type int
+  comparability 2
+
+ppt ngx_palloc:::EXIT0
+ppt-type exit
+variable pool
+  var-kind variable
+  dec-type pointer
+  rep-type hashcode
+  comparability 1
+variable size
+  var-kind variable
+  dec-type int
+  rep-type int
+  comparability 2
+variable return
+  var-kind return
+  dec-type pointer
+  rep-type hashcode
+  comparability 3
+
+ppt ngx_http_status_check:::ENTER
+ppt-type enter
+variable status
+  var-kind variable
+  dec-type int
+  rep-type int
+  comparability 1
+
+ppt ngx_http_status_check:::EXIT0
+ppt-type exit
+variable status
+  var-kind variable
+  dec-type int
+  rep-type int
+  comparability 1
+variable return
+  var-kind return
+  dec-type int
+  rep-type int
+  comparability 2
+
+ngx_palloc:::ENTER
+pool
+4096
+size
+16
+1
+
+ngx_palloc:::EXIT0
+pool
+4096
+size
+16
+return
+4112
+1
+
+ngx_palloc:::ENTER
+pool
+4096
+size
+32
+1
+
+ngx_palloc:::EXIT0
+pool
+4096
+size
+32
+return
+4128
+1
+
+ngx_palloc:::ENTER
+pool
+4096
+size
+64
+1
+
+ngx_palloc:::EXIT0
+pool
+4096
+size
+64
+return
+4160
+1
+
+ngx_palloc:::ENTER
+pool
+4096
+size
+128
+1
+
+ngx_palloc:::EXIT0
+pool
+4096
+size
+128
+return
+4224
+1
+
+ngx_palloc:::ENTER
+pool
+4096
+size
+256
+1
+
+ngx_palloc:::EXIT0
+pool
+4096
+size
+256
+return
+4352
+1
+
+ngx_http_status_check:::ENTER
+status
+200
+1
+
+ngx_http_status_check:::EXIT0
+status
+200
+return
+2
+1
+
+ngx_http_status_check:::ENTER
+status
+404
+1
+
+ngx_http_status_check:::EXIT0
+status
+404
+return
+4
+1
+
+ngx_http_status_check:::ENTER
+status
+301
+1
+
+ngx_http_status_check:::EXIT0
+status
+301
+return
+3
+1
+
+ngx_http_status_check:::ENTER
+status
+500
+1
+
+ngx_http_status_check:::EXIT0
+status
+500
+return
+5
+1
+
+ngx_http_status_check:::ENTER
+status
+100
+1
+
+ngx_http_status_check:::EXIT0
+status
+100
+return
+1
+1

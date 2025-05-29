@@ -1,0 +1,7 @@
+# SP2: Write Access Control Policies
+# Fields that should NOT be writable by untrusted code
+
+struct shared_context_t:
+  PROTECT_FIELD: id (ID should be readable but not writable by untrusted)
+  PROTECT_FIELD: status (Status should be readable but not writable)
+  PROTECT_FIELD: buffer_size (Buffer size should be readable but not writable)

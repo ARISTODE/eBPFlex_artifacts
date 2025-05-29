@@ -1,0 +1,29 @@
+init_context:::ENTER
+id >= 1
+buffer_size == 1024
+
+init_context:::EXIT
+return != null
+ctx.id >= 1
+ctx.buffer_size == 1024
+ctx.status == 1
+ctx.secret_key == 3735928559
+
+process_data:::ENTER
+ctx != null
+ctx.buffer_size == 1024
+ctx.status one of {1, 2}
+len <= ctx.buffer_size
+
+process_data:::EXIT
+return one of {0, -1}
+ctx.config_flags >= orig(ctx.config_flags)
+
+validate_context:::ENTER
+ctx != null
+
+validate_context:::EXIT
+return one of {0, -1}
+
+cleanup_context:::ENTER
+ctx != null

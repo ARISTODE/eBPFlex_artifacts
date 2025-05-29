@@ -1,0 +1,80 @@
+Data Invariants Count Summary
+=============================
+
+1. FFmpeg libavfilter Interface
+   - Total lines in invariants file: 2,307
+   - Program points analyzed: 13
+   - Types of invariants:
+     * Equality invariants (==): 1,552
+     * Comparison invariants (>, <, >=, <=): 289
+     * Implication invariants (==>): 0
+   - Estimated unique invariants: ~200-300 (many are repeated across program points)
+
+2. Nginx libpcre Interface
+   - Based on nginx_pcre_invariants.java analysis
+   - Total invariant assertions: 83
+   - Key functions analyzed: 6
+     * pcre_compile()
+     * pcre_exec()
+     * ngx_regex_compile()
+     * ngx_regex_exec()
+     * pcre_study()
+     * pcre_fullinfo()
+   - Types of invariants:
+     * Null pointer checks
+     * Range validations
+     * Size constraints
+     * Error return values
+
+3. Memcached Internal Hashtable
+   - Total lines in invariants file: 236
+   - Program points analyzed: 13
+   - Types of invariants:
+     * Equality invariants (==): 135
+     * Comparison invariants (>, <, >=, <=): 28
+     * Inequality invariants (!=): 14
+   - Key functions analyzed:
+     * assoc_init()
+     * assoc_find()
+     * assoc_insert()
+     * assoc_delete()
+   - Estimated unique invariants: ~50-70
+
+Summary Table:
+--------------
+System          | Interface         | Functions | Unique Invariants | Key Constraints
+----------------|-------------------|-----------|-------------------|------------------
+FFmpeg          | libavfilter       | 6         | ~200-300         | Graph structure, filter links, pad counts
+Nginx           | libpcre           | 6         | ~83              | Null checks, ranges, error codes
+Memcached       | hashtable         | 6         | ~50-70           | Hash size, chain integrity, key constraints
+
+Functions Analyzed:
+------------------
+FFmpeg libavfilter (6 functions):
+- add_filter_to_graph()
+- configure_graph()
+- create_filter()
+- free_filter_graph()
+- link_filters()
+- process_frame()
+
+Memcached hashtable (6 functions):
+- assoc_init()
+- assoc_find()
+- assoc_insert()
+- assoc_delete()
+- create_item()
+- main()
+
+Nginx libpcre (6 functions):
+- pcre_compile()
+- pcre_exec()
+- ngx_regex_compile()
+- ngx_regex_exec()
+- pcre_study()
+- pcre_fullinfo()
+
+Note: The exact count of unique invariants is approximate because:
+- Many invariants are repeated across different program points (ENTER/EXIT)
+- Some invariants are variations of the same constraint
+- Daikon generates both specific and general versions of invariants

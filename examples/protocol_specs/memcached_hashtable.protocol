@@ -1,0 +1,22 @@
+# Protocol specification for memcached hashtable operations
+# This ensures proper initialization and usage patterns
+
+PROTOCOL memcached_hashtable
+
+# States
+STATE UNINIT initial
+STATE INITIALIZED
+STATE EXPANDED
+STATE DESTROYED final
+
+# Transitions
+TRANSITION UNINIT INITIALIZED assoc_init
+TRANSITION INITIALIZED INITIALIZED do_item_link_q
+TRANSITION INITIALIZED INITIALIZED do_item_unlink_q
+TRANSITION INITIALIZED INITIALIZED assoc_find
+TRANSITION INITIALIZED EXPANDED assoc_expand
+TRANSITION EXPANDED INITIALIZED assoc_find
+TRANSITION EXPANDED INITIALIZED do_item_link_q
+TRANSITION EXPANDED INITIALIZED do_item_unlink_q
+TRANSITION INITIALIZED DESTROYED assoc_destroy
+TRANSITION EXPANDED DESTROYED assoc_destroy

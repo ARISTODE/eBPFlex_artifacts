@@ -1,0 +1,15 @@
+===========================================================================
+SimpleNginx.checkAlloc(int):::ENTER
+    Variables: size
+===========================================================================
+SimpleNginx.checkAlloc(int):::EXIT1
+    Variables: size return orig(size)
+size == \old(size)
+\result >= -1
+===========================================================================
+SimpleNginx.checkStatus(int):::ENTER
+    Variables: status
+===========================================================================
+SimpleNginx.checkStatus(int):::EXIT1
+    Variables: status return orig(status)
+status == \old(status)

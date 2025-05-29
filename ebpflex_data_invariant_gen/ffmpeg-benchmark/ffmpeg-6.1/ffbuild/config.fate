@@ -1,0 +1,1 @@
+config:x86:x86_64:generic:linux:gcc 11 (GCC):--prefix=/home/ffmpeg-benchmark/ffmpeg-install --enable-gpl --enable-shared --disable-static --disable-doc --disable-ffmpeg --disable-ffplay --disable-ffprobe --disable-avdevice --disable-swresample --disable-postproc --enable-debug=3 --disable-optimizations --disable-stripping --disable-x86asm

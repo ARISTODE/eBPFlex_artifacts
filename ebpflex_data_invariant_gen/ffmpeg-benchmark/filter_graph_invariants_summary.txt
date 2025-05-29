@@ -1,0 +1,41 @@
+Summary of Key Invariants for Filter Graph Operations
+=====================================================
+
+1. Filter Graph Structure Invariants:
+   - graph.auto_convert is always 1 (enabled by default)
+   - graph.nb_filters is one of {3, 6, 12} in our test cases
+   - graph.configured is either 0 or 1 (binary state)
+
+2. Filter Creation Invariants:
+   - filter_name <= instance_name (lexicographic ordering)
+   - nb_inputs is one of {0, 1, 2} (depending on filter type)
+   - nb_outputs is one of {0, 1} (single output or sink)
+   - Input/output pad types are always 0 (video type in our tests)
+
+3. Filter Linking Invariants:
+   - After linking, src.output_links[src_pad] and dst.input_links[dst_pad] point to same link
+   - Link format defaults to 0 (YUV420P)
+   - Link dimensions default to w=640, h=480
+   - Source and destination pad types must match
+
+4. Graph Configuration Invariants:
+   - configure_graph returns either -1 (failure) or 0 (success)
+   - After successful configuration, graph.configured == 1
+   - All filter configured flags are set to 1 after successful configuration
+   - Number of filters and links remain unchanged during configuration
+
+5. Memory Management Invariants:
+   - All allocated structures (filters, links) are non-null
+   - Array sizes are consistent across related structures
+   - Filter arrays maintain fixed size (MAX_PADS = 8)
+
+6. Connectivity Invariants:
+   - Every non-sink filter must have all outputs connected
+   - Every non-source filter must have all inputs connected
+   - Number of links == sum of all filter connections
+
+These invariants can be used to:
+- Validate filter graph construction
+- Debug connectivity issues
+- Ensure proper resource management
+- Verify API usage patterns

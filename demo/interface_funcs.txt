@@ -1,0 +1,4 @@
+init_context
+process_data
+validate_context
+cleanup_context

@@ -1,0 +1,34 @@
+===========================================================================
+ngx_http_alloc_large_header_buffer:::ENTER
+    Variables: current_size needed_size
+current_size is a power of 2
+needed_size is a power of 2
+===========================================================================
+ngx_http_alloc_large_header_buffer:::EXIT1
+    Variables: current_size needed_size new_size orig(current_size) orig(needed_size)
+      Unmodified variables: current_size needed_size
+current_size is a power of 2
+needed_size is a power of 2
+\result is a power of 2
+===========================================================================
+ngx_http_process_request:::ENTER
+    Variables: method uri_length
+method >= 1
+===========================================================================
+ngx_http_process_request:::EXIT1
+    Variables: method uri_length status_code orig(method) orig(uri_length)
+      Unmodified variables: method uri_length
+method >= 1
+\result == 200 || \result == 414
+===========================================================================
+ngx_palloc:::ENTER
+    Variables: pool_size request_size
+pool_size == 4096 || pool_size == 8192 || pool_size == 16384
+request_size is a power of 2
+===========================================================================
+ngx_palloc:::EXIT1
+    Variables: pool_size request_size return orig(pool_size) orig(request_size)
+      Unmodified variables: pool_size request_size
+pool_size == 4096 || pool_size == 8192 || pool_size == 16384
+request_size is a power of 2
+\result == 0 || \result == 1

@@ -1,0 +1,7 @@
+# SP1: Read Access Control Policies
+# Fields that should NOT be readable by untrusted code
+
+struct shared_context_t:
+  MASK_FIELD: secret_key (Secret key should not be accessible by untrusted)
+  MASK_FIELD: private_data (Private data should not be accessible by untrusted)
+  MASK_FIELD: checksum (Checksum should not be accessible by untrusted)

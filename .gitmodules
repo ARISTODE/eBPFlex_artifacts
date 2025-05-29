@@ -1,0 +1,4 @@
+[submodule "program-dependence-graph"]
+	path = program-dependence-graph
+	url = https://github.com/ARISTODE/program-dependence-graph.git
+	branch = ebpf_eval

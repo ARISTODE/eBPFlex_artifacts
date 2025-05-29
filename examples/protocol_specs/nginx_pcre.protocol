@@ -1,0 +1,17 @@
+# Protocol specification for nginx PCRE pattern matching
+# Ensures proper compilation before matching
+
+PROTOCOL nginx_pcre_matching
+
+# States
+STATE UNCOMPILED initial
+STATE COMPILED
+STATE MATCHED
+STATE FREED final
+
+# Transitions
+TRANSITION UNCOMPILED COMPILED pcre2_compile
+TRANSITION COMPILED MATCHED pcre2_match
+TRANSITION MATCHED MATCHED pcre2_match
+TRANSITION COMPILED FREED pcre2_code_free
+TRANSITION MATCHED FREED pcre2_code_free

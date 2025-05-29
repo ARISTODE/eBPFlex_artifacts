@@ -1,0 +1,14 @@
+prefix=/home/ffmpeg-benchmark/ffmpeg-install
+exec_prefix=${prefix}
+libdir=/home/ffmpeg-benchmark/ffmpeg-install/lib
+includedir=/home/ffmpeg-benchmark/ffmpeg-install/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 60.16.100
+Requires: 
+Requires.private: libavcodec >= 60.31.102, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -latomic -lz
+Cflags: -I${includedir}

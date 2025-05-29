@@ -1,0 +1,14 @@
+prefix=/home/ffmpeg-benchmark/ffmpeg-install
+exec_prefix=${prefix}
+libdir=/home/ffmpeg-benchmark/ffmpeg-install/lib
+includedir=/home/ffmpeg-benchmark/ffmpeg-install/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 60.31.102
+Requires: 
+Requires.private: libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -pthread -lm -latomic -llzma -lz
+Cflags: -I${includedir}

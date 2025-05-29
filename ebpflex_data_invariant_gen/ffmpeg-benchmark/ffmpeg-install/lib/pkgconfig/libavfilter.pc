@@ -1,0 +1,14 @@
+prefix=/home/ffmpeg-benchmark/ffmpeg-install
+exec_prefix=${prefix}
+libdir=/home/ffmpeg-benchmark/ffmpeg-install/lib
+includedir=/home/ffmpeg-benchmark/ffmpeg-install/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 9.12.100
+Requires: 
+Requires.private: libswscale >= 7.5.100, libavformat >= 60.16.100, libavcodec >= 60.31.102, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -pthread -lm -latomic
+Cflags: -I${includedir}

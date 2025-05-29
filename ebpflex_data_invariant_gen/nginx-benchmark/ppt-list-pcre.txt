@@ -1,0 +1,28 @@
+# Original nginx functions
+ngx_http_process_request
+ngx_http_parse_request_line
+ngx_http_handler
+ngx_http_core_content_phase
+ngx_http_write_filter
+ngx_palloc
+ngx_pcalloc
+ngx_array_init
+ngx_list_init
+main
+
+# PCRE/regex related functions
+ngx_http_regex_compile
+ngx_http_regex_exec
+ngx_regex_compile
+ngx_regex_exec_array
+ngx_regex_exec
+pcre_compile
+pcre_compile2
+pcre_exec
+pcre_study
+pcre_free
+pcre_free_study
+pcre_fullinfo
+pcre_get_stringnumber
+pcre_get_substring
+pcre_config

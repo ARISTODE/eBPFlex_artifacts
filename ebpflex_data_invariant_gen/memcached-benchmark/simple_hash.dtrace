@@ -1,0 +1,771 @@
+input-language C/C++
+decl-version 2.0
+var-comparability none
+
+ppt ..main():::ENTER
+  ppt-type enter
+  variable ::table
+    var-kind variable
+    rep-type hashcode
+    dec-type void*
+    flags non_null 
+  variable ::table[..]
+    var-kind array
+    enclosing-var ::table
+    reference-type offset
+    array 1
+    rep-type hashcode[]
+    dec-type void[]
+
+ppt ..main():::EXIT0
+  ppt-type subexit
+  variable ::table
+    var-kind variable
+    rep-type hashcode
+    dec-type void*
+    flags non_null 
+  variable ::table[..]
+    var-kind array
+    enclosing-var ::table
+    reference-type offset
+    array 1
+    rep-type hashcode[]
+    dec-type void[]
+  variable return
+    var-kind variable
+    rep-type int
+    dec-type int
+
+ppt ..delete():::ENTER
+  ppt-type enter
+  variable ::table
+    var-kind variable
+    rep-type hashcode
+    dec-type void*
+    flags non_null 
+  variable ::table[..]
+    var-kind array
+    enclosing-var ::table
+    reference-type offset
+    array 1
+    rep-type hashcode[]
+    dec-type void[]
+  variable key
+    var-kind variable
+    rep-type string
+    dec-type char*
+    flags is_param 
+
+ppt ..delete():::EXIT0
+  ppt-type subexit
+  variable ::table
+    var-kind variable
+    rep-type hashcode
+    dec-type void*
+    flags non_null 
+  variable ::table[..]
+    var-kind array
+    enclosing-var ::table
+    reference-type offset
+    array 1
+    rep-type hashcode[]
+    dec-type void[]
+  variable key
+    var-kind variable
+    rep-type string
+    dec-type char*
+    flags is_param 
+
+ppt ..find():::ENTER
+  ppt-type enter
+  variable ::table
+    var-kind variable
+    rep-type hashcode
+    dec-type void*
+    flags non_null 
+  variable ::table[..]
+    var-kind array
+    enclosing-var ::table
+    reference-type offset
+    array 1
+    rep-type hashcode[]
+    dec-type void[]
+  variable key
+    var-kind variable
+    rep-type string
+    dec-type char*
+    flags is_param 
+
+ppt ..find():::EXIT0
+  ppt-type subexit
+  variable ::table
+    var-kind variable
+    rep-type hashcode
+    dec-type void*
+    flags non_null 
+  variable ::table[..]
+    var-kind array
+    enclosing-var ::table
+    reference-type offset
+    array 1
+    rep-type hashcode[]
+    dec-type void[]
+  variable key
+    var-kind variable
+    rep-type string
+    dec-type char*
+    flags is_param 
+  variable return
+    var-kind variable
+    rep-type int
+    dec-type int
+
+ppt ..insert():::ENTER
+  ppt-type enter
+  variable ::table
+    var-kind variable
+    rep-type hashcode
+    dec-type void*
+    flags non_null 
+  variable ::table[..]
+    var-kind array
+    enclosing-var ::table
+    reference-type offset
+    array 1
+    rep-type hashcode[]
+    dec-type void[]
+  variable key
+    var-kind variable
+    rep-type string
+    dec-type char*
+    flags is_param 
+  variable value
+    var-kind variable
+    rep-type int
+    dec-type int
+    flags is_param 
+
+ppt ..insert():::EXIT0
+  ppt-type subexit
+  variable ::table
+    var-kind variable
+    rep-type hashcode
+    dec-type void*
+    flags non_null 
+  variable ::table[..]
+    var-kind array
+    enclosing-var ::table
+    reference-type offset
+    array 1
+    rep-type hashcode[]
+    dec-type void[]
+  variable key
+    var-kind variable
+    rep-type string
+    dec-type char*
+    flags is_param 
+  variable value
+    var-kind variable
+    rep-type int
+    dec-type int
+    flags is_param 
+
+ppt ..hash():::ENTER
+  ppt-type enter
+  variable ::table
+    var-kind variable
+    rep-type hashcode
+    dec-type void*
+    flags non_null 
+  variable ::table[..]
+    var-kind array
+    enclosing-var ::table
+    reference-type offset
+    array 1
+    rep-type hashcode[]
+    dec-type void[]
+  variable key
+    var-kind variable
+    rep-type string
+    dec-type char*
+    flags is_param 
+
+ppt ..hash():::EXIT0
+  ppt-type subexit
+  variable ::table
+    var-kind variable
+    rep-type hashcode
+    dec-type void*
+    flags non_null 
+  variable ::table[..]
+    var-kind array
+    enclosing-var ::table
+    reference-type offset
+    array 1
+    rep-type hashcode[]
+    dec-type void[]
+  variable key
+    var-kind variable
+    rep-type string
+    dec-type char*
+    flags is_param 
+  variable return
+    var-kind variable
+    rep-type int
+    dec-type unsigned\_int
+
+input-language C/C++
+decl-version 2.0
+var-comparability none
+
+
+..main():::ENTER
+this_invocation_nonce
+0
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+
+..insert():::ENTER
+this_invocation_nonce
+1
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"one"
+1
+value
+1
+1
+
+..hash():::ENTER
+this_invocation_nonce
+2
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"one"
+1
+
+..hash():::EXIT0
+this_invocation_nonce
+2
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"one"
+1
+return
+2
+1
+
+..insert():::EXIT0
+this_invocation_nonce
+1
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"one"
+1
+value
+1
+1
+
+..insert():::ENTER
+this_invocation_nonce
+3
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+value
+2
+1
+
+..hash():::ENTER
+this_invocation_nonce
+4
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+
+..hash():::EXIT0
+this_invocation_nonce
+4
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+return
+6
+1
+
+..insert():::EXIT0
+this_invocation_nonce
+3
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+value
+2
+1
+
+..insert():::ENTER
+this_invocation_nonce
+5
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"three"
+1
+value
+3
+1
+
+..hash():::ENTER
+this_invocation_nonce
+6
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"three"
+1
+
+..hash():::EXIT0
+this_invocation_nonce
+6
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"three"
+1
+return
+6
+1
+
+..insert():::EXIT0
+this_invocation_nonce
+5
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"three"
+1
+value
+3
+1
+
+..find():::ENTER
+this_invocation_nonce
+7
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"one"
+1
+
+..hash():::ENTER
+this_invocation_nonce
+8
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"one"
+1
+
+..hash():::EXIT0
+this_invocation_nonce
+8
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"one"
+1
+return
+2
+1
+
+..find():::EXIT0
+this_invocation_nonce
+7
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"one"
+1
+return
+1
+1
+
+..find():::ENTER
+this_invocation_nonce
+9
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+
+..hash():::ENTER
+this_invocation_nonce
+10
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+
+..hash():::EXIT0
+this_invocation_nonce
+10
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+return
+6
+1
+
+..find():::EXIT0
+this_invocation_nonce
+9
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+return
+2
+1
+
+..find():::ENTER
+this_invocation_nonce
+11
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"three"
+1
+
+..hash():::ENTER
+this_invocation_nonce
+12
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"three"
+1
+
+..hash():::EXIT0
+this_invocation_nonce
+12
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"three"
+1
+return
+6
+1
+
+..find():::EXIT0
+this_invocation_nonce
+11
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"three"
+1
+return
+3
+1
+
+..find():::ENTER
+this_invocation_nonce
+13
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"four"
+1
+
+..hash():::ENTER
+this_invocation_nonce
+14
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"four"
+1
+
+..hash():::EXIT0
+this_invocation_nonce
+14
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"four"
+1
+return
+4
+1
+
+..find():::EXIT0
+this_invocation_nonce
+13
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"four"
+1
+return
+-1
+1
+
+..delete():::ENTER
+this_invocation_nonce
+15
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+
+..hash():::ENTER
+this_invocation_nonce
+16
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+
+..hash():::EXIT0
+this_invocation_nonce
+16
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+return
+6
+1
+
+..delete():::EXIT0
+this_invocation_nonce
+15
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+
+..find():::ENTER
+this_invocation_nonce
+17
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+
+..hash():::ENTER
+this_invocation_nonce
+18
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+
+..hash():::EXIT0
+this_invocation_nonce
+18
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+return
+6
+1
+
+..find():::EXIT0
+this_invocation_nonce
+17
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+key
+"two"
+1
+return
+-1
+1
+
+..main():::EXIT0
+this_invocation_nonce
+0
+::table
+0x404080
+1
+::table[..]
+nonsensical
+2
+return
+0
+1

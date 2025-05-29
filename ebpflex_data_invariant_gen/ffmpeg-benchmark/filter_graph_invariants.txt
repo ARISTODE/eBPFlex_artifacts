@@ -1,0 +1,2307 @@
+Daikon version 5.8.21, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files .[2025-05-27T05:49:47.391794217]:                                               [2025-05-27T05:49:48.396676801]: Reading filter_graph.decls (line 3290) ...                                                                                   (read 1 decls file)
+                                                                               Processing trace data; reading 1 dtrace file:
+[2025-05-27T05:49:49.406185343]: Reading filter_graph.dtrace (line 4978, 11....[2025-05-27T05:49:50.408051426]: Reading filter_graph.dtrace (line 15402, 34...[2025-05-27T05:49:51.412114177]: Reading filter_graph.dtrace (line 19329, 43...[2025-05-27T05:49:51.526050260]: Finished reading filter_graph.dtrace          [2025-05-27T05:49:51.526303052]: Finished reading filter_graph.dtrace          
+                                                                                                                                                              ===========================================================================
+..add_filter_to_graph():::ENTER
+size(graph[]) == size(filter[])
+size(graph[]) == size(filter[].inputs[0])
+size(graph[]) == size(filter[].inputs[0][0])
+size(graph[]) == size(filter[].inputs[1])
+size(graph[]) == size(filter[].inputs[1][0])
+size(graph[]) == size(filter[].inputs[2])
+size(graph[]) == size(filter[].inputs[2][0])
+size(graph[]) == size(filter[].inputs[3])
+size(graph[]) == size(filter[].inputs[3][0])
+size(graph[]) == size(filter[].inputs[4])
+size(graph[]) == size(filter[].inputs[4][0])
+size(graph[]) == size(filter[].inputs[5])
+size(graph[]) == size(filter[].inputs[5][0])
+size(graph[]) == size(filter[].inputs[6])
+size(graph[]) == size(filter[].inputs[6][0])
+size(graph[]) == size(filter[].inputs[7])
+size(graph[]) == size(filter[].inputs[7][0])
+size(graph[]) == size(filter[].outputs[0])
+size(graph[]) == size(filter[].outputs[0][0])
+size(graph[]) == size(filter[].outputs[1])
+size(graph[]) == size(filter[].outputs[1][0])
+size(graph[]) == size(filter[].outputs[2])
+size(graph[]) == size(filter[].outputs[2][0])
+size(graph[]) == size(filter[].outputs[3])
+size(graph[]) == size(filter[].outputs[3][0])
+size(graph[]) == size(filter[].outputs[4])
+size(graph[]) == size(filter[].outputs[4][0])
+size(graph[]) == size(filter[].outputs[5])
+size(graph[]) == size(filter[].outputs[5][0])
+size(graph[]) == size(filter[].outputs[6])
+size(graph[]) == size(filter[].outputs[6][0])
+size(graph[]) == size(filter[].outputs[7])
+size(graph[]) == size(filter[].outputs[7][0])
+size(graph[]) == size(filter[].input_links[0])
+size(graph[]) == size(filter[].input_links[1])
+size(graph[]) == size(filter[].input_links[2])
+size(graph[]) == size(filter[].input_links[3])
+size(graph[]) == size(filter[].input_links[4])
+size(graph[]) == size(filter[].input_links[5])
+size(graph[]) == size(filter[].input_links[6])
+size(graph[]) == size(filter[].input_links[7])
+size(graph[]) == size(filter[].output_links[0])
+size(graph[]) == size(filter[].output_links[1])
+size(graph[]) == size(filter[].output_links[2])
+size(graph[]) == size(filter[].output_links[3])
+size(graph[]) == size(filter[].output_links[4])
+size(graph[]) == size(filter[].output_links[5])
+size(graph[]) == size(filter[].output_links[6])
+size(graph[]) == size(filter[].output_links[7])
+graph != null
+graph[] elements != null
+graph[].nb_filters elements >= 0
+graph[].filters elements != null
+graph[].nb_links elements >= 0
+graph[].links elements != null
+graph[].configured == [0]
+graph[].configured elements == 0
+graph[].auto_convert == [1]
+graph[].auto_convert elements == 1
+filter != null
+filter[] elements != null
+filter[].nb_inputs elements one of { 0, 1, 2 }
+filter[].nb_inputs one of { [0], [1], [2] }
+filter[].nb_outputs elements one of { 0, 1 }
+filter[].nb_outputs one of { [0], [1] }
+filter[].inputs[0] elements != null
+filter[].inputs[0][0] elements != null
+filter[].inputs[0]->name elements one of { "", "default", "main" }
+filter[].inputs[0]->type == [0]
+filter[].inputs[0]->type elements == 0
+filter[].inputs[0]->format == [0]
+filter[].inputs[0]->format elements == 0
+filter[].inputs[1] elements != null
+filter[].inputs[1][0] elements != null
+filter[].inputs[1]->name elements one of { "", "overlay" }
+filter[].inputs[1]->name one of { [], [overlay] }
+filter[].inputs[1]->type == [0]
+filter[].inputs[1]->type elements == 0
+filter[].inputs[1]->format == [0]
+filter[].inputs[1]->format elements == 0
+filter[].inputs[2] elements != null
+filter[].inputs[2][0] elements != null
+filter[].inputs[2]->name == []
+filter[].inputs[2]->name elements == ""
+filter[].inputs[2]->type == [0]
+filter[].inputs[2]->type elements == 0
+filter[].inputs[2]->format == [0]
+filter[].inputs[2]->format elements == 0
+filter[].inputs[3] elements != null
+filter[].inputs[3][0] elements != null
+filter[].inputs[3]->name == []
+filter[].inputs[3]->name elements == ""
+filter[].inputs[3]->type == [0]
+filter[].inputs[3]->type elements == 0
+filter[].inputs[3]->format == [0]
+filter[].inputs[3]->format elements == 0
+filter[].inputs[4] elements != null
+filter[].inputs[4][0] elements != null
+filter[].inputs[4]->name == []
+filter[].inputs[4]->name elements == ""
+filter[].inputs[4]->type == [0]
+filter[].inputs[4]->type elements == 0
+filter[].inputs[4]->format == [0]
+filter[].inputs[4]->format elements == 0
+filter[].inputs[5] elements != null
+filter[].inputs[5][0] elements != null
+filter[].inputs[6] elements != null
+filter[].inputs[6][0] elements != null
+filter[].inputs[7] elements != null
+filter[].inputs[7][0] elements != null
+filter[].outputs[0] elements != null
+filter[].outputs[0][0] elements != null
+filter[].outputs[1] elements != null
+filter[].outputs[1][0] elements != null
+filter[].outputs[2] elements != null
+filter[].outputs[2][0] elements != null
+filter[].outputs[3] elements != null
+filter[].outputs[3][0] elements != null
+filter[].outputs[4] elements != null
+filter[].outputs[4][0] elements != null
+filter[].outputs[5] elements != null
+filter[].outputs[5][0] elements != null
+filter[].outputs[6] elements != null
+filter[].outputs[6][0] elements != null
+filter[].outputs[7] elements != null
+filter[].outputs[7][0] elements != null
+filter[].input_links[0] elements != null
+filter[].input_links[1] elements != null
+filter[].input_links[2] elements != null
+filter[].input_links[3] elements != null
+filter[].input_links[4] elements != null
+filter[].input_links[5] elements != null
+filter[].input_links[6] elements != null
+filter[].input_links[7] elements != null
+filter[].output_links[0] elements != null
+filter[].output_links[1] elements != null
+filter[].output_links[2] elements != null
+filter[].output_links[3] elements != null
+filter[].output_links[4] elements != null
+filter[].output_links[5] elements != null
+filter[].output_links[6] elements != null
+filter[].output_links[7] elements != null
+filter[].configured == [0]
+filter[].configured elements == 0
+filter[].priv == [null]
+filter[].priv elements == null
+size(graph[]) == 1
+graph[].nb_filters >= graph[].nb_links (elementwise)
+graph[].nb_filters elements >= size(graph[])-1
+graph[].nb_links elements >= size(graph[])-1
+graph[].configured elements == size(graph[])-1
+size(graph[])-1 in graph[].configured
+graph[].auto_convert elements == size(graph[])
+size(graph[]) in graph[].auto_convert
+filter[].nb_inputs elements >= size(graph[])-1
+filter[].nb_outputs elements <= size(graph[])
+filter[].nb_outputs elements >= size(graph[])-1
+filter[].inputs[0]->type elements == size(graph[])-1
+size(graph[])-1 in filter[].inputs[0]->type
+filter[].inputs[0]->format elements == size(graph[])-1
+size(graph[])-1 in filter[].inputs[0]->format
+filter[].inputs[1]->type elements == size(graph[])-1
+size(graph[])-1 in filter[].inputs[1]->type
+filter[].inputs[1]->format elements == size(graph[])-1
+size(graph[])-1 in filter[].inputs[1]->format
+filter[].inputs[2]->type elements == size(graph[])-1
+size(graph[])-1 in filter[].inputs[2]->type
+filter[].inputs[2]->format elements == size(graph[])-1
+size(graph[])-1 in filter[].inputs[2]->format
+filter[].inputs[3]->type elements == size(graph[])-1
+size(graph[])-1 in filter[].inputs[3]->type
+filter[].inputs[3]->format elements == size(graph[])-1
+size(graph[])-1 in filter[].inputs[3]->format
+filter[].inputs[4]->type elements == size(graph[])-1
+size(graph[])-1 in filter[].inputs[4]->type
+filter[].inputs[4]->format elements == size(graph[])-1
+size(graph[])-1 in filter[].inputs[4]->format
+filter[].configured elements == size(graph[])-1
+size(graph[])-1 in filter[].configured
+===========================================================================
+..add_filter_to_graph():::EXIT
+graph[] == orig(graph[])
+graph[].filters == orig(graph[].filters)
+graph[].nb_links == orig(graph[].nb_links)
+graph[].links == orig(graph[].links)
+graph[].configured == orig(graph[].configured)
+graph[].auto_convert == orig(graph[].auto_convert)
+filter[] == orig(filter[])
+filter[].nb_inputs == orig(filter[].nb_inputs)
+filter[].nb_outputs == orig(filter[].nb_outputs)
+filter[].inputs[0] == orig(filter[].inputs[0])
+filter[].inputs[0][0] == orig(filter[].inputs[0][0])
+filter[].inputs[0]->type == orig(filter[].inputs[0]->type)
+filter[].inputs[0]->format == orig(filter[].inputs[0]->format)
+filter[].inputs[1] == orig(filter[].inputs[1])
+filter[].inputs[1][0] == orig(filter[].inputs[1][0])
+filter[].inputs[1]->type == orig(filter[].inputs[1]->type)
+filter[].inputs[1]->format == orig(filter[].inputs[1]->format)
+filter[].inputs[2] == orig(filter[].inputs[2])
+filter[].inputs[2][0] == orig(filter[].inputs[2][0])
+filter[].inputs[2]->type == orig(filter[].inputs[2]->type)
+filter[].inputs[2]->format == orig(filter[].inputs[2]->format)
+filter[].inputs[3] == orig(filter[].inputs[3])
+filter[].inputs[3][0] == orig(filter[].inputs[3][0])
+filter[].inputs[3]->type == orig(filter[].inputs[3]->type)
+filter[].inputs[3]->format == orig(filter[].inputs[3]->format)
+filter[].inputs[4] == orig(filter[].inputs[4])
+filter[].inputs[4][0] == orig(filter[].inputs[4][0])
+filter[].inputs[4]->type == orig(filter[].inputs[4]->type)
+filter[].inputs[4]->format == orig(filter[].inputs[4]->format)
+filter[].inputs[5] == orig(filter[].inputs[5])
+filter[].inputs[5][0] == orig(filter[].inputs[5][0])
+filter[].inputs[6] == orig(filter[].inputs[6])
+filter[].inputs[6][0] == orig(filter[].inputs[6][0])
+filter[].inputs[7] == orig(filter[].inputs[7])
+filter[].inputs[7][0] == orig(filter[].inputs[7][0])
+filter[].outputs[0] == orig(filter[].outputs[0])
+filter[].outputs[0][0] == orig(filter[].outputs[0][0])
+filter[].outputs[1] == orig(filter[].outputs[1])
+filter[].outputs[1][0] == orig(filter[].outputs[1][0])
+filter[].outputs[2] == orig(filter[].outputs[2])
+filter[].outputs[2][0] == orig(filter[].outputs[2][0])
+filter[].outputs[3] == orig(filter[].outputs[3])
+filter[].outputs[3][0] == orig(filter[].outputs[3][0])
+filter[].outputs[4] == orig(filter[].outputs[4])
+filter[].outputs[4][0] == orig(filter[].outputs[4][0])
+filter[].outputs[5] == orig(filter[].outputs[5])
+filter[].outputs[5][0] == orig(filter[].outputs[5][0])
+filter[].outputs[6] == orig(filter[].outputs[6])
+filter[].outputs[6][0] == orig(filter[].outputs[6][0])
+filter[].outputs[7] == orig(filter[].outputs[7])
+filter[].outputs[7][0] == orig(filter[].outputs[7][0])
+filter[].input_links[0] == orig(filter[].input_links[0])
+filter[].input_links[1] == orig(filter[].input_links[1])
+filter[].input_links[2] == orig(filter[].input_links[2])
+filter[].input_links[3] == orig(filter[].input_links[3])
+filter[].input_links[4] == orig(filter[].input_links[4])
+filter[].input_links[5] == orig(filter[].input_links[5])
+filter[].input_links[6] == orig(filter[].input_links[6])
+filter[].input_links[7] == orig(filter[].input_links[7])
+filter[].output_links[0] == orig(filter[].output_links[0])
+filter[].output_links[1] == orig(filter[].output_links[1])
+filter[].output_links[2] == orig(filter[].output_links[2])
+filter[].output_links[3] == orig(filter[].output_links[3])
+filter[].output_links[4] == orig(filter[].output_links[4])
+filter[].output_links[5] == orig(filter[].output_links[5])
+filter[].output_links[6] == orig(filter[].output_links[6])
+filter[].output_links[7] == orig(filter[].output_links[7])
+filter[].configured == orig(filter[].configured)
+filter[].priv == orig(filter[].priv)
+return == size(graph[])-1
+size(graph[])-1 == graph[return].configured
+size(graph[])-1 == filter[return].inputs[0]->type
+size(graph[])-1 == filter[return].inputs[0]->format
+size(graph[])-1 == filter[return].inputs[1]->type
+size(graph[])-1 == filter[return].inputs[1]->format
+size(graph[])-1 == filter[return].inputs[2]->type
+size(graph[])-1 == filter[return].inputs[2]->format
+size(graph[])-1 == filter[return].inputs[3]->type
+size(graph[])-1 == filter[return].inputs[3]->format
+size(graph[])-1 == filter[return].inputs[4]->type
+size(graph[])-1 == filter[return].inputs[4]->format
+size(graph[])-1 == filter[return].configured
+size(graph[])-1 == orig(graph[post(return)].configured)
+size(graph[])-1 == orig(filter[post(return)].inputs[0]->type)
+size(graph[])-1 == orig(filter[post(return)].inputs[0]->format)
+size(graph[])-1 == orig(filter[post(return)].inputs[1]->type)
+size(graph[])-1 == orig(filter[post(return)].inputs[1]->format)
+size(graph[])-1 == orig(filter[post(return)].inputs[2]->type)
+size(graph[])-1 == orig(filter[post(return)].inputs[2]->format)
+size(graph[])-1 == orig(filter[post(return)].inputs[3]->type)
+size(graph[])-1 == orig(filter[post(return)].inputs[3]->format)
+size(graph[])-1 == orig(filter[post(return)].inputs[4]->type)
+size(graph[])-1 == orig(filter[post(return)].inputs[4]->format)
+size(graph[])-1 == orig(filter[post(return)].configured)
+orig(size(graph[])) == graph[return].auto_convert
+orig(size(graph[])) == orig(graph[post(return)].auto_convert)
+graph[] elements != null
+graph[].nb_filters elements >= 1
+graph[].filters elements != null
+graph[].nb_links elements >= 0
+graph[].links elements != null
+graph[].configured == [0]
+graph[].configured elements == 0
+graph[].auto_convert == [1]
+graph[].auto_convert elements == 1
+filter[] elements != null
+filter[].nb_inputs elements one of { 0, 1, 2 }
+filter[].nb_inputs one of { [0], [1], [2] }
+filter[].nb_outputs elements one of { 0, 1 }
+filter[].nb_outputs one of { [0], [1] }
+filter[].inputs[0] elements != null
+filter[].inputs[0][0] elements != null
+filter[].inputs[0]->name elements one of { "", "default", "main" }
+filter[].inputs[0]->type == [0]
+filter[].inputs[0]->type elements == 0
+filter[].inputs[0]->format == [0]
+filter[].inputs[0]->format elements == 0
+filter[].inputs[1] elements != null
+filter[].inputs[1][0] elements != null
+filter[].inputs[1]->name elements one of { "", "overlay" }
+filter[].inputs[1]->name one of { [], [overlay] }
+filter[].inputs[1]->type == [0]
+filter[].inputs[1]->type elements == 0
+filter[].inputs[1]->format == [0]
+filter[].inputs[1]->format elements == 0
+filter[].inputs[2] elements != null
+filter[].inputs[2][0] elements != null
+filter[].inputs[2]->name == []
+filter[].inputs[2]->name elements == ""
+filter[].inputs[2]->type == [0]
+filter[].inputs[2]->type elements == 0
+filter[].inputs[2]->format == [0]
+filter[].inputs[2]->format elements == 0
+filter[].inputs[3] elements != null
+filter[].inputs[3][0] elements != null
+filter[].inputs[3]->name == []
+filter[].inputs[3]->name elements == ""
+filter[].inputs[3]->type == [0]
+filter[].inputs[3]->type elements == 0
+filter[].inputs[3]->format == [0]
+filter[].inputs[3]->format elements == 0
+filter[].inputs[4] elements != null
+filter[].inputs[4][0] elements != null
+filter[].inputs[4]->name == []
+filter[].inputs[4]->name elements == ""
+filter[].inputs[4]->type == [0]
+filter[].inputs[4]->type elements == 0
+filter[].inputs[4]->format == [0]
+filter[].inputs[4]->format elements == 0
+filter[].inputs[5] elements != null
+filter[].inputs[5][0] elements != null
+filter[].inputs[6] elements != null
+filter[].inputs[6][0] elements != null
+filter[].inputs[7] elements != null
+filter[].inputs[7][0] elements != null
+filter[].outputs[0] elements != null
+filter[].outputs[0][0] elements != null
+filter[].outputs[1] elements != null
+filter[].outputs[1][0] elements != null
+filter[].outputs[2] elements != null
+filter[].outputs[2][0] elements != null
+filter[].outputs[3] elements != null
+filter[].outputs[3][0] elements != null
+filter[].outputs[4] elements != null
+filter[].outputs[4][0] elements != null
+filter[].outputs[5] elements != null
+filter[].outputs[5][0] elements != null
+filter[].outputs[6] elements != null
+filter[].outputs[6][0] elements != null
+filter[].outputs[7] elements != null
+filter[].outputs[7][0] elements != null
+filter[].input_links[0] elements != null
+filter[].input_links[1] elements != null
+filter[].input_links[2] elements != null
+filter[].input_links[3] elements != null
+filter[].input_links[4] elements != null
+filter[].input_links[5] elements != null
+filter[].input_links[6] elements != null
+filter[].input_links[7] elements != null
+filter[].output_links[0] elements != null
+filter[].output_links[1] elements != null
+filter[].output_links[2] elements != null
+filter[].output_links[3] elements != null
+filter[].output_links[4] elements != null
+filter[].output_links[5] elements != null
+filter[].output_links[6] elements != null
+filter[].output_links[7] elements != null
+filter[].configured == [0]
+filter[].configured elements == 0
+filter[].priv == [null]
+filter[].priv elements == null
+return == 0
+graph[] elements == graph[return]
+graph[].nb_filters > graph[].nb_links (elementwise)
+graph[].nb_filters elements > return
+graph[].nb_filters - orig(graph[].nb_filters) - 1 == 0
+graph[].nb_filters > orig(graph[].nb_filters) (elementwise)
+graph[].nb_filters elements >= orig(size(graph[]))
+graph[].nb_filters elements == graph[return].nb_filters
+graph[].nb_filters elements > graph[return].nb_links
+graph[].nb_filters elements > filter[return].nb_inputs
+graph[].nb_filters elements >= filter[return].nb_outputs
+graph[].nb_filters elements > orig(graph[post(return)].nb_filters)
+graph[].filters elements == graph[return].filters
+graph[].nb_links elements >= return
+graph[].nb_links <= orig(graph[].nb_filters) (elementwise)
+graph[].nb_links elements >= size(graph[])-1
+graph[].nb_links elements < graph[return].nb_filters
+graph[].nb_links elements == graph[return].nb_links
+graph[].nb_links elements <= orig(graph[post(return)].nb_filters)
+graph[].links elements == graph[return].links
+graph[].configured elements == return
+return in graph[].configured
+graph[].configured elements == size(graph[])-1
+graph[].auto_convert elements == orig(size(graph[]))
+filter[] elements == filter[return]
+filter[].nb_inputs elements >= return
+filter[].nb_inputs elements >= size(graph[])-1
+filter[].nb_inputs elements < graph[return].nb_filters
+filter[].nb_inputs elements == filter[return].nb_inputs
+filter[].nb_inputs elements <= orig(graph[post(return)].nb_filters)
+filter[].nb_outputs elements >= return
+filter[].nb_outputs elements >= size(graph[])-1
+filter[].nb_outputs elements <= orig(size(graph[]))
+filter[].nb_outputs elements <= graph[return].nb_filters
+filter[].nb_outputs elements == filter[return].nb_outputs
+filter[].inputs[0] elements == filter[return].inputs[0]
+filter[].inputs[0][0] elements == filter[return].inputs[0][0]
+filter[].inputs[0]->type elements == return
+return in filter[].inputs[0]->type
+filter[].inputs[0]->type elements == size(graph[])-1
+filter[].inputs[0]->format elements == return
+return in filter[].inputs[0]->format
+filter[].inputs[0]->format elements == size(graph[])-1
+filter[].inputs[1] elements == filter[return].inputs[1]
+filter[].inputs[1][0] elements == filter[return].inputs[1][0]
+filter[].inputs[1]->type elements == return
+return in filter[].inputs[1]->type
+filter[].inputs[1]->type elements == size(graph[])-1
+filter[].inputs[1]->format elements == return
+return in filter[].inputs[1]->format
+filter[].inputs[1]->format elements == size(graph[])-1
+filter[].inputs[2] elements == filter[return].inputs[2]
+filter[].inputs[2][0] elements == filter[return].inputs[2][0]
+filter[].inputs[2]->type elements == return
+return in filter[].inputs[2]->type
+filter[].inputs[2]->type elements == size(graph[])-1
+filter[].inputs[2]->format elements == return
+return in filter[].inputs[2]->format
+filter[].inputs[2]->format elements == size(graph[])-1
+filter[].inputs[3] elements == filter[return].inputs[3]
+filter[].inputs[3][0] elements == filter[return].inputs[3][0]
+filter[].inputs[3]->type elements == return
+return in filter[].inputs[3]->type
+filter[].inputs[3]->type elements == size(graph[])-1
+filter[].inputs[3]->format elements == return
+return in filter[].inputs[3]->format
+filter[].inputs[3]->format elements == size(graph[])-1
+filter[].inputs[4] elements == filter[return].inputs[4]
+filter[].inputs[4][0] elements == filter[return].inputs[4][0]
+filter[].inputs[4]->type elements == return
+return in filter[].inputs[4]->type
+filter[].inputs[4]->type elements == size(graph[])-1
+filter[].inputs[4]->format elements == return
+return in filter[].inputs[4]->format
+filter[].inputs[4]->format elements == size(graph[])-1
+filter[].inputs[5] elements == filter[return].inputs[5]
+filter[].inputs[5][0] elements == filter[return].inputs[5][0]
+filter[].inputs[6] elements == filter[return].inputs[6]
+filter[].inputs[6][0] elements == filter[return].inputs[6][0]
+filter[].inputs[7] elements == filter[return].inputs[7]
+filter[].inputs[7][0] elements == filter[return].inputs[7][0]
+filter[].outputs[0] elements == filter[return].outputs[0]
+filter[].outputs[0][0] elements == filter[return].outputs[0][0]
+filter[].outputs[1] elements == filter[return].outputs[1]
+filter[].outputs[1][0] elements == filter[return].outputs[1][0]
+filter[].outputs[2] elements == filter[return].outputs[2]
+filter[].outputs[2][0] elements == filter[return].outputs[2][0]
+filter[].outputs[3] elements == filter[return].outputs[3]
+filter[].outputs[3][0] elements == filter[return].outputs[3][0]
+filter[].outputs[4] elements == filter[return].outputs[4]
+filter[].outputs[4][0] elements == filter[return].outputs[4][0]
+filter[].outputs[5] elements == filter[return].outputs[5]
+filter[].outputs[5][0] elements == filter[return].outputs[5][0]
+filter[].outputs[6] elements == filter[return].outputs[6]
+filter[].outputs[6][0] elements == filter[return].outputs[6][0]
+filter[].outputs[7] elements == filter[return].outputs[7]
+filter[].outputs[7][0] elements == filter[return].outputs[7][0]
+filter[].input_links[0] elements == filter[return].input_links[0]
+filter[].input_links[1] elements == filter[return].input_links[1]
+filter[].input_links[2] elements == filter[return].input_links[2]
+filter[].input_links[3] elements == filter[return].input_links[3]
+filter[].input_links[4] elements == filter[return].input_links[4]
+filter[].input_links[5] elements == filter[return].input_links[5]
+filter[].input_links[6] elements == filter[return].input_links[6]
+filter[].input_links[7] elements == filter[return].input_links[7]
+filter[].output_links[0] elements == filter[return].output_links[0]
+filter[].output_links[1] elements == filter[return].output_links[1]
+filter[].output_links[2] elements == filter[return].output_links[2]
+filter[].output_links[3] elements == filter[return].output_links[3]
+filter[].output_links[4] elements == filter[return].output_links[4]
+filter[].output_links[5] elements == filter[return].output_links[5]
+filter[].output_links[6] elements == filter[return].output_links[6]
+filter[].output_links[7] elements == filter[return].output_links[7]
+filter[].configured elements == return
+return in filter[].configured
+filter[].configured elements == size(graph[])-1
+filter[].priv elements == filter[return].priv
+orig(graph[].nb_filters) elements >= return
+return < graph[return].nb_filters
+return <= graph[return].nb_links
+return <= filter[return].nb_inputs
+return <= filter[return].nb_outputs
+return <= orig(graph[post(return)].nb_filters)
+orig(graph[].nb_filters) elements >= size(graph[])-1
+orig(graph[].nb_filters) elements < graph[return].nb_filters
+orig(graph[].nb_filters) elements >= graph[return].nb_links
+orig(graph[].nb_filters) elements >= filter[return].nb_inputs
+orig(graph[].nb_filters) elements == orig(graph[post(return)].nb_filters)
+size(graph[])-1 <= graph[return].nb_links
+size(graph[])-1 <= filter[return].nb_inputs
+size(graph[])-1 <= filter[return].nb_outputs
+size(graph[])-1 <= orig(graph[post(return)].nb_filters)
+orig(size(graph[])) <= graph[return].nb_filters
+orig(size(graph[])) >= filter[return].nb_outputs
+graph[return].nb_filters > filter[return].nb_inputs
+graph[return].nb_filters >= filter[return].nb_outputs
+graph[return].nb_filters - orig(graph[post(return)].nb_filters) - 1 == 0
+filter[return].nb_inputs <= orig(graph[post(return)].nb_filters)
+===========================================================================
+..configure_graph():::ENTER
+graph[].nb_filters elements one of { 3, 6, 12 }
+graph[].nb_filters one of { [3], [6], [12] }
+graph[].configured == [0]
+graph[].configured elements == 0
+graph[].auto_convert == [1]
+graph[].auto_convert elements == 1
+size(graph[]) == 1
+graph[].configured elements == size(graph[])-1
+size(graph[])-1 in graph[].configured
+graph[].auto_convert elements == size(graph[])
+size(graph[]) in graph[].auto_convert
+===========================================================================
+..configure_graph():::EXIT
+graph[] == orig(graph[])
+graph[].nb_filters == orig(graph[].nb_filters)
+graph[].filters == orig(graph[].filters)
+graph[].nb_links == orig(graph[].nb_links)
+graph[].links == orig(graph[].links)
+graph[].auto_convert == orig(graph[].auto_convert)
+graph[].nb_filters elements one of { 3, 6, 12 }
+graph[].nb_filters one of { [3], [6], [12] }
+graph[].configured elements one of { 0, 1 }
+graph[].configured one of { [0], [1] }
+graph[].auto_convert == [1]
+graph[].auto_convert elements == 1
+return one of { -1, 0 }
+graph[].auto_convert elements == orig(size(graph[]))
+orig(size(graph[])) in graph[].auto_convert
+orig(graph[].configured) elements == size(graph[])-1
+size(graph[])-1 in orig(graph[].configured)
+===========================================================================
+..create_filter():::ENTER
+filter_name <= instance_name
+===========================================================================
+..create_filter():::EXIT
+size(return[]) == size(return[].inputs[0])
+size(return[]) == size(return[].inputs[0][0])
+size(return[]) == size(return[].inputs[1])
+size(return[]) == size(return[].inputs[1][0])
+size(return[]) == size(return[].inputs[2])
+size(return[]) == size(return[].inputs[2][0])
+size(return[]) == size(return[].inputs[3])
+size(return[]) == size(return[].inputs[3][0])
+size(return[]) == size(return[].inputs[4])
+size(return[]) == size(return[].inputs[4][0])
+size(return[]) == size(return[].inputs[5])
+size(return[]) == size(return[].inputs[5][0])
+size(return[]) == size(return[].inputs[6])
+size(return[]) == size(return[].inputs[6][0])
+size(return[]) == size(return[].inputs[7])
+size(return[]) == size(return[].inputs[7][0])
+size(return[]) == size(return[].outputs[0])
+size(return[]) == size(return[].outputs[0][0])
+size(return[]) == size(return[].outputs[1])
+size(return[]) == size(return[].outputs[1][0])
+size(return[]) == size(return[].outputs[2])
+size(return[]) == size(return[].outputs[2][0])
+size(return[]) == size(return[].outputs[3])
+size(return[]) == size(return[].outputs[3][0])
+size(return[]) == size(return[].outputs[4])
+size(return[]) == size(return[].outputs[4][0])
+size(return[]) == size(return[].outputs[5])
+size(return[]) == size(return[].outputs[5][0])
+size(return[]) == size(return[].outputs[6])
+size(return[]) == size(return[].outputs[6][0])
+size(return[]) == size(return[].outputs[7])
+size(return[]) == size(return[].outputs[7][0])
+size(return[]) == size(return[].input_links[0])
+size(return[]) == size(return[].input_links[1])
+size(return[]) == size(return[].input_links[2])
+size(return[]) == size(return[].input_links[3])
+size(return[]) == size(return[].input_links[4])
+size(return[]) == size(return[].input_links[5])
+size(return[]) == size(return[].input_links[6])
+size(return[]) == size(return[].input_links[7])
+size(return[]) == size(return[].output_links[0])
+size(return[]) == size(return[].output_links[1])
+size(return[]) == size(return[].output_links[2])
+size(return[]) == size(return[].output_links[3])
+size(return[]) == size(return[].output_links[4])
+size(return[]) == size(return[].output_links[5])
+size(return[]) == size(return[].output_links[6])
+size(return[]) == size(return[].output_links[7])
+return != null
+return[] elements != null
+return[].nb_inputs elements one of { 0, 1, 2 }
+return[].nb_inputs one of { [0], [1], [2] }
+return[].nb_outputs elements one of { 0, 1 }
+return[].nb_outputs one of { [0], [1] }
+return[].inputs[0] elements != null
+return[].inputs[0][0] elements != null
+return[].inputs[0]->name elements one of { "", "default", "main" }
+return[].inputs[0]->type == [0]
+return[].inputs[0]->type elements == 0
+return[].inputs[0]->format == [0]
+return[].inputs[0]->format elements == 0
+return[].inputs[1] elements != null
+return[].inputs[1][0] elements != null
+return[].inputs[1]->name elements one of { "", "overlay" }
+return[].inputs[1]->name one of { [], [overlay] }
+return[].inputs[1]->type == [0]
+return[].inputs[1]->type elements == 0
+return[].inputs[1]->format == [0]
+return[].inputs[1]->format elements == 0
+return[].inputs[2] elements != null
+return[].inputs[2][0] elements != null
+return[].inputs[2]->name == []
+return[].inputs[2]->name elements == ""
+return[].inputs[2]->type == [0]
+return[].inputs[2]->type elements == 0
+return[].inputs[2]->format == [0]
+return[].inputs[2]->format elements == 0
+return[].inputs[3] elements != null
+return[].inputs[3][0] elements != null
+return[].inputs[3]->name == []
+return[].inputs[3]->name elements == ""
+return[].inputs[3]->type == [0]
+return[].inputs[3]->type elements == 0
+return[].inputs[3]->format == [0]
+return[].inputs[3]->format elements == 0
+return[].inputs[4] elements != null
+return[].inputs[4][0] elements != null
+return[].inputs[4]->name == []
+return[].inputs[4]->name elements == ""
+return[].inputs[4]->type == [0]
+return[].inputs[4]->type elements == 0
+return[].inputs[4]->format == [0]
+return[].inputs[4]->format elements == 0
+return[].inputs[5] elements != null
+return[].inputs[5][0] elements != null
+return[].inputs[6] elements != null
+return[].inputs[6][0] elements != null
+return[].inputs[7] elements != null
+return[].inputs[7][0] elements != null
+return[].outputs[0] elements != null
+return[].outputs[0][0] elements != null
+return[].outputs[1] elements != null
+return[].outputs[1][0] elements != null
+return[].outputs[2] elements != null
+return[].outputs[2][0] elements != null
+return[].outputs[3] elements != null
+return[].outputs[3][0] elements != null
+return[].outputs[4] elements != null
+return[].outputs[4][0] elements != null
+return[].outputs[5] elements != null
+return[].outputs[5][0] elements != null
+return[].outputs[6] elements != null
+return[].outputs[6][0] elements != null
+return[].outputs[7] elements != null
+return[].outputs[7][0] elements != null
+return[].input_links[0] elements != null
+return[].input_links[1] elements != null
+return[].input_links[2] elements != null
+return[].input_links[3] elements != null
+return[].input_links[4] elements != null
+return[].input_links[5] elements != null
+return[].input_links[6] elements != null
+return[].input_links[7] elements != null
+return[].output_links[0] elements != null
+return[].output_links[1] elements != null
+return[].output_links[2] elements != null
+return[].output_links[3] elements != null
+return[].output_links[4] elements != null
+return[].output_links[5] elements != null
+return[].output_links[6] elements != null
+return[].output_links[7] elements != null
+return[].configured == [0]
+return[].configured elements == 0
+return[].priv == [null]
+return[].priv elements == null
+size(return[]) == 1
+orig(instance_name) in return[].name
+orig(filter_name) in return[].filter_name
+return[].nb_inputs elements >= size(return[])-1
+return[].nb_outputs elements <= size(return[])
+return[].nb_outputs elements >= size(return[])-1
+return[].inputs[0]->type elements == size(return[])-1
+size(return[])-1 in return[].inputs[0]->type
+return[].inputs[0]->format elements == size(return[])-1
+size(return[])-1 in return[].inputs[0]->format
+return[].inputs[1]->type elements == size(return[])-1
+size(return[])-1 in return[].inputs[1]->type
+return[].inputs[1]->format elements == size(return[])-1
+size(return[])-1 in return[].inputs[1]->format
+return[].inputs[2]->type elements == size(return[])-1
+size(return[])-1 in return[].inputs[2]->type
+return[].inputs[2]->format elements == size(return[])-1
+size(return[])-1 in return[].inputs[2]->format
+return[].inputs[3]->type elements == size(return[])-1
+size(return[])-1 in return[].inputs[3]->type
+return[].inputs[3]->format elements == size(return[])-1
+size(return[])-1 in return[].inputs[3]->format
+return[].inputs[4]->type elements == size(return[])-1
+size(return[])-1 in return[].inputs[4]->type
+return[].inputs[4]->format elements == size(return[])-1
+size(return[])-1 in return[].inputs[4]->format
+return[].configured elements == size(return[])-1
+size(return[])-1 in return[].configured
+===========================================================================
+..create_filter_graph():::EXIT
+return[].nb_filters == return[].nb_links
+return[].nb_filters == [0]
+return[].nb_filters elements == 0
+return[].configured == [0]
+return[].configured elements == 0
+return[].auto_convert == [1]
+return[].auto_convert elements == 1
+size(return[]) == 1
+return[].nb_filters elements == size(return[])-1
+size(return[])-1 in return[].nb_filters
+return[].configured elements == size(return[])-1
+size(return[])-1 in return[].configured
+return[].auto_convert elements == size(return[])
+size(return[]) in return[].auto_convert
+===========================================================================
+..free_filter_graph():::ENTER
+graph[].nb_filters elements one of { 3, 6, 12 }
+graph[].nb_filters one of { [3], [6], [12] }
+graph[].configured elements one of { 0, 1 }
+graph[].configured one of { [0], [1] }
+graph[].auto_convert == [1]
+graph[].auto_convert elements == 1
+size(graph[]) == 1
+graph[].auto_convert elements == size(graph[])
+size(graph[]) in graph[].auto_convert
+===========================================================================
+..free_filter_graph():::EXIT
+===========================================================================
+..link_filters():::ENTER
+src[].inputs[0]->type == dst[].inputs[0]->type
+src[].inputs[0]->format == dst[].inputs[0]->format
+src[].inputs[1]->type == dst[].inputs[1]->type
+src[].inputs[1]->format == dst[].inputs[1]->format
+src[].inputs[2]->type == dst[].inputs[2]->type
+src[].inputs[2]->format == dst[].inputs[2]->format
+src[].inputs[3]->type == dst[].inputs[3]->type
+src[].inputs[3]->format == dst[].inputs[3]->format
+src[].inputs[4]->type == dst[].inputs[4]->type
+src[].inputs[4]->format == dst[].inputs[4]->format
+src[].configured == dst[].configured
+src[].priv == dst[].priv
+src_pad == size(src[])-1
+size(src[]) == size(src[].inputs[0])
+size(src[]) == size(src[].inputs[0][0])
+size(src[]) == size(src[].inputs[1])
+size(src[]) == size(src[].inputs[1][0])
+size(src[]) == size(src[].inputs[2])
+size(src[]) == size(src[].inputs[2][0])
+size(src[]) == size(src[].inputs[3])
+size(src[]) == size(src[].inputs[3][0])
+size(src[]) == size(src[].inputs[4])
+size(src[]) == size(src[].inputs[4][0])
+size(src[]) == size(src[].inputs[5])
+size(src[]) == size(src[].inputs[5][0])
+size(src[]) == size(src[].inputs[6])
+size(src[]) == size(src[].inputs[6][0])
+size(src[]) == size(src[].inputs[7])
+size(src[]) == size(src[].inputs[7][0])
+size(src[]) == size(src[].outputs[0])
+size(src[]) == size(src[].outputs[0][0])
+size(src[]) == size(src[].outputs[1])
+size(src[]) == size(src[].outputs[1][0])
+size(src[]) == size(src[].outputs[2])
+size(src[]) == size(src[].outputs[2][0])
+size(src[]) == size(src[].outputs[3])
+size(src[]) == size(src[].outputs[3][0])
+size(src[]) == size(src[].outputs[4])
+size(src[]) == size(src[].outputs[4][0])
+size(src[]) == size(src[].outputs[5])
+size(src[]) == size(src[].outputs[5][0])
+size(src[]) == size(src[].outputs[6])
+size(src[]) == size(src[].outputs[6][0])
+size(src[]) == size(src[].outputs[7])
+size(src[]) == size(src[].outputs[7][0])
+size(src[]) == size(src[].input_links[0])
+size(src[]) == size(src[].input_links[1])
+size(src[]) == size(src[].input_links[2])
+size(src[]) == size(src[].input_links[3])
+size(src[]) == size(src[].input_links[4])
+size(src[]) == size(src[].input_links[5])
+size(src[]) == size(src[].input_links[6])
+size(src[]) == size(src[].input_links[7])
+size(src[]) == size(src[].output_links[0])
+size(src[]) == size(src[].output_links[1])
+size(src[]) == size(src[].output_links[2])
+size(src[]) == size(src[].output_links[3])
+size(src[]) == size(src[].output_links[4])
+size(src[]) == size(src[].output_links[5])
+size(src[]) == size(src[].output_links[6])
+size(src[]) == size(src[].output_links[7])
+size(src[]) == size(dst[])
+size(src[]) == size(dst[].inputs[0])
+size(src[]) == size(dst[].inputs[0][0])
+size(src[]) == size(dst[].inputs[1])
+size(src[]) == size(dst[].inputs[1][0])
+size(src[]) == size(dst[].inputs[2])
+size(src[]) == size(dst[].inputs[2][0])
+size(src[]) == size(dst[].inputs[3])
+size(src[]) == size(dst[].inputs[3][0])
+size(src[]) == size(dst[].inputs[4])
+size(src[]) == size(dst[].inputs[4][0])
+size(src[]) == size(dst[].inputs[5])
+size(src[]) == size(dst[].inputs[5][0])
+size(src[]) == size(dst[].inputs[6])
+size(src[]) == size(dst[].inputs[6][0])
+size(src[]) == size(dst[].inputs[7])
+size(src[]) == size(dst[].inputs[7][0])
+size(src[]) == size(dst[].outputs[0])
+size(src[]) == size(dst[].outputs[0][0])
+size(src[]) == size(dst[].outputs[1])
+size(src[]) == size(dst[].outputs[1][0])
+size(src[]) == size(dst[].outputs[2])
+size(src[]) == size(dst[].outputs[2][0])
+size(src[]) == size(dst[].outputs[3])
+size(src[]) == size(dst[].outputs[3][0])
+size(src[]) == size(dst[].outputs[4])
+size(src[]) == size(dst[].outputs[4][0])
+size(src[]) == size(dst[].outputs[5])
+size(src[]) == size(dst[].outputs[5][0])
+size(src[]) == size(dst[].outputs[6])
+size(src[]) == size(dst[].outputs[6][0])
+size(src[]) == size(dst[].outputs[7])
+size(src[]) == size(dst[].outputs[7][0])
+size(src[]) == size(dst[].input_links[0])
+size(src[]) == size(dst[].input_links[1])
+size(src[]) == size(dst[].input_links[2])
+size(src[]) == size(dst[].input_links[3])
+size(src[]) == size(dst[].input_links[4])
+size(src[]) == size(dst[].input_links[5])
+size(src[]) == size(dst[].input_links[6])
+size(src[]) == size(dst[].input_links[7])
+size(src[]) == size(dst[].output_links[0])
+size(src[]) == size(dst[].output_links[1])
+size(src[]) == size(dst[].output_links[2])
+size(src[]) == size(dst[].output_links[3])
+size(src[]) == size(dst[].output_links[4])
+size(src[]) == size(dst[].output_links[5])
+size(src[]) == size(dst[].output_links[6])
+size(src[]) == size(dst[].output_links[7])
+size(src[]) == size(graph[])
+size(src[]) == src[src_pad].nb_outputs
+size(src[]) == graph[src_pad].auto_convert
+size(src[])-1 == src[src_pad].inputs[0]->type
+size(src[])-1 == src[src_pad].inputs[0]->format
+size(src[])-1 == src[src_pad].inputs[1]->type
+size(src[])-1 == src[src_pad].inputs[1]->format
+size(src[])-1 == src[src_pad].inputs[2]->type
+size(src[])-1 == src[src_pad].inputs[2]->format
+size(src[])-1 == src[src_pad].inputs[3]->type
+size(src[])-1 == src[src_pad].inputs[3]->format
+size(src[])-1 == src[src_pad].inputs[4]->type
+size(src[])-1 == src[src_pad].inputs[4]->format
+size(src[])-1 == src[src_pad].configured
+size(src[])-1 == dst[src_pad].inputs[0]->type
+size(src[])-1 == dst[src_pad].inputs[0]->format
+size(src[])-1 == dst[src_pad].inputs[1]->type
+size(src[])-1 == dst[src_pad].inputs[1]->format
+size(src[])-1 == dst[src_pad].inputs[2]->type
+size(src[])-1 == dst[src_pad].inputs[2]->format
+size(src[])-1 == dst[src_pad].inputs[3]->type
+size(src[])-1 == dst[src_pad].inputs[3]->format
+size(src[])-1 == dst[src_pad].inputs[4]->type
+size(src[])-1 == dst[src_pad].inputs[4]->format
+size(src[])-1 == dst[src_pad].configured
+size(src[])-1 == graph[src_pad].configured
+src != null
+src[] elements != null
+src[].filter_name elements one of { "buffer", "overlay", "scale" }
+src[].nb_inputs elements one of { 0, 1, 2 }
+src[].nb_inputs one of { [0], [1], [2] }
+src[].nb_outputs == [1]
+src[].nb_outputs elements == 1
+src[].inputs[0] elements != null
+src[].inputs[0][0] elements != null
+src[].inputs[0]->name elements one of { "", "default", "main" }
+src[].inputs[0]->type == [0]
+src[].inputs[0]->type elements == 0
+src[].inputs[0]->format == [0]
+src[].inputs[0]->format elements == 0
+src[].inputs[1] elements != null
+src[].inputs[1][0] elements != null
+src[].inputs[1]->name elements one of { "", "overlay" }
+src[].inputs[1]->name one of { [], [overlay] }
+src[].inputs[1]->type == [0]
+src[].inputs[1]->type elements == 0
+src[].inputs[1]->format == [0]
+src[].inputs[1]->format elements == 0
+src[].inputs[2] elements != null
+src[].inputs[2][0] elements != null
+src[].inputs[2]->name == []
+src[].inputs[2]->name elements == ""
+src[].inputs[2]->type == [0]
+src[].inputs[2]->type elements == 0
+src[].inputs[2]->format == [0]
+src[].inputs[2]->format elements == 0
+src[].inputs[3] elements != null
+src[].inputs[3][0] elements != null
+src[].inputs[3]->name == []
+src[].inputs[3]->name elements == ""
+src[].inputs[3]->type == [0]
+src[].inputs[3]->type elements == 0
+src[].inputs[3]->format == [0]
+src[].inputs[3]->format elements == 0
+src[].inputs[4] elements != null
+src[].inputs[4][0] elements != null
+src[].inputs[4]->name == []
+src[].inputs[4]->name elements == ""
+src[].inputs[4]->type == [0]
+src[].inputs[4]->type elements == 0
+src[].inputs[4]->format == [0]
+src[].inputs[4]->format elements == 0
+src[].inputs[5] elements != null
+src[].inputs[5][0] elements != null
+src[].inputs[6] elements != null
+src[].inputs[6][0] elements != null
+src[].inputs[7] elements != null
+src[].inputs[7][0] elements != null
+src[].outputs[0] elements != null
+src[].outputs[0][0] elements != null
+src[].outputs[1] elements != null
+src[].outputs[1][0] elements != null
+src[].outputs[2] elements != null
+src[].outputs[2][0] elements != null
+src[].outputs[3] elements != null
+src[].outputs[3][0] elements != null
+src[].outputs[4] elements != null
+src[].outputs[4][0] elements != null
+src[].outputs[5] elements != null
+src[].outputs[5][0] elements != null
+src[].outputs[6] elements != null
+src[].outputs[6][0] elements != null
+src[].outputs[7] elements != null
+src[].outputs[7][0] elements != null
+src[].input_links[0] elements != null
+src[].input_links[1] elements != null
+src[].input_links[2] elements != null
+src[].input_links[3] elements != null
+src[].input_links[4] elements != null
+src[].input_links[5] elements != null
+src[].input_links[6] elements != null
+src[].input_links[7] elements != null
+src[].output_links[0] elements != null
+src[].output_links[1] elements != null
+src[].output_links[2] elements != null
+src[].output_links[3] elements != null
+src[].output_links[4] elements != null
+src[].output_links[5] elements != null
+src[].output_links[6] elements != null
+src[].output_links[7] elements != null
+src[].configured == [0]
+src[].configured elements == 0
+src[].priv == [null]
+src[].priv elements == null
+src_pad == 0
+dst != null
+dst[] elements != null
+dst[].filter_name elements one of { "buffersink", "overlay", "scale" }
+dst[].nb_inputs elements one of { 1, 2 }
+dst[].nb_inputs one of { [1], [2] }
+dst[].nb_outputs elements one of { 0, 1 }
+dst[].nb_outputs one of { [0], [1] }
+dst[].inputs[0] elements != null
+dst[].inputs[0][0] elements != null
+dst[].inputs[0]->name elements one of { "default", "main" }
+dst[].inputs[0]->name one of { [default], [main] }
+dst[].inputs[1] elements != null
+dst[].inputs[1][0] elements != null
+dst[].inputs[1]->name elements one of { "", "overlay" }
+dst[].inputs[1]->name one of { [], [overlay] }
+dst[].inputs[2] elements != null
+dst[].inputs[2][0] elements != null
+dst[].inputs[3] elements != null
+dst[].inputs[3][0] elements != null
+dst[].inputs[4] elements != null
+dst[].inputs[4][0] elements != null
+dst[].inputs[5] elements != null
+dst[].inputs[5][0] elements != null
+dst[].inputs[6] elements != null
+dst[].inputs[6][0] elements != null
+dst[].inputs[7] elements != null
+dst[].inputs[7][0] elements != null
+dst[].outputs[0] elements != null
+dst[].outputs[0][0] elements != null
+dst[].outputs[1] elements != null
+dst[].outputs[1][0] elements != null
+dst[].outputs[2] elements != null
+dst[].outputs[2][0] elements != null
+dst[].outputs[3] elements != null
+dst[].outputs[3][0] elements != null
+dst[].outputs[4] elements != null
+dst[].outputs[4][0] elements != null
+dst[].outputs[5] elements != null
+dst[].outputs[5][0] elements != null
+dst[].outputs[6] elements != null
+dst[].outputs[6][0] elements != null
+dst[].outputs[7] elements != null
+dst[].outputs[7][0] elements != null
+dst[].input_links[0] elements != null
+dst[].input_links[1] elements != null
+dst[].input_links[2] elements != null
+dst[].input_links[3] elements != null
+dst[].input_links[4] elements != null
+dst[].input_links[5] elements != null
+dst[].input_links[6] elements != null
+dst[].input_links[7] elements != null
+dst[].output_links[0] elements != null
+dst[].output_links[1] elements != null
+dst[].output_links[2] elements != null
+dst[].output_links[3] elements != null
+dst[].output_links[4] elements != null
+dst[].output_links[5] elements != null
+dst[].output_links[6] elements != null
+dst[].output_links[7] elements != null
+dst_pad one of { 0, 1 }
+graph != null
+graph[] elements != null
+graph[].filters elements != null
+graph[].nb_links elements >= 0
+graph[].links elements != null
+graph[].configured == [0]
+graph[].configured elements == 0
+graph[].auto_convert == [1]
+graph[].auto_convert elements == 1
+size(src[]) == 1
+src[] elements == src[src_pad]
+src[].nb_inputs elements >= src_pad
+src[].nb_inputs elements >= dst_pad
+src[].nb_inputs elements >= size(src[])-1
+src[].nb_inputs elements == src[src_pad].nb_inputs
+src[].nb_inputs elements < graph[src_pad].nb_filters
+src[].nb_inputs elements <= graph[src_pad].nb_links
+src[].nb_outputs <= dst[].nb_inputs (elementwise)
+src[].nb_outputs >= dst[].nb_outputs (elementwise)
+src[].nb_outputs elements == size(src[])
+src[].inputs[0] elements == src[src_pad].inputs[0]
+src[].inputs[0][0] elements == src[src_pad].inputs[0][0]
+src[].inputs[0]->type elements == src_pad
+src_pad in src[].inputs[0]->type
+src[].inputs[0]->type elements == size(src[])-1
+src[].inputs[0]->format elements == src_pad
+src_pad in src[].inputs[0]->format
+src[].inputs[0]->format elements == size(src[])-1
+src[].inputs[1] elements == src[src_pad].inputs[1]
+src[].inputs[1][0] elements == src[src_pad].inputs[1][0]
+src[].inputs[1]->type elements == src_pad
+src_pad in src[].inputs[1]->type
+src[].inputs[1]->type elements == size(src[])-1
+src[].inputs[1]->format elements == src_pad
+src_pad in src[].inputs[1]->format
+src[].inputs[1]->format elements == size(src[])-1
+src[].inputs[2] elements == src[src_pad].inputs[2]
+src[].inputs[2][0] elements == src[src_pad].inputs[2][0]
+src[].inputs[2]->type elements == src_pad
+src_pad in src[].inputs[2]->type
+src[].inputs[2]->type elements == size(src[])-1
+src[].inputs[2]->format elements == src_pad
+src_pad in src[].inputs[2]->format
+src[].inputs[2]->format elements == size(src[])-1
+src[].inputs[3] elements == src[src_pad].inputs[3]
+src[].inputs[3][0] elements == src[src_pad].inputs[3][0]
+src[].inputs[3]->type elements == src_pad
+src_pad in src[].inputs[3]->type
+src[].inputs[3]->type elements == size(src[])-1
+src[].inputs[3]->format elements == src_pad
+src_pad in src[].inputs[3]->format
+src[].inputs[3]->format elements == size(src[])-1
+src[].inputs[4] elements == src[src_pad].inputs[4]
+src[].inputs[4][0] elements == src[src_pad].inputs[4][0]
+src[].inputs[4]->type elements == src_pad
+src_pad in src[].inputs[4]->type
+src[].inputs[4]->type elements == size(src[])-1
+src[].inputs[4]->format elements == src_pad
+src_pad in src[].inputs[4]->format
+src[].inputs[4]->format elements == size(src[])-1
+src[].inputs[5] elements == src[src_pad].inputs[5]
+src[].inputs[5][0] elements == src[src_pad].inputs[5][0]
+src[].inputs[6] elements == src[src_pad].inputs[6]
+src[].inputs[6][0] elements == src[src_pad].inputs[6][0]
+src[].inputs[7] elements == src[src_pad].inputs[7]
+src[].inputs[7][0] elements == src[src_pad].inputs[7][0]
+src[].outputs[0] elements == src[src_pad].outputs[0]
+src[].outputs[0][0] elements == src[src_pad].outputs[0][0]
+src[].outputs[1] elements == src[src_pad].outputs[1]
+src[].outputs[1][0] elements == src[src_pad].outputs[1][0]
+src[].outputs[2] elements == src[src_pad].outputs[2]
+src[].outputs[2][0] elements == src[src_pad].outputs[2][0]
+src[].outputs[3] elements == src[src_pad].outputs[3]
+src[].outputs[3][0] elements == src[src_pad].outputs[3][0]
+src[].outputs[4] elements == src[src_pad].outputs[4]
+src[].outputs[4][0] elements == src[src_pad].outputs[4][0]
+src[].outputs[5] elements == src[src_pad].outputs[5]
+src[].outputs[5][0] elements == src[src_pad].outputs[5][0]
+src[].outputs[6] elements == src[src_pad].outputs[6]
+src[].outputs[6][0] elements == src[src_pad].outputs[6][0]
+src[].outputs[7] elements == src[src_pad].outputs[7]
+src[].outputs[7][0] elements == src[src_pad].outputs[7][0]
+src[].input_links[0] elements == src[src_pad].input_links[0]
+src[].input_links[1] elements == src[src_pad].input_links[1]
+src[].input_links[2] elements == src[src_pad].input_links[2]
+src[].input_links[3] elements == src[src_pad].input_links[3]
+src[].input_links[4] elements == src[src_pad].input_links[4]
+src[].input_links[5] elements == src[src_pad].input_links[5]
+src[].input_links[6] elements == src[src_pad].input_links[6]
+src[].input_links[7] elements == src[src_pad].input_links[7]
+src[].output_links[0] elements == src[src_pad].output_links[0]
+src[].output_links[1] elements == src[src_pad].output_links[1]
+src[].output_links[2] elements == src[src_pad].output_links[2]
+src[].output_links[3] elements == src[src_pad].output_links[3]
+src[].output_links[4] elements == src[src_pad].output_links[4]
+src[].output_links[5] elements == src[src_pad].output_links[5]
+src[].output_links[6] elements == src[src_pad].output_links[6]
+src[].output_links[7] elements == src[src_pad].output_links[7]
+src[].configured elements == src_pad
+src_pad in src[].configured
+src[].configured elements == size(src[])-1
+src[].priv elements == src[src_pad].priv
+dst[].nb_inputs elements > src_pad
+dst[].nb_outputs elements >= src_pad
+src_pad <= dst_pad
+graph[].nb_filters elements > src_pad
+graph[].nb_links elements >= src_pad
+graph[].configured elements == src_pad
+src_pad in graph[].configured
+src_pad <= src[src_pad].nb_inputs
+src_pad < dst[src_pad].nb_inputs
+src_pad <= dst[src_pad].nb_outputs
+src_pad < graph[src_pad].nb_filters
+src_pad <= graph[src_pad].nb_links
+dst[] elements == dst[src_pad]
+dst[].nb_inputs >= dst[].nb_outputs (elementwise)
+dst[].nb_inputs elements > dst_pad
+dst[].nb_inputs elements >= size(src[])
+dst[].nb_inputs elements == dst[src_pad].nb_inputs
+dst[].nb_inputs elements >= dst[src_pad].nb_outputs
+dst[].nb_inputs elements < graph[src_pad].nb_filters
+dst[].nb_outputs elements >= dst_pad
+dst[].nb_outputs elements <= size(src[])
+dst[].nb_outputs elements >= size(src[])-1
+dst[].nb_outputs elements <= dst[src_pad].nb_inputs
+dst[].nb_outputs elements == dst[src_pad].nb_outputs
+dst[].nb_outputs elements < graph[src_pad].nb_filters
+dst[].inputs[0] elements == dst[src_pad].inputs[0]
+dst[].inputs[0][0] elements == dst[src_pad].inputs[0][0]
+dst[].inputs[1] elements == dst[src_pad].inputs[1]
+dst[].inputs[1][0] elements == dst[src_pad].inputs[1][0]
+dst[].inputs[2] elements == dst[src_pad].inputs[2]
+dst[].inputs[2][0] elements == dst[src_pad].inputs[2][0]
+dst[].inputs[3] elements == dst[src_pad].inputs[3]
+dst[].inputs[3][0] elements == dst[src_pad].inputs[3][0]
+dst[].inputs[4] elements == dst[src_pad].inputs[4]
+dst[].inputs[4][0] elements == dst[src_pad].inputs[4][0]
+dst[].inputs[5] elements == dst[src_pad].inputs[5]
+dst[].inputs[5][0] elements == dst[src_pad].inputs[5][0]
+dst[].inputs[6] elements == dst[src_pad].inputs[6]
+dst[].inputs[6][0] elements == dst[src_pad].inputs[6][0]
+dst[].inputs[7] elements == dst[src_pad].inputs[7]
+dst[].inputs[7][0] elements == dst[src_pad].inputs[7][0]
+dst[].outputs[0] elements == dst[src_pad].outputs[0]
+dst[].outputs[0][0] elements == dst[src_pad].outputs[0][0]
+dst[].outputs[1] elements == dst[src_pad].outputs[1]
+dst[].outputs[1][0] elements == dst[src_pad].outputs[1][0]
+dst[].outputs[2] elements == dst[src_pad].outputs[2]
+dst[].outputs[2][0] elements == dst[src_pad].outputs[2][0]
+dst[].outputs[3] elements == dst[src_pad].outputs[3]
+dst[].outputs[3][0] elements == dst[src_pad].outputs[3][0]
+dst[].outputs[4] elements == dst[src_pad].outputs[4]
+dst[].outputs[4][0] elements == dst[src_pad].outputs[4][0]
+dst[].outputs[5] elements == dst[src_pad].outputs[5]
+dst[].outputs[5][0] elements == dst[src_pad].outputs[5][0]
+dst[].outputs[6] elements == dst[src_pad].outputs[6]
+dst[].outputs[6][0] elements == dst[src_pad].outputs[6][0]
+dst[].outputs[7] elements == dst[src_pad].outputs[7]
+dst[].outputs[7][0] elements == dst[src_pad].outputs[7][0]
+dst[].input_links[0] elements == dst[src_pad].input_links[0]
+dst[].input_links[1] elements == dst[src_pad].input_links[1]
+dst[].input_links[2] elements == dst[src_pad].input_links[2]
+dst[].input_links[3] elements == dst[src_pad].input_links[3]
+dst[].input_links[4] elements == dst[src_pad].input_links[4]
+dst[].input_links[5] elements == dst[src_pad].input_links[5]
+dst[].input_links[6] elements == dst[src_pad].input_links[6]
+dst[].input_links[7] elements == dst[src_pad].input_links[7]
+dst[].output_links[0] elements == dst[src_pad].output_links[0]
+dst[].output_links[1] elements == dst[src_pad].output_links[1]
+dst[].output_links[2] elements == dst[src_pad].output_links[2]
+dst[].output_links[3] elements == dst[src_pad].output_links[3]
+dst[].output_links[4] elements == dst[src_pad].output_links[4]
+dst[].output_links[5] elements == dst[src_pad].output_links[5]
+dst[].output_links[6] elements == dst[src_pad].output_links[6]
+dst[].output_links[7] elements == dst[src_pad].output_links[7]
+graph[].nb_filters elements > dst_pad
+graph[].nb_links elements >= dst_pad
+dst_pad <= size(src[])
+dst_pad >= size(src[])-1
+dst_pad <= src[src_pad].nb_inputs
+dst_pad < dst[src_pad].nb_inputs
+dst_pad <= dst[src_pad].nb_outputs
+dst_pad < graph[src_pad].nb_filters
+dst_pad <= graph[src_pad].nb_links
+graph[] elements == graph[src_pad]
+graph[].nb_filters > graph[].nb_links (elementwise)
+graph[].nb_filters elements > size(src[])
+graph[].nb_filters elements > src[src_pad].nb_inputs
+graph[].nb_filters elements > dst[src_pad].nb_inputs
+graph[].nb_filters elements > dst[src_pad].nb_outputs
+graph[].nb_filters elements == graph[src_pad].nb_filters
+graph[].nb_filters elements > graph[src_pad].nb_links
+graph[].filters elements == graph[src_pad].filters
+graph[].nb_links elements >= size(src[])-1
+graph[].nb_links elements >= src[src_pad].nb_inputs
+graph[].nb_links elements < graph[src_pad].nb_filters
+graph[].nb_links elements == graph[src_pad].nb_links
+graph[].links elements == graph[src_pad].links
+graph[].configured elements == size(src[])-1
+graph[].auto_convert elements == size(src[])
+size(src[]) < graph[src_pad].nb_filters
+size(src[])-1 <= src[src_pad].nb_inputs
+size(src[])-1 <= dst[src_pad].nb_outputs
+size(src[])-1 <= graph[src_pad].nb_links
+src[src_pad].nb_inputs < graph[src_pad].nb_filters
+src[src_pad].nb_inputs <= graph[src_pad].nb_links
+dst[src_pad].nb_inputs < graph[src_pad].nb_filters
+graph[src_pad].nb_filters % dst[src_pad].nb_inputs == 0
+dst[src_pad].nb_outputs < graph[src_pad].nb_filters
+===========================================================================
+..link_filters():::EXIT
+src[] == orig(src[])
+src[].nb_inputs == orig(src[].nb_inputs)
+src[].nb_outputs == orig(src[].nb_outputs)
+src[].inputs[0] == orig(src[].inputs[0])
+src[].inputs[0][0] == orig(src[].inputs[0][0])
+src[].inputs[0]->type == dst[].inputs[0]->type
+src[].inputs[0]->type == orig(src[].inputs[0]->type)
+src[].inputs[0]->type == orig(dst[].inputs[0]->type)
+src[].inputs[0]->format == dst[].inputs[0]->format
+src[].inputs[0]->format == orig(src[].inputs[0]->format)
+src[].inputs[0]->format == orig(dst[].inputs[0]->format)
+src[].inputs[1] == orig(src[].inputs[1])
+src[].inputs[1][0] == orig(src[].inputs[1][0])
+src[].inputs[1]->type == dst[].inputs[1]->type
+src[].inputs[1]->type == orig(src[].inputs[1]->type)
+src[].inputs[1]->type == orig(dst[].inputs[1]->type)
+src[].inputs[1]->format == dst[].inputs[1]->format
+src[].inputs[1]->format == orig(src[].inputs[1]->format)
+src[].inputs[1]->format == orig(dst[].inputs[1]->format)
+src[].inputs[2] == orig(src[].inputs[2])
+src[].inputs[2][0] == orig(src[].inputs[2][0])
+src[].inputs[2]->type == dst[].inputs[2]->type
+src[].inputs[2]->type == orig(src[].inputs[2]->type)
+src[].inputs[2]->type == orig(dst[].inputs[2]->type)
+src[].inputs[2]->format == dst[].inputs[2]->format
+src[].inputs[2]->format == orig(src[].inputs[2]->format)
+src[].inputs[2]->format == orig(dst[].inputs[2]->format)
+src[].inputs[3] == orig(src[].inputs[3])
+src[].inputs[3][0] == orig(src[].inputs[3][0])
+src[].inputs[3]->type == dst[].inputs[3]->type
+src[].inputs[3]->type == orig(src[].inputs[3]->type)
+src[].inputs[3]->type == orig(dst[].inputs[3]->type)
+src[].inputs[3]->format == dst[].inputs[3]->format
+src[].inputs[3]->format == orig(src[].inputs[3]->format)
+src[].inputs[3]->format == orig(dst[].inputs[3]->format)
+src[].inputs[4] == orig(src[].inputs[4])
+src[].inputs[4][0] == orig(src[].inputs[4][0])
+src[].inputs[4]->type == dst[].inputs[4]->type
+src[].inputs[4]->type == orig(src[].inputs[4]->type)
+src[].inputs[4]->type == orig(dst[].inputs[4]->type)
+src[].inputs[4]->format == dst[].inputs[4]->format
+src[].inputs[4]->format == orig(src[].inputs[4]->format)
+src[].inputs[4]->format == orig(dst[].inputs[4]->format)
+src[].inputs[5] == orig(src[].inputs[5])
+src[].inputs[5][0] == orig(src[].inputs[5][0])
+src[].inputs[6] == orig(src[].inputs[6])
+src[].inputs[6][0] == orig(src[].inputs[6][0])
+src[].inputs[7] == orig(src[].inputs[7])
+src[].inputs[7][0] == orig(src[].inputs[7][0])
+src[].outputs[0] == orig(src[].outputs[0])
+src[].outputs[0][0] == orig(src[].outputs[0][0])
+src[].outputs[1] == orig(src[].outputs[1])
+src[].outputs[1][0] == orig(src[].outputs[1][0])
+src[].outputs[2] == orig(src[].outputs[2])
+src[].outputs[2][0] == orig(src[].outputs[2][0])
+src[].outputs[3] == orig(src[].outputs[3])
+src[].outputs[3][0] == orig(src[].outputs[3][0])
+src[].outputs[4] == orig(src[].outputs[4])
+src[].outputs[4][0] == orig(src[].outputs[4][0])
+src[].outputs[5] == orig(src[].outputs[5])
+src[].outputs[5][0] == orig(src[].outputs[5][0])
+src[].outputs[6] == orig(src[].outputs[6])
+src[].outputs[6][0] == orig(src[].outputs[6][0])
+src[].outputs[7] == orig(src[].outputs[7])
+src[].outputs[7][0] == orig(src[].outputs[7][0])
+src[].input_links[0] == orig(src[].input_links[0])
+src[].input_links[1] == orig(src[].input_links[1])
+src[].input_links[2] == orig(src[].input_links[2])
+src[].input_links[3] == orig(src[].input_links[3])
+src[].input_links[4] == orig(src[].input_links[4])
+src[].input_links[5] == orig(src[].input_links[5])
+src[].input_links[6] == orig(src[].input_links[6])
+src[].input_links[7] == orig(src[].input_links[7])
+src[].output_links[0] == orig(src[].output_links[0])
+src[].output_links[1] == orig(src[].output_links[1])
+src[].output_links[2] == orig(src[].output_links[2])
+src[].output_links[3] == orig(src[].output_links[3])
+src[].output_links[4] == orig(src[].output_links[4])
+src[].output_links[5] == orig(src[].output_links[5])
+src[].output_links[6] == orig(src[].output_links[6])
+src[].output_links[7] == orig(src[].output_links[7])
+src[].configured == dst[].configured
+src[].configured == orig(src[].configured)
+src[].configured == orig(dst[].configured)
+src[].priv == dst[].priv
+src[].priv == orig(src[].priv)
+src[].priv == orig(dst[].priv)
+dst[] == orig(dst[])
+dst[].nb_inputs == orig(dst[].nb_inputs)
+dst[].nb_outputs == orig(dst[].nb_outputs)
+dst[].inputs[0] == orig(dst[].inputs[0])
+dst[].inputs[0][0] == orig(dst[].inputs[0][0])
+dst[].inputs[1] == orig(dst[].inputs[1])
+dst[].inputs[1][0] == orig(dst[].inputs[1][0])
+dst[].inputs[2] == orig(dst[].inputs[2])
+dst[].inputs[2][0] == orig(dst[].inputs[2][0])
+dst[].inputs[3] == orig(dst[].inputs[3])
+dst[].inputs[3][0] == orig(dst[].inputs[3][0])
+dst[].inputs[4] == orig(dst[].inputs[4])
+dst[].inputs[4][0] == orig(dst[].inputs[4][0])
+dst[].inputs[5] == orig(dst[].inputs[5])
+dst[].inputs[5][0] == orig(dst[].inputs[5][0])
+dst[].inputs[6] == orig(dst[].inputs[6])
+dst[].inputs[6][0] == orig(dst[].inputs[6][0])
+dst[].inputs[7] == orig(dst[].inputs[7])
+dst[].inputs[7][0] == orig(dst[].inputs[7][0])
+dst[].outputs[0] == orig(dst[].outputs[0])
+dst[].outputs[0][0] == orig(dst[].outputs[0][0])
+dst[].outputs[1] == orig(dst[].outputs[1])
+dst[].outputs[1][0] == orig(dst[].outputs[1][0])
+dst[].outputs[2] == orig(dst[].outputs[2])
+dst[].outputs[2][0] == orig(dst[].outputs[2][0])
+dst[].outputs[3] == orig(dst[].outputs[3])
+dst[].outputs[3][0] == orig(dst[].outputs[3][0])
+dst[].outputs[4] == orig(dst[].outputs[4])
+dst[].outputs[4][0] == orig(dst[].outputs[4][0])
+dst[].outputs[5] == orig(dst[].outputs[5])
+dst[].outputs[5][0] == orig(dst[].outputs[5][0])
+dst[].outputs[6] == orig(dst[].outputs[6])
+dst[].outputs[6][0] == orig(dst[].outputs[6][0])
+dst[].outputs[7] == orig(dst[].outputs[7])
+dst[].outputs[7][0] == orig(dst[].outputs[7][0])
+dst[].input_links[0] == orig(dst[].input_links[0])
+dst[].input_links[1] == orig(dst[].input_links[1])
+dst[].input_links[2] == orig(dst[].input_links[2])
+dst[].input_links[3] == orig(dst[].input_links[3])
+dst[].input_links[4] == orig(dst[].input_links[4])
+dst[].input_links[5] == orig(dst[].input_links[5])
+dst[].input_links[6] == orig(dst[].input_links[6])
+dst[].input_links[7] == orig(dst[].input_links[7])
+dst[].output_links[0] == orig(dst[].output_links[0])
+dst[].output_links[1] == orig(dst[].output_links[1])
+dst[].output_links[2] == orig(dst[].output_links[2])
+dst[].output_links[3] == orig(dst[].output_links[3])
+dst[].output_links[4] == orig(dst[].output_links[4])
+dst[].output_links[5] == orig(dst[].output_links[5])
+dst[].output_links[6] == orig(dst[].output_links[6])
+dst[].output_links[7] == orig(dst[].output_links[7])
+graph[] == orig(graph[])
+graph[].nb_filters == orig(graph[].nb_filters)
+graph[].filters == orig(graph[].filters)
+graph[].links == orig(graph[].links)
+graph[].configured == orig(graph[].configured)
+graph[].auto_convert == orig(graph[].auto_convert)
+return == size(src[])-1
+orig(src_pad) == size(src[])-1
+size(src[])-1 == src[return].inputs[0]->type
+size(src[])-1 == src[orig(src_pad)].inputs[0]->type
+size(src[])-1 == src[return].inputs[0]->format
+size(src[])-1 == src[orig(src_pad)].inputs[0]->format
+size(src[])-1 == src[return].inputs[1]->type
+size(src[])-1 == src[orig(src_pad)].inputs[1]->type
+size(src[])-1 == src[return].inputs[1]->format
+size(src[])-1 == src[orig(src_pad)].inputs[1]->format
+size(src[])-1 == src[return].inputs[2]->type
+size(src[])-1 == src[orig(src_pad)].inputs[2]->type
+size(src[])-1 == src[return].inputs[2]->format
+size(src[])-1 == src[orig(src_pad)].inputs[2]->format
+size(src[])-1 == src[return].inputs[3]->type
+size(src[])-1 == src[orig(src_pad)].inputs[3]->type
+size(src[])-1 == src[return].inputs[3]->format
+size(src[])-1 == src[orig(src_pad)].inputs[3]->format
+size(src[])-1 == src[return].inputs[4]->type
+size(src[])-1 == src[orig(src_pad)].inputs[4]->type
+size(src[])-1 == src[return].inputs[4]->format
+size(src[])-1 == src[orig(src_pad)].inputs[4]->format
+size(src[])-1 == src[return].configured
+size(src[])-1 == src[orig(src_pad)].configured
+size(src[])-1 == orig(src[post(src_pad)].inputs[0]->type)
+size(src[])-1 == orig(src[post(src_pad)].inputs[0]->format)
+size(src[])-1 == orig(src[post(src_pad)].inputs[1]->type)
+size(src[])-1 == orig(src[post(src_pad)].inputs[1]->format)
+size(src[])-1 == orig(src[post(src_pad)].inputs[2]->type)
+size(src[])-1 == orig(src[post(src_pad)].inputs[2]->format)
+size(src[])-1 == orig(src[post(src_pad)].inputs[3]->type)
+size(src[])-1 == orig(src[post(src_pad)].inputs[3]->format)
+size(src[])-1 == orig(src[post(src_pad)].inputs[4]->type)
+size(src[])-1 == orig(src[post(src_pad)].inputs[4]->format)
+size(src[])-1 == orig(src[post(src_pad)].configured)
+size(src[])-1 == orig(dst[post(src_pad)].inputs[0]->type)
+size(src[])-1 == orig(dst[post(src_pad)].inputs[0]->format)
+size(src[])-1 == orig(dst[post(src_pad)].inputs[1]->type)
+size(src[])-1 == orig(dst[post(src_pad)].inputs[1]->format)
+size(src[])-1 == orig(dst[post(src_pad)].inputs[2]->type)
+size(src[])-1 == orig(dst[post(src_pad)].inputs[2]->format)
+size(src[])-1 == orig(dst[post(src_pad)].inputs[3]->type)
+size(src[])-1 == orig(dst[post(src_pad)].inputs[3]->format)
+size(src[])-1 == orig(dst[post(src_pad)].inputs[4]->type)
+size(src[])-1 == orig(dst[post(src_pad)].inputs[4]->format)
+size(src[])-1 == orig(dst[post(src_pad)].configured)
+size(src[])-1 == orig(graph[post(src_pad)].configured)
+size(src[])-1 == dst[return].inputs[0]->type
+size(src[])-1 == dst[orig(src_pad)].inputs[0]->type
+size(src[])-1 == dst[return].inputs[0]->format
+size(src[])-1 == dst[orig(src_pad)].inputs[0]->format
+size(src[])-1 == dst[return].inputs[1]->type
+size(src[])-1 == dst[orig(src_pad)].inputs[1]->type
+size(src[])-1 == dst[return].inputs[1]->format
+size(src[])-1 == dst[orig(src_pad)].inputs[1]->format
+size(src[])-1 == dst[return].inputs[2]->type
+size(src[])-1 == dst[orig(src_pad)].inputs[2]->type
+size(src[])-1 == dst[return].inputs[2]->format
+size(src[])-1 == dst[orig(src_pad)].inputs[2]->format
+size(src[])-1 == dst[return].inputs[3]->type
+size(src[])-1 == dst[orig(src_pad)].inputs[3]->type
+size(src[])-1 == dst[return].inputs[3]->format
+size(src[])-1 == dst[orig(src_pad)].inputs[3]->format
+size(src[])-1 == dst[return].inputs[4]->type
+size(src[])-1 == dst[orig(src_pad)].inputs[4]->type
+size(src[])-1 == dst[return].inputs[4]->format
+size(src[])-1 == dst[orig(src_pad)].inputs[4]->format
+size(src[])-1 == dst[return].configured
+size(src[])-1 == dst[orig(src_pad)].configured
+size(src[])-1 == graph[return].configured
+size(src[])-1 == graph[orig(src_pad)].configured
+size(src[])-1 == orig(src[post(return)].inputs[0]->type)
+size(src[])-1 == orig(src[post(return)].inputs[0]->format)
+size(src[])-1 == orig(src[post(return)].inputs[1]->type)
+size(src[])-1 == orig(src[post(return)].inputs[1]->format)
+size(src[])-1 == orig(src[post(return)].inputs[2]->type)
+size(src[])-1 == orig(src[post(return)].inputs[2]->format)
+size(src[])-1 == orig(src[post(return)].inputs[3]->type)
+size(src[])-1 == orig(src[post(return)].inputs[3]->format)
+size(src[])-1 == orig(src[post(return)].inputs[4]->type)
+size(src[])-1 == orig(src[post(return)].inputs[4]->format)
+size(src[])-1 == orig(src[post(return)].configured)
+size(src[])-1 == orig(dst[post(return)].inputs[0]->type)
+size(src[])-1 == orig(dst[post(return)].inputs[0]->format)
+size(src[])-1 == orig(dst[post(return)].inputs[1]->type)
+size(src[])-1 == orig(dst[post(return)].inputs[1]->format)
+size(src[])-1 == orig(dst[post(return)].inputs[2]->type)
+size(src[])-1 == orig(dst[post(return)].inputs[2]->format)
+size(src[])-1 == orig(dst[post(return)].inputs[3]->type)
+size(src[])-1 == orig(dst[post(return)].inputs[3]->format)
+size(src[])-1 == orig(dst[post(return)].inputs[4]->type)
+size(src[])-1 == orig(dst[post(return)].inputs[4]->format)
+size(src[])-1 == orig(dst[post(return)].configured)
+size(src[])-1 == orig(graph[post(return)].configured)
+size(src[])-1 == orig(src[src_pad].inputs[0]->type)
+size(src[])-1 == orig(src[src_pad].inputs[0]->format)
+size(src[])-1 == orig(src[src_pad].inputs[1]->type)
+size(src[])-1 == orig(src[src_pad].inputs[1]->format)
+size(src[])-1 == orig(src[src_pad].inputs[2]->type)
+size(src[])-1 == orig(src[src_pad].inputs[2]->format)
+size(src[])-1 == orig(src[src_pad].inputs[3]->type)
+size(src[])-1 == orig(src[src_pad].inputs[3]->format)
+size(src[])-1 == orig(src[src_pad].inputs[4]->type)
+size(src[])-1 == orig(src[src_pad].inputs[4]->format)
+size(src[])-1 == orig(src[src_pad].configured)
+size(src[])-1 == orig(dst[src_pad].inputs[0]->type)
+size(src[])-1 == orig(dst[src_pad].inputs[0]->format)
+size(src[])-1 == orig(dst[src_pad].inputs[1]->type)
+size(src[])-1 == orig(dst[src_pad].inputs[1]->format)
+size(src[])-1 == orig(dst[src_pad].inputs[2]->type)
+size(src[])-1 == orig(dst[src_pad].inputs[2]->format)
+size(src[])-1 == orig(dst[src_pad].inputs[3]->type)
+size(src[])-1 == orig(dst[src_pad].inputs[3]->format)
+size(src[])-1 == orig(dst[src_pad].inputs[4]->type)
+size(src[])-1 == orig(dst[src_pad].inputs[4]->format)
+size(src[])-1 == orig(dst[src_pad].configured)
+size(src[])-1 == orig(graph[src_pad].configured)
+orig(size(src[])) == src[return].nb_outputs
+orig(size(src[])) == src[orig(src_pad)].nb_outputs
+orig(size(src[])) == orig(src[post(src_pad)].nb_outputs)
+orig(size(src[])) == orig(graph[post(src_pad)].auto_convert)
+orig(size(src[])) == graph[return].auto_convert
+orig(size(src[])) == graph[orig(src_pad)].auto_convert
+orig(size(src[])) == orig(src[post(return)].nb_outputs)
+orig(size(src[])) == orig(graph[post(return)].auto_convert)
+src[return] == src[orig(src_pad)]
+src[return] == orig(src[post(src_pad)])
+src[return] == orig(src[src_pad])
+src[return].nb_inputs == src[orig(src_pad)].nb_inputs
+src[return].nb_inputs == orig(src[post(src_pad)].nb_inputs)
+src[return].nb_inputs == orig(src[src_pad].nb_inputs)
+src[return].inputs[0] == src[orig(src_pad)].inputs[0]
+src[return].inputs[0] == orig(src[post(src_pad)].inputs[0])
+src[return].inputs[0] == orig(src[src_pad].inputs[0])
+src[return].inputs[0][0] == src[orig(src_pad)].inputs[0][0]
+src[return].inputs[0][0] == orig(src[post(src_pad)].inputs[0][0])
+src[return].inputs[0][0] == orig(src[src_pad].inputs[0][0])
+src[return].inputs[1] == src[orig(src_pad)].inputs[1]
+src[return].inputs[1] == orig(src[post(src_pad)].inputs[1])
+src[return].inputs[1] == orig(src[src_pad].inputs[1])
+src[return].inputs[1][0] == src[orig(src_pad)].inputs[1][0]
+src[return].inputs[1][0] == orig(src[post(src_pad)].inputs[1][0])
+src[return].inputs[1][0] == orig(src[src_pad].inputs[1][0])
+src[return].inputs[2] == src[orig(src_pad)].inputs[2]
+src[return].inputs[2] == orig(src[post(src_pad)].inputs[2])
+src[return].inputs[2] == orig(src[src_pad].inputs[2])
+src[return].inputs[2][0] == src[orig(src_pad)].inputs[2][0]
+src[return].inputs[2][0] == orig(src[post(src_pad)].inputs[2][0])
+src[return].inputs[2][0] == orig(src[src_pad].inputs[2][0])
+src[return].inputs[3] == src[orig(src_pad)].inputs[3]
+src[return].inputs[3] == orig(src[post(src_pad)].inputs[3])
+src[return].inputs[3] == orig(src[src_pad].inputs[3])
+src[return].inputs[3][0] == src[orig(src_pad)].inputs[3][0]
+src[return].inputs[3][0] == orig(src[post(src_pad)].inputs[3][0])
+src[return].inputs[3][0] == orig(src[src_pad].inputs[3][0])
+src[return].inputs[4] == src[orig(src_pad)].inputs[4]
+src[return].inputs[4] == orig(src[post(src_pad)].inputs[4])
+src[return].inputs[4] == orig(src[src_pad].inputs[4])
+src[return].inputs[4][0] == src[orig(src_pad)].inputs[4][0]
+src[return].inputs[4][0] == orig(src[post(src_pad)].inputs[4][0])
+src[return].inputs[4][0] == orig(src[src_pad].inputs[4][0])
+src[return].inputs[5] == src[orig(src_pad)].inputs[5]
+src[return].inputs[5] == orig(src[post(src_pad)].inputs[5])
+src[return].inputs[5] == orig(src[src_pad].inputs[5])
+src[return].inputs[5][0] == src[orig(src_pad)].inputs[5][0]
+src[return].inputs[5][0] == orig(src[post(src_pad)].inputs[5][0])
+src[return].inputs[5][0] == orig(src[src_pad].inputs[5][0])
+src[return].inputs[6] == src[orig(src_pad)].inputs[6]
+src[return].inputs[6] == orig(src[post(src_pad)].inputs[6])
+src[return].inputs[6] == orig(src[src_pad].inputs[6])
+src[return].inputs[6][0] == src[orig(src_pad)].inputs[6][0]
+src[return].inputs[6][0] == orig(src[post(src_pad)].inputs[6][0])
+src[return].inputs[6][0] == orig(src[src_pad].inputs[6][0])
+src[return].inputs[7] == src[orig(src_pad)].inputs[7]
+src[return].inputs[7] == orig(src[post(src_pad)].inputs[7])
+src[return].inputs[7] == orig(src[src_pad].inputs[7])
+src[return].inputs[7][0] == src[orig(src_pad)].inputs[7][0]
+src[return].inputs[7][0] == orig(src[post(src_pad)].inputs[7][0])
+src[return].inputs[7][0] == orig(src[src_pad].inputs[7][0])
+src[return].outputs[0] == src[orig(src_pad)].outputs[0]
+src[return].outputs[0] == orig(src[post(src_pad)].outputs[0])
+src[return].outputs[0] == orig(src[src_pad].outputs[0])
+src[return].outputs[0][0] == src[orig(src_pad)].outputs[0][0]
+src[return].outputs[0][0] == orig(src[post(src_pad)].outputs[0][0])
+src[return].outputs[0][0] == orig(src[src_pad].outputs[0][0])
+src[return].outputs[1] == src[orig(src_pad)].outputs[1]
+src[return].outputs[1] == orig(src[post(src_pad)].outputs[1])
+src[return].outputs[1] == orig(src[src_pad].outputs[1])
+src[return].outputs[1][0] == src[orig(src_pad)].outputs[1][0]
+src[return].outputs[1][0] == orig(src[post(src_pad)].outputs[1][0])
+src[return].outputs[1][0] == orig(src[src_pad].outputs[1][0])
+src[return].outputs[2] == src[orig(src_pad)].outputs[2]
+src[return].outputs[2] == orig(src[post(src_pad)].outputs[2])
+src[return].outputs[2] == orig(src[src_pad].outputs[2])
+src[return].outputs[2][0] == src[orig(src_pad)].outputs[2][0]
+src[return].outputs[2][0] == orig(src[post(src_pad)].outputs[2][0])
+src[return].outputs[2][0] == orig(src[src_pad].outputs[2][0])
+src[return].outputs[3] == src[orig(src_pad)].outputs[3]
+src[return].outputs[3] == orig(src[post(src_pad)].outputs[3])
+src[return].outputs[3] == orig(src[src_pad].outputs[3])
+src[return].outputs[3][0] == src[orig(src_pad)].outputs[3][0]
+src[return].outputs[3][0] == orig(src[post(src_pad)].outputs[3][0])
+src[return].outputs[3][0] == orig(src[src_pad].outputs[3][0])
+src[return].outputs[4] == src[orig(src_pad)].outputs[4]
+src[return].outputs[4] == orig(src[post(src_pad)].outputs[4])
+src[return].outputs[4] == orig(src[src_pad].outputs[4])
+src[return].outputs[4][0] == src[orig(src_pad)].outputs[4][0]
+src[return].outputs[4][0] == orig(src[post(src_pad)].outputs[4][0])
+src[return].outputs[4][0] == orig(src[src_pad].outputs[4][0])
+src[return].outputs[5] == src[orig(src_pad)].outputs[5]
+src[return].outputs[5] == orig(src[post(src_pad)].outputs[5])
+src[return].outputs[5] == orig(src[src_pad].outputs[5])
+src[return].outputs[5][0] == src[orig(src_pad)].outputs[5][0]
+src[return].outputs[5][0] == orig(src[post(src_pad)].outputs[5][0])
+src[return].outputs[5][0] == orig(src[src_pad].outputs[5][0])
+src[return].outputs[6] == src[orig(src_pad)].outputs[6]
+src[return].outputs[6] == orig(src[post(src_pad)].outputs[6])
+src[return].outputs[6] == orig(src[src_pad].outputs[6])
+src[return].outputs[6][0] == src[orig(src_pad)].outputs[6][0]
+src[return].outputs[6][0] == orig(src[post(src_pad)].outputs[6][0])
+src[return].outputs[6][0] == orig(src[src_pad].outputs[6][0])
+src[return].outputs[7] == src[orig(src_pad)].outputs[7]
+src[return].outputs[7] == orig(src[post(src_pad)].outputs[7])
+src[return].outputs[7] == orig(src[src_pad].outputs[7])
+src[return].outputs[7][0] == src[orig(src_pad)].outputs[7][0]
+src[return].outputs[7][0] == orig(src[post(src_pad)].outputs[7][0])
+src[return].outputs[7][0] == orig(src[src_pad].outputs[7][0])
+src[return].input_links[0] == src[orig(src_pad)].input_links[0]
+src[return].input_links[0] == orig(src[post(src_pad)].input_links[0])
+src[return].input_links[0] == orig(src[src_pad].input_links[0])
+src[return].input_links[1] == src[orig(src_pad)].input_links[1]
+src[return].input_links[1] == orig(src[post(src_pad)].input_links[1])
+src[return].input_links[1] == orig(src[src_pad].input_links[1])
+src[return].input_links[2] == src[orig(src_pad)].input_links[2]
+src[return].input_links[2] == orig(src[post(src_pad)].input_links[2])
+src[return].input_links[2] == orig(src[src_pad].input_links[2])
+src[return].input_links[3] == src[orig(src_pad)].input_links[3]
+src[return].input_links[3] == orig(src[post(src_pad)].input_links[3])
+src[return].input_links[3] == orig(src[src_pad].input_links[3])
+src[return].input_links[4] == src[orig(src_pad)].input_links[4]
+src[return].input_links[4] == orig(src[post(src_pad)].input_links[4])
+src[return].input_links[4] == orig(src[src_pad].input_links[4])
+src[return].input_links[5] == src[orig(src_pad)].input_links[5]
+src[return].input_links[5] == orig(src[post(src_pad)].input_links[5])
+src[return].input_links[5] == orig(src[src_pad].input_links[5])
+src[return].input_links[6] == src[orig(src_pad)].input_links[6]
+src[return].input_links[6] == orig(src[post(src_pad)].input_links[6])
+src[return].input_links[6] == orig(src[src_pad].input_links[6])
+src[return].input_links[7] == src[orig(src_pad)].input_links[7]
+src[return].input_links[7] == orig(src[post(src_pad)].input_links[7])
+src[return].input_links[7] == orig(src[src_pad].input_links[7])
+src[return].output_links[0] == src[orig(src_pad)].output_links[0]
+src[return].output_links[0] == orig(src[post(src_pad)].output_links[0])
+src[return].output_links[0] == orig(src[src_pad].output_links[0])
+src[return].output_links[1] == src[orig(src_pad)].output_links[1]
+src[return].output_links[1] == orig(src[post(src_pad)].output_links[1])
+src[return].output_links[1] == orig(src[src_pad].output_links[1])
+src[return].output_links[2] == src[orig(src_pad)].output_links[2]
+src[return].output_links[2] == orig(src[post(src_pad)].output_links[2])
+src[return].output_links[2] == orig(src[src_pad].output_links[2])
+src[return].output_links[3] == src[orig(src_pad)].output_links[3]
+src[return].output_links[3] == orig(src[post(src_pad)].output_links[3])
+src[return].output_links[3] == orig(src[src_pad].output_links[3])
+src[return].output_links[4] == src[orig(src_pad)].output_links[4]
+src[return].output_links[4] == orig(src[post(src_pad)].output_links[4])
+src[return].output_links[4] == orig(src[src_pad].output_links[4])
+src[return].output_links[5] == src[orig(src_pad)].output_links[5]
+src[return].output_links[5] == orig(src[post(src_pad)].output_links[5])
+src[return].output_links[5] == orig(src[src_pad].output_links[5])
+src[return].output_links[6] == src[orig(src_pad)].output_links[6]
+src[return].output_links[6] == orig(src[post(src_pad)].output_links[6])
+src[return].output_links[6] == orig(src[src_pad].output_links[6])
+src[return].output_links[7] == src[orig(src_pad)].output_links[7]
+src[return].output_links[7] == orig(src[post(src_pad)].output_links[7])
+src[return].output_links[7] == orig(src[src_pad].output_links[7])
+src[return].priv == src[orig(src_pad)].priv
+src[return].priv == orig(src[post(src_pad)].priv)
+src[return].priv == orig(dst[post(src_pad)].priv)
+src[return].priv == dst[orig(src_pad)].priv
+src[return].priv == orig(src[src_pad].priv)
+src[return].priv == orig(dst[src_pad].priv)
+orig(dst[post(src_pad)]) == dst[return]
+orig(dst[post(src_pad)].nb_inputs) == dst[return].nb_inputs
+orig(dst[post(src_pad)].nb_outputs) == dst[return].nb_outputs
+orig(dst[post(src_pad)].inputs[0]) == dst[return].inputs[0]
+orig(dst[post(src_pad)].inputs[0][0]) == dst[return].inputs[0][0]
+orig(dst[post(src_pad)].inputs[1]) == dst[return].inputs[1]
+orig(dst[post(src_pad)].inputs[1][0]) == dst[return].inputs[1][0]
+orig(dst[post(src_pad)].inputs[2]) == dst[return].inputs[2]
+orig(dst[post(src_pad)].inputs[2][0]) == dst[return].inputs[2][0]
+orig(dst[post(src_pad)].inputs[3]) == dst[return].inputs[3]
+orig(dst[post(src_pad)].inputs[3][0]) == dst[return].inputs[3][0]
+orig(dst[post(src_pad)].inputs[4]) == dst[return].inputs[4]
+orig(dst[post(src_pad)].inputs[4][0]) == dst[return].inputs[4][0]
+orig(dst[post(src_pad)].inputs[5]) == dst[return].inputs[5]
+orig(dst[post(src_pad)].inputs[5][0]) == dst[return].inputs[5][0]
+orig(dst[post(src_pad)].inputs[6]) == dst[return].inputs[6]
+orig(dst[post(src_pad)].inputs[6][0]) == dst[return].inputs[6][0]
+orig(dst[post(src_pad)].inputs[7]) == dst[return].inputs[7]
+orig(dst[post(src_pad)].inputs[7][0]) == dst[return].inputs[7][0]
+orig(dst[post(src_pad)].outputs[0]) == dst[return].outputs[0]
+orig(dst[post(src_pad)].outputs[0][0]) == dst[return].outputs[0][0]
+orig(dst[post(src_pad)].outputs[1]) == dst[return].outputs[1]
+orig(dst[post(src_pad)].outputs[1][0]) == dst[return].outputs[1][0]
+orig(dst[post(src_pad)].outputs[2]) == dst[return].outputs[2]
+orig(dst[post(src_pad)].outputs[2][0]) == dst[return].outputs[2][0]
+orig(dst[post(src_pad)].outputs[3]) == dst[return].outputs[3]
+orig(dst[post(src_pad)].outputs[3][0]) == dst[return].outputs[3][0]
+orig(dst[post(src_pad)].outputs[4]) == dst[return].outputs[4]
+orig(dst[post(src_pad)].outputs[4][0]) == dst[return].outputs[4][0]
+orig(dst[post(src_pad)].outputs[5]) == dst[return].outputs[5]
+orig(dst[post(src_pad)].outputs[5][0]) == dst[return].outputs[5][0]
+orig(dst[post(src_pad)].outputs[6]) == dst[return].outputs[6]
+orig(dst[post(src_pad)].outputs[6][0]) == dst[return].outputs[6][0]
+orig(dst[post(src_pad)].outputs[7]) == dst[return].outputs[7]
+orig(dst[post(src_pad)].outputs[7][0]) == dst[return].outputs[7][0]
+orig(dst[post(src_pad)].input_links[0]) == dst[return].input_links[0]
+orig(dst[post(src_pad)].input_links[1]) == dst[return].input_links[1]
+orig(dst[post(src_pad)].input_links[2]) == dst[return].input_links[2]
+orig(dst[post(src_pad)].input_links[3]) == dst[return].input_links[3]
+orig(dst[post(src_pad)].input_links[4]) == dst[return].input_links[4]
+orig(dst[post(src_pad)].input_links[5]) == dst[return].input_links[5]
+orig(dst[post(src_pad)].input_links[6]) == dst[return].input_links[6]
+orig(dst[post(src_pad)].input_links[7]) == dst[return].input_links[7]
+orig(dst[post(src_pad)].output_links[0]) == dst[return].output_links[0]
+orig(dst[post(src_pad)].output_links[1]) == dst[return].output_links[1]
+orig(dst[post(src_pad)].output_links[2]) == dst[return].output_links[2]
+orig(dst[post(src_pad)].output_links[3]) == dst[return].output_links[3]
+orig(dst[post(src_pad)].output_links[4]) == dst[return].output_links[4]
+orig(dst[post(src_pad)].output_links[5]) == dst[return].output_links[5]
+orig(dst[post(src_pad)].output_links[6]) == dst[return].output_links[6]
+orig(dst[post(src_pad)].output_links[7]) == dst[return].output_links[7]
+orig(graph[post(src_pad)]) == graph[return]
+orig(graph[post(src_pad)].nb_filters) == graph[return].nb_filters
+orig(graph[post(src_pad)].filters) == graph[return].filters
+orig(graph[post(src_pad)].links) == graph[return].links
+dst[return] == dst[orig(src_pad)]
+dst[return] == orig(dst[src_pad])
+dst[return].nb_inputs == dst[orig(src_pad)].nb_inputs
+dst[return].nb_inputs == orig(dst[src_pad].nb_inputs)
+dst[return].nb_outputs == dst[orig(src_pad)].nb_outputs
+dst[return].nb_outputs == orig(dst[src_pad].nb_outputs)
+dst[return].inputs[0] == dst[orig(src_pad)].inputs[0]
+dst[return].inputs[0] == orig(dst[src_pad].inputs[0])
+dst[return].inputs[0][0] == dst[orig(src_pad)].inputs[0][0]
+dst[return].inputs[0][0] == orig(dst[src_pad].inputs[0][0])
+dst[return].inputs[1] == dst[orig(src_pad)].inputs[1]
+dst[return].inputs[1] == orig(dst[src_pad].inputs[1])
+dst[return].inputs[1][0] == dst[orig(src_pad)].inputs[1][0]
+dst[return].inputs[1][0] == orig(dst[src_pad].inputs[1][0])
+dst[return].inputs[2] == dst[orig(src_pad)].inputs[2]
+dst[return].inputs[2] == orig(dst[src_pad].inputs[2])
+dst[return].inputs[2][0] == dst[orig(src_pad)].inputs[2][0]
+dst[return].inputs[2][0] == orig(dst[src_pad].inputs[2][0])
+dst[return].inputs[3] == dst[orig(src_pad)].inputs[3]
+dst[return].inputs[3] == orig(dst[src_pad].inputs[3])
+dst[return].inputs[3][0] == dst[orig(src_pad)].inputs[3][0]
+dst[return].inputs[3][0] == orig(dst[src_pad].inputs[3][0])
+dst[return].inputs[4] == dst[orig(src_pad)].inputs[4]
+dst[return].inputs[4] == orig(dst[src_pad].inputs[4])
+dst[return].inputs[4][0] == dst[orig(src_pad)].inputs[4][0]
+dst[return].inputs[4][0] == orig(dst[src_pad].inputs[4][0])
+dst[return].inputs[5] == dst[orig(src_pad)].inputs[5]
+dst[return].inputs[5] == orig(dst[src_pad].inputs[5])
+dst[return].inputs[5][0] == dst[orig(src_pad)].inputs[5][0]
+dst[return].inputs[5][0] == orig(dst[src_pad].inputs[5][0])
+dst[return].inputs[6] == dst[orig(src_pad)].inputs[6]
+dst[return].inputs[6] == orig(dst[src_pad].inputs[6])
+dst[return].inputs[6][0] == dst[orig(src_pad)].inputs[6][0]
+dst[return].inputs[6][0] == orig(dst[src_pad].inputs[6][0])
+dst[return].inputs[7] == dst[orig(src_pad)].inputs[7]
+dst[return].inputs[7] == orig(dst[src_pad].inputs[7])
+dst[return].inputs[7][0] == dst[orig(src_pad)].inputs[7][0]
+dst[return].inputs[7][0] == orig(dst[src_pad].inputs[7][0])
+dst[return].outputs[0] == dst[orig(src_pad)].outputs[0]
+dst[return].outputs[0] == orig(dst[src_pad].outputs[0])
+dst[return].outputs[0][0] == dst[orig(src_pad)].outputs[0][0]
+dst[return].outputs[0][0] == orig(dst[src_pad].outputs[0][0])
+dst[return].outputs[1] == dst[orig(src_pad)].outputs[1]
+dst[return].outputs[1] == orig(dst[src_pad].outputs[1])
+dst[return].outputs[1][0] == dst[orig(src_pad)].outputs[1][0]
+dst[return].outputs[1][0] == orig(dst[src_pad].outputs[1][0])
+dst[return].outputs[2] == dst[orig(src_pad)].outputs[2]
+dst[return].outputs[2] == orig(dst[src_pad].outputs[2])
+dst[return].outputs[2][0] == dst[orig(src_pad)].outputs[2][0]
+dst[return].outputs[2][0] == orig(dst[src_pad].outputs[2][0])
+dst[return].outputs[3] == dst[orig(src_pad)].outputs[3]
+dst[return].outputs[3] == orig(dst[src_pad].outputs[3])
+dst[return].outputs[3][0] == dst[orig(src_pad)].outputs[3][0]
+dst[return].outputs[3][0] == orig(dst[src_pad].outputs[3][0])
+dst[return].outputs[4] == dst[orig(src_pad)].outputs[4]
+dst[return].outputs[4] == orig(dst[src_pad].outputs[4])
+dst[return].outputs[4][0] == dst[orig(src_pad)].outputs[4][0]
+dst[return].outputs[4][0] == orig(dst[src_pad].outputs[4][0])
+dst[return].outputs[5] == dst[orig(src_pad)].outputs[5]
+dst[return].outputs[5] == orig(dst[src_pad].outputs[5])
+dst[return].outputs[5][0] == dst[orig(src_pad)].outputs[5][0]
+dst[return].outputs[5][0] == orig(dst[src_pad].outputs[5][0])
+dst[return].outputs[6] == dst[orig(src_pad)].outputs[6]
+dst[return].outputs[6] == orig(dst[src_pad].outputs[6])
+dst[return].outputs[6][0] == dst[orig(src_pad)].outputs[6][0]
+dst[return].outputs[6][0] == orig(dst[src_pad].outputs[6][0])
+dst[return].outputs[7] == dst[orig(src_pad)].outputs[7]
+dst[return].outputs[7] == orig(dst[src_pad].outputs[7])
+dst[return].outputs[7][0] == dst[orig(src_pad)].outputs[7][0]
+dst[return].outputs[7][0] == orig(dst[src_pad].outputs[7][0])
+dst[return].input_links[0] == dst[orig(src_pad)].input_links[0]
+dst[return].input_links[0] == orig(dst[src_pad].input_links[0])
+dst[return].input_links[1] == dst[orig(src_pad)].input_links[1]
+dst[return].input_links[1] == orig(dst[src_pad].input_links[1])
+dst[return].input_links[2] == dst[orig(src_pad)].input_links[2]
+dst[return].input_links[2] == orig(dst[src_pad].input_links[2])
+dst[return].input_links[3] == dst[orig(src_pad)].input_links[3]
+dst[return].input_links[3] == orig(dst[src_pad].input_links[3])
+dst[return].input_links[4] == dst[orig(src_pad)].input_links[4]
+dst[return].input_links[4] == orig(dst[src_pad].input_links[4])
+dst[return].input_links[5] == dst[orig(src_pad)].input_links[5]
+dst[return].input_links[5] == orig(dst[src_pad].input_links[5])
+dst[return].input_links[6] == dst[orig(src_pad)].input_links[6]
+dst[return].input_links[6] == orig(dst[src_pad].input_links[6])
+dst[return].input_links[7] == dst[orig(src_pad)].input_links[7]
+dst[return].input_links[7] == orig(dst[src_pad].input_links[7])
+dst[return].output_links[0] == dst[orig(src_pad)].output_links[0]
+dst[return].output_links[0] == orig(dst[src_pad].output_links[0])
+dst[return].output_links[1] == dst[orig(src_pad)].output_links[1]
+dst[return].output_links[1] == orig(dst[src_pad].output_links[1])
+dst[return].output_links[2] == dst[orig(src_pad)].output_links[2]
+dst[return].output_links[2] == orig(dst[src_pad].output_links[2])
+dst[return].output_links[3] == dst[orig(src_pad)].output_links[3]
+dst[return].output_links[3] == orig(dst[src_pad].output_links[3])
+dst[return].output_links[4] == dst[orig(src_pad)].output_links[4]
+dst[return].output_links[4] == orig(dst[src_pad].output_links[4])
+dst[return].output_links[5] == dst[orig(src_pad)].output_links[5]
+dst[return].output_links[5] == orig(dst[src_pad].output_links[5])
+dst[return].output_links[6] == dst[orig(src_pad)].output_links[6]
+dst[return].output_links[6] == orig(dst[src_pad].output_links[6])
+dst[return].output_links[7] == dst[orig(src_pad)].output_links[7]
+dst[return].output_links[7] == orig(dst[src_pad].output_links[7])
+graph[return] == graph[orig(src_pad)]
+graph[return] == orig(graph[src_pad])
+graph[return].nb_filters == graph[orig(src_pad)].nb_filters
+graph[return].nb_filters == orig(graph[src_pad].nb_filters)
+graph[return].filters == graph[orig(src_pad)].filters
+graph[return].filters == orig(graph[src_pad].filters)
+graph[return].nb_links == graph[orig(src_pad)].nb_links
+graph[return].links == graph[orig(src_pad)].links
+graph[return].links == orig(graph[src_pad].links)
+orig(graph[post(return)].nb_links) == orig(graph[src_pad].nb_links)
+src[] elements != null
+src[].filter_name elements one of { "buffer", "overlay", "scale" }
+src[].nb_inputs elements one of { 0, 1, 2 }
+src[].nb_inputs one of { [0], [1], [2] }
+src[].nb_outputs == [1]
+src[].nb_outputs elements == 1
+src[].inputs[0] elements != null
+src[].inputs[0][0] elements != null
+src[].inputs[0]->name elements one of { "", "default", "main" }
+src[].inputs[0]->type == [0]
+src[].inputs[0]->type elements == 0
+src[].inputs[0]->format == [0]
+src[].inputs[0]->format elements == 0
+src[].inputs[1] elements != null
+src[].inputs[1][0] elements != null
+src[].inputs[1]->name elements one of { "", "overlay" }
+src[].inputs[1]->name one of { [], [overlay] }
+src[].inputs[1]->type == [0]
+src[].inputs[1]->type elements == 0
+src[].inputs[1]->format == [0]
+src[].inputs[1]->format elements == 0
+src[].inputs[2] elements != null
+src[].inputs[2][0] elements != null
+src[].inputs[2]->name == []
+src[].inputs[2]->name elements == ""
+src[].inputs[2]->type == [0]
+src[].inputs[2]->type elements == 0
+src[].inputs[2]->format == [0]
+src[].inputs[2]->format elements == 0
+src[].inputs[3] elements != null
+src[].inputs[3][0] elements != null
+src[].inputs[3]->name == []
+src[].inputs[3]->name elements == ""
+src[].inputs[3]->type == [0]
+src[].inputs[3]->type elements == 0
+src[].inputs[3]->format == [0]
+src[].inputs[3]->format elements == 0
+src[].inputs[4] elements != null
+src[].inputs[4][0] elements != null
+src[].inputs[4]->name == []
+src[].inputs[4]->name elements == ""
+src[].inputs[4]->type == [0]
+src[].inputs[4]->type elements == 0
+src[].inputs[4]->format == [0]
+src[].inputs[4]->format elements == 0
+src[].inputs[5] elements != null
+src[].inputs[5][0] elements != null
+src[].inputs[6] elements != null
+src[].inputs[6][0] elements != null
+src[].inputs[7] elements != null
+src[].inputs[7][0] elements != null
+src[].outputs[0] elements != null
+src[].outputs[0][0] elements != null
+src[].outputs[1] elements != null
+src[].outputs[1][0] elements != null
+src[].outputs[2] elements != null
+src[].outputs[2][0] elements != null
+src[].outputs[3] elements != null
+src[].outputs[3][0] elements != null
+src[].outputs[4] elements != null
+src[].outputs[4][0] elements != null
+src[].outputs[5] elements != null
+src[].outputs[5][0] elements != null
+src[].outputs[6] elements != null
+src[].outputs[6][0] elements != null
+src[].outputs[7] elements != null
+src[].outputs[7][0] elements != null
+src[].input_links[0] elements != null
+src[].input_links[1] elements != null
+src[].input_links[2] elements != null
+src[].input_links[3] elements != null
+src[].input_links[4] elements != null
+src[].input_links[5] elements != null
+src[].input_links[6] elements != null
+src[].input_links[7] elements != null
+src[].output_links[0] elements != null
+src[].output_links[1] elements != null
+src[].output_links[2] elements != null
+src[].output_links[3] elements != null
+src[].output_links[4] elements != null
+src[].output_links[5] elements != null
+src[].output_links[6] elements != null
+src[].output_links[7] elements != null
+src[].configured == [0]
+src[].configured elements == 0
+src[].priv == [null]
+src[].priv elements == null
+dst[] elements != null
+dst[].filter_name elements one of { "buffersink", "overlay", "scale" }
+dst[].nb_inputs elements one of { 1, 2 }
+dst[].nb_inputs one of { [1], [2] }
+dst[].nb_outputs elements one of { 0, 1 }
+dst[].nb_outputs one of { [0], [1] }
+dst[].inputs[0] elements != null
+dst[].inputs[0][0] elements != null
+dst[].inputs[0]->name elements one of { "default", "main" }
+dst[].inputs[0]->name one of { [default], [main] }
+dst[].inputs[1] elements != null
+dst[].inputs[1][0] elements != null
+dst[].inputs[1]->name elements one of { "", "overlay" }
+dst[].inputs[1]->name one of { [], [overlay] }
+dst[].inputs[2] elements != null
+dst[].inputs[2][0] elements != null
+dst[].inputs[3] elements != null
+dst[].inputs[3][0] elements != null
+dst[].inputs[4] elements != null
+dst[].inputs[4][0] elements != null
+dst[].inputs[5] elements != null
+dst[].inputs[5][0] elements != null
+dst[].inputs[6] elements != null
+dst[].inputs[6][0] elements != null
+dst[].inputs[7] elements != null
+dst[].inputs[7][0] elements != null
+dst[].outputs[0] elements != null
+dst[].outputs[0][0] elements != null
+dst[].outputs[1] elements != null
+dst[].outputs[1][0] elements != null
+dst[].outputs[2] elements != null
+dst[].outputs[2][0] elements != null
+dst[].outputs[3] elements != null
+dst[].outputs[3][0] elements != null
+dst[].outputs[4] elements != null
+dst[].outputs[4][0] elements != null
+dst[].outputs[5] elements != null
+dst[].outputs[5][0] elements != null
+dst[].outputs[6] elements != null
+dst[].outputs[6][0] elements != null
+dst[].outputs[7] elements != null
+dst[].outputs[7][0] elements != null
+dst[].input_links[0] elements != null
+dst[].input_links[1] elements != null
+dst[].input_links[2] elements != null
+dst[].input_links[3] elements != null
+dst[].input_links[4] elements != null
+dst[].input_links[5] elements != null
+dst[].input_links[6] elements != null
+dst[].input_links[7] elements != null
+dst[].output_links[0] elements != null
+dst[].output_links[1] elements != null
+dst[].output_links[2] elements != null
+dst[].output_links[3] elements != null
+dst[].output_links[4] elements != null
+dst[].output_links[5] elements != null
+dst[].output_links[6] elements != null
+dst[].output_links[7] elements != null
+graph[] elements != null
+graph[].filters elements != null
+graph[].nb_links elements >= 1
+graph[].links elements != null
+graph[].configured == [0]
+graph[].configured elements == 0
+graph[].auto_convert == [1]
+graph[].auto_convert elements == 1
+return == 0
+src[] elements == src[return]
+src[].nb_inputs elements >= return
+src[].nb_inputs elements >= orig(src_pad)
+src[].nb_inputs elements >= orig(dst_pad)
+src[].nb_inputs elements >= size(src[])-1
+src[].nb_inputs elements == src[return].nb_inputs
+src[].nb_inputs elements < graph[return].nb_filters
+src[].nb_inputs elements < graph[return].nb_links
+src[].nb_inputs elements <= orig(graph[src_pad].nb_links)
+src[].nb_outputs <= dst[].nb_inputs (elementwise)
+src[].nb_outputs >= dst[].nb_outputs (elementwise)
+src[].nb_outputs elements == orig(size(src[]))
+src[].inputs[0] elements == src[return].inputs[0]
+src[].inputs[0][0] elements == src[return].inputs[0][0]
+return in src[].inputs[0]->type
+src[].inputs[0]->type elements == return
+orig(src_pad) in src[].inputs[0]->type
+src[].inputs[0]->type elements == orig(src_pad)
+src[].inputs[0]->type elements == size(src[])-1
+return in src[].inputs[0]->format
+src[].inputs[0]->format elements == return
+orig(src_pad) in src[].inputs[0]->format
+src[].inputs[0]->format elements == orig(src_pad)
+src[].inputs[0]->format elements == size(src[])-1
+src[].inputs[1] elements == src[return].inputs[1]
+src[].inputs[1][0] elements == src[return].inputs[1][0]
+return in src[].inputs[1]->type
+src[].inputs[1]->type elements == return
+orig(src_pad) in src[].inputs[1]->type
+src[].inputs[1]->type elements == orig(src_pad)
+src[].inputs[1]->type elements == size(src[])-1
+return in src[].inputs[1]->format
+src[].inputs[1]->format elements == return
+orig(src_pad) in src[].inputs[1]->format
+src[].inputs[1]->format elements == orig(src_pad)
+src[].inputs[1]->format elements == size(src[])-1
+src[].inputs[2] elements == src[return].inputs[2]
+src[].inputs[2][0] elements == src[return].inputs[2][0]
+return in src[].inputs[2]->type
+src[].inputs[2]->type elements == return
+orig(src_pad) in src[].inputs[2]->type
+src[].inputs[2]->type elements == orig(src_pad)
+src[].inputs[2]->type elements == size(src[])-1
+return in src[].inputs[2]->format
+src[].inputs[2]->format elements == return
+orig(src_pad) in src[].inputs[2]->format
+src[].inputs[2]->format elements == orig(src_pad)
+src[].inputs[2]->format elements == size(src[])-1
+src[].inputs[3] elements == src[return].inputs[3]
+src[].inputs[3][0] elements == src[return].inputs[3][0]
+return in src[].inputs[3]->type
+src[].inputs[3]->type elements == return
+orig(src_pad) in src[].inputs[3]->type
+src[].inputs[3]->type elements == orig(src_pad)
+src[].inputs[3]->type elements == size(src[])-1
+return in src[].inputs[3]->format
+src[].inputs[3]->format elements == return
+orig(src_pad) in src[].inputs[3]->format
+src[].inputs[3]->format elements == orig(src_pad)
+src[].inputs[3]->format elements == size(src[])-1
+src[].inputs[4] elements == src[return].inputs[4]
+src[].inputs[4][0] elements == src[return].inputs[4][0]
+return in src[].inputs[4]->type
+src[].inputs[4]->type elements == return
+orig(src_pad) in src[].inputs[4]->type
+src[].inputs[4]->type elements == orig(src_pad)
+src[].inputs[4]->type elements == size(src[])-1
+return in src[].inputs[4]->format
+src[].inputs[4]->format elements == return
+orig(src_pad) in src[].inputs[4]->format
+src[].inputs[4]->format elements == orig(src_pad)
+src[].inputs[4]->format elements == size(src[])-1
+src[].inputs[5] elements == src[return].inputs[5]
+src[].inputs[5][0] elements == src[return].inputs[5][0]
+src[].inputs[6] elements == src[return].inputs[6]
+src[].inputs[6][0] elements == src[return].inputs[6][0]
+src[].inputs[7] elements == src[return].inputs[7]
+src[].inputs[7][0] elements == src[return].inputs[7][0]
+src[].outputs[0] elements == src[return].outputs[0]
+src[].outputs[0][0] elements == src[return].outputs[0][0]
+src[].outputs[1] elements == src[return].outputs[1]
+src[].outputs[1][0] elements == src[return].outputs[1][0]
+src[].outputs[2] elements == src[return].outputs[2]
+src[].outputs[2][0] elements == src[return].outputs[2][0]
+src[].outputs[3] elements == src[return].outputs[3]
+src[].outputs[3][0] elements == src[return].outputs[3][0]
+src[].outputs[4] elements == src[return].outputs[4]
+src[].outputs[4][0] elements == src[return].outputs[4][0]
+src[].outputs[5] elements == src[return].outputs[5]
+src[].outputs[5][0] elements == src[return].outputs[5][0]
+src[].outputs[6] elements == src[return].outputs[6]
+src[].outputs[6][0] elements == src[return].outputs[6][0]
+src[].outputs[7] elements == src[return].outputs[7]
+src[].outputs[7][0] elements == src[return].outputs[7][0]
+src[].input_links[0] elements == src[return].input_links[0]
+src[].input_links[1] elements == src[return].input_links[1]
+src[].input_links[2] elements == src[return].input_links[2]
+src[].input_links[3] elements == src[return].input_links[3]
+src[].input_links[4] elements == src[return].input_links[4]
+src[].input_links[5] elements == src[return].input_links[5]
+src[].input_links[6] elements == src[return].input_links[6]
+src[].input_links[7] elements == src[return].input_links[7]
+src[].output_links[0] elements == src[return].output_links[0]
+src[].output_links[1] elements == src[return].output_links[1]
+src[].output_links[2] elements == src[return].output_links[2]
+src[].output_links[3] elements == src[return].output_links[3]
+src[].output_links[4] elements == src[return].output_links[4]
+src[].output_links[5] elements == src[return].output_links[5]
+src[].output_links[6] elements == src[return].output_links[6]
+src[].output_links[7] elements == src[return].output_links[7]
+return in src[].configured
+src[].configured elements == return
+orig(src_pad) in src[].configured
+src[].configured elements == orig(src_pad)
+src[].configured elements == size(src[])-1
+src[].priv elements == src[return].priv
+dst[] elements == dst[return]
+dst[].nb_inputs >= dst[].nb_outputs (elementwise)
+dst[].nb_inputs elements > return
+dst[].nb_inputs elements > orig(src_pad)
+dst[].nb_inputs elements > orig(dst_pad)
+dst[].nb_inputs elements >= orig(size(src[]))
+dst[].nb_inputs elements == dst[return].nb_inputs
+dst[].nb_inputs elements >= dst[return].nb_outputs
+dst[].nb_inputs elements < graph[return].nb_filters
+dst[].nb_inputs elements <= graph[return].nb_links
+dst[].nb_outputs elements >= return
+dst[].nb_outputs elements >= orig(src_pad)
+dst[].nb_outputs elements >= orig(dst_pad)
+dst[].nb_outputs elements >= size(src[])-1
+dst[].nb_outputs elements <= orig(size(src[]))
+dst[].nb_outputs elements <= dst[return].nb_inputs
+dst[].nb_outputs elements == dst[return].nb_outputs
+dst[].nb_outputs elements < graph[return].nb_filters
+dst[].nb_outputs elements <= graph[return].nb_links
+dst[].inputs[0] elements == dst[return].inputs[0]
+dst[].inputs[0][0] elements == dst[return].inputs[0][0]
+dst[].inputs[1] elements == dst[return].inputs[1]
+dst[].inputs[1][0] elements == dst[return].inputs[1][0]
+dst[].inputs[2] elements == dst[return].inputs[2]
+dst[].inputs[2][0] elements == dst[return].inputs[2][0]
+dst[].inputs[3] elements == dst[return].inputs[3]
+dst[].inputs[3][0] elements == dst[return].inputs[3][0]
+dst[].inputs[4] elements == dst[return].inputs[4]
+dst[].inputs[4][0] elements == dst[return].inputs[4][0]
+dst[].inputs[5] elements == dst[return].inputs[5]
+dst[].inputs[5][0] elements == dst[return].inputs[5][0]
+dst[].inputs[6] elements == dst[return].inputs[6]
+dst[].inputs[6][0] elements == dst[return].inputs[6][0]
+dst[].inputs[7] elements == dst[return].inputs[7]
+dst[].inputs[7][0] elements == dst[return].inputs[7][0]
+dst[].outputs[0] elements == dst[return].outputs[0]
+dst[].outputs[0][0] elements == dst[return].outputs[0][0]
+dst[].outputs[1] elements == dst[return].outputs[1]
+dst[].outputs[1][0] elements == dst[return].outputs[1][0]
+dst[].outputs[2] elements == dst[return].outputs[2]
+dst[].outputs[2][0] elements == dst[return].outputs[2][0]
+dst[].outputs[3] elements == dst[return].outputs[3]
+dst[].outputs[3][0] elements == dst[return].outputs[3][0]
+dst[].outputs[4] elements == dst[return].outputs[4]
+dst[].outputs[4][0] elements == dst[return].outputs[4][0]
+dst[].outputs[5] elements == dst[return].outputs[5]
+dst[].outputs[5][0] elements == dst[return].outputs[5][0]
+dst[].outputs[6] elements == dst[return].outputs[6]
+dst[].outputs[6][0] elements == dst[return].outputs[6][0]
+dst[].outputs[7] elements == dst[return].outputs[7]
+dst[].outputs[7][0] elements == dst[return].outputs[7][0]
+dst[].input_links[0] elements == dst[return].input_links[0]
+dst[].input_links[1] elements == dst[return].input_links[1]
+dst[].input_links[2] elements == dst[return].input_links[2]
+dst[].input_links[3] elements == dst[return].input_links[3]
+dst[].input_links[4] elements == dst[return].input_links[4]
+dst[].input_links[5] elements == dst[return].input_links[5]
+dst[].input_links[6] elements == dst[return].input_links[6]
+dst[].input_links[7] elements == dst[return].input_links[7]
+dst[].output_links[0] elements == dst[return].output_links[0]
+dst[].output_links[1] elements == dst[return].output_links[1]
+dst[].output_links[2] elements == dst[return].output_links[2]
+dst[].output_links[3] elements == dst[return].output_links[3]
+dst[].output_links[4] elements == dst[return].output_links[4]
+dst[].output_links[5] elements == dst[return].output_links[5]
+dst[].output_links[6] elements == dst[return].output_links[6]
+dst[].output_links[7] elements == dst[return].output_links[7]
+graph[] elements == graph[return]
+graph[].nb_filters > graph[].nb_links (elementwise)
+graph[].nb_filters elements > return
+graph[].nb_filters elements > orig(src_pad)
+graph[].nb_filters elements > orig(dst_pad)
+graph[].nb_filters > orig(graph[].nb_links) (elementwise)
+graph[].nb_filters elements > orig(size(src[]))
+graph[].nb_filters elements > src[return].nb_inputs
+graph[].nb_filters elements > dst[return].nb_inputs
+graph[].nb_filters elements > dst[return].nb_outputs
+graph[].nb_filters elements == graph[return].nb_filters
+graph[].nb_filters elements > graph[return].nb_links
+graph[].nb_filters elements > orig(graph[src_pad].nb_links)
+graph[].filters elements == graph[return].filters
+graph[].nb_links elements > return
+graph[].nb_links elements > orig(src_pad)
+graph[].nb_links elements > orig(dst_pad)
+graph[].nb_links - orig(graph[].nb_links) - 1 == 0
+graph[].nb_links > orig(graph[].nb_links) (elementwise)
+graph[].nb_links elements >= orig(size(src[]))
+graph[].nb_links elements > src[return].nb_inputs
+graph[].nb_links elements >= dst[return].nb_inputs
+graph[].nb_links elements >= dst[return].nb_outputs
+graph[].nb_links elements < graph[return].nb_filters
+graph[].nb_links elements == graph[return].nb_links
+graph[].nb_links elements > orig(graph[src_pad].nb_links)
+graph[].links elements == graph[return].links
+graph[].configured elements == return
+return in graph[].configured
+graph[].configured elements == orig(src_pad)
+orig(src_pad) in graph[].configured
+graph[].configured elements == size(src[])-1
+graph[].auto_convert elements == orig(size(src[]))
+orig(graph[].nb_links) elements >= return
+return <= src[return].nb_inputs
+return < dst[return].nb_inputs
+return <= dst[return].nb_outputs
+return < graph[return].nb_filters
+return < graph[return].nb_links
+return <= orig(graph[src_pad].nb_links)
+orig(src_pad) <= src[return].nb_inputs
+orig(src_pad) < dst[return].nb_inputs
+orig(src_pad) <= dst[return].nb_outputs
+orig(src_pad) < graph[return].nb_filters
+orig(src_pad) < graph[return].nb_links
+orig(dst_pad) >= size(src[])-1
+orig(dst_pad) <= src[return].nb_inputs
+orig(dst_pad) < dst[return].nb_inputs
+orig(dst_pad) <= dst[return].nb_outputs
+orig(dst_pad) < graph[return].nb_filters
+orig(dst_pad) < graph[return].nb_links
+orig(graph[].nb_links) elements >= size(src[])-1
+orig(graph[].nb_links) elements >= src[return].nb_inputs
+orig(graph[].nb_links) elements < graph[return].nb_filters
+orig(graph[].nb_links) elements < graph[return].nb_links
+size(src[])-1 <= src[return].nb_inputs
+size(src[])-1 <= dst[return].nb_outputs
+size(src[])-1 <= orig(graph[src_pad].nb_links)
+orig(size(src[])) < graph[return].nb_filters
+orig(size(src[])) <= graph[return].nb_links
+src[return].nb_inputs < graph[return].nb_filters
+src[return].nb_inputs < graph[return].nb_links
+src[return].nb_inputs <= orig(graph[src_pad].nb_links)
+dst[return].nb_inputs < graph[return].nb_filters
+graph[return].nb_filters % dst[return].nb_inputs == 0
+dst[return].nb_inputs <= graph[return].nb_links
+dst[return].nb_outputs < graph[return].nb_filters
+dst[return].nb_outputs <= graph[return].nb_links
+graph[return].nb_links - orig(graph[src_pad].nb_links) - 1 == 0
+===========================================================================
+..main():::EXIT
+return == 0
+===========================================================================
+..process_frame():::ENTER
+graph[].nb_filters elements one of { 3, 6, 12 }
+graph[].nb_filters one of { [3], [6], [12] }
+graph[].nb_links elements one of { 2, 5, 11 }
+graph[].nb_links one of { [2], [5], [11] }
+graph[].configured == [1]
+graph[].configured elements == 1
+graph[].auto_convert == [1]
+graph[].auto_convert elements == 1
+frame_num >= 0
+size(graph[]) == 1
+graph[].nb_filters > graph[].nb_links (elementwise)
+graph[].nb_filters elements > size(graph[])
+graph[].nb_links elements > size(graph[])
+graph[].configured elements == size(graph[])
+size(graph[]) in graph[].configured
+graph[].auto_convert elements == size(graph[])
+size(graph[]) in graph[].auto_convert
+frame_num >= size(graph[])-1
+===========================================================================
+..process_frame():::EXIT
+graph[] == orig(graph[])
+graph[].nb_filters == orig(graph[].nb_filters)
+graph[].filters == orig(graph[].filters)
+graph[].nb_links == orig(graph[].nb_links)
+graph[].links == orig(graph[].links)
+graph[].configured == orig(graph[].configured)
+graph[].auto_convert == orig(graph[].auto_convert)
+return == size(graph[])-1
+orig(size(graph[])) == graph[return].configured
+orig(size(graph[])) == graph[return].auto_convert
+orig(size(graph[])) == orig(graph[post(return)].configured)
+orig(size(graph[])) == orig(graph[post(return)].auto_convert)
+graph[].nb_filters elements one of { 3, 6, 12 }
+graph[].nb_filters one of { [3], [6], [12] }
+graph[].nb_links elements one of { 2, 5, 11 }
+graph[].nb_links one of { [2], [5], [11] }
+graph[].configured == [1]
+graph[].configured elements == 1
+graph[].auto_convert == [1]
+graph[].auto_convert elements == 1
+return == 0
+graph[] elements == graph[return]
+graph[].nb_filters > graph[].nb_links (elementwise)
+graph[].nb_filters elements > return
+graph[].nb_filters elements > orig(size(graph[]))
+graph[].nb_filters elements == graph[return].nb_filters
+graph[].nb_filters elements > graph[return].nb_links
+graph[].filters elements == graph[return].filters
+graph[].nb_links elements > return
+graph[].nb_links elements > orig(size(graph[]))
+graph[].nb_links elements < graph[return].nb_filters
+graph[].nb_links elements == graph[return].nb_links
+graph[].links elements == graph[return].links
+graph[].configured elements == orig(size(graph[]))
+graph[].auto_convert elements == orig(size(graph[]))
+return < graph[return].nb_filters
+return < graph[return].nb_links
+orig(frame_num) >= size(graph[])-1
+orig(size(graph[])) < graph[return].nb_filters
+orig(size(graph[])) < graph[return].nb_links
+Exiting Daikon.

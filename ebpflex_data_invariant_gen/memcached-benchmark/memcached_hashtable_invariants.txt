@@ -1,0 +1,236 @@
+Daikon version 5.8.21, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files                                                                                                                                                               Processing trace data; reading 1 dtrace file:
+[2025-05-27T02:38:38.923441548]:                                               [2025-05-27T02:38:39.659416090]: Finished reading memcached_hashtable.dtrace   [2025-05-27T02:38:39.659653006]: Finished reading memcached_hashtable.dtrace   
+                                                                                                                                                              ===========================================================================
+..assoc_delete():::ENTER
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+::hashpower == 4
+::primary_hashtable has only one value
+nkey >= 1
+size(::primary_hashtable[]) == 16
+::hashpower < hv
+===========================================================================
+..assoc_delete():::EXIT
+::hashpower == orig(::hashpower)
+::primary_hashtable == orig(::primary_hashtable)
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[]) == orig(size(::primary_hashtable[]))
+size(::primary_hashtable[]) == orig(size(::primary_hashtable[][0]))
+size(::primary_hashtable[]) == orig(size(::primary_hashtable[]->h_next[0]))
+::hashpower == 4
+::primary_hashtable has only one value
+size(::primary_hashtable[]) == 16
+::hashpower < orig(hv)
+===========================================================================
+..assoc_find():::ENTER
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+::hashpower == 4
+::primary_hashtable has only one value
+::primary_hashtable != null
+size(::primary_hashtable[]) == 16
+::hashpower < hv
+===========================================================================
+..assoc_find():::EXIT
+::hashpower == orig(::hashpower)
+::primary_hashtable == orig(::primary_hashtable)
+::primary_hashtable[] == orig(::primary_hashtable[])
+::primary_hashtable[][0] == orig(::primary_hashtable[][0])
+::primary_hashtable[]->h_next[0] == orig(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[]) == orig(size(::primary_hashtable[][0]))
+size(::primary_hashtable[]) == orig(size(::primary_hashtable[]->h_next[0]))
+size(return[]) == size(return[].h_next[0])
+::hashpower == 4
+::primary_hashtable has only one value
+::primary_hashtable != null
+return[] elements != null
+return[].h_next->h_next == [null]
+return[].h_next->h_next elements == null
+return[].h_next->nkey elements one of { 1, 14 }
+return[].h_next->nkey one of { [1], [14] }
+size(::primary_hashtable[]) == 16
+size(return[]) == 1
+size(return[].h_next[0]) == 1
+::hashpower < orig(hv)
+orig(key) in return[].data
+===========================================================================
+..assoc_init():::ENTER
+::hashpower == 16
+::primary_hashtable == null
+hashtable_init == 4
+===========================================================================
+..assoc_init():::EXIT
+::primary_hashtable[orig(hashtable_init)] == ::primary_hashtable[orig(hashtable_init)-1]
+::hashpower == 4
+::primary_hashtable has only one value
+::primary_hashtable[] contains only nulls and has only one value, of length 16
+::primary_hashtable[] elements == null
+size(::primary_hashtable[]) == 16
+::primary_hashtable[] elements == ::primary_hashtable[orig(hashtable_init)]
+===========================================================================
+..assoc_insert():::ENTER
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[][0]) == size(::primary_hashtable[]->h_next[0])
+::hashpower == 4
+::primary_hashtable has only one value
+::primary_hashtable != null
+it != null
+it[] elements != null
+it[].h_next == [null]
+it[].h_next elements == null
+it[].nkey elements >= 1
+size(::primary_hashtable[]) == 16
+size(::primary_hashtable[][0]) == 16
+size(::primary_hashtable[]->h_next[0]) == 16
+size(it[]) == 1
+::hashpower < hv
+===========================================================================
+..assoc_insert():::EXIT
+::hashpower == orig(::hashpower)
+::primary_hashtable == orig(::primary_hashtable)
+it[] == orig(it[])
+it[].nkey == orig(it[].nkey)
+return == orig(size(it[]))
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[]) == orig(size(::primary_hashtable[]))
+size(::primary_hashtable[]) == orig(size(::primary_hashtable[][0]))
+size(::primary_hashtable[]) == orig(size(::primary_hashtable[]->h_next[0]))
+size(::primary_hashtable[]->h_next[0]) == orig(size(::primary_hashtable[][0]))
+size(::primary_hashtable[]->h_next[0]) == orig(size(::primary_hashtable[]->h_next[0]))
+::primary_hashtable[return]->h_next[0] == ::primary_hashtable[return-1]->h_next[0]
+::primary_hashtable[return]->h_next[0] == orig(::primary_hashtable[post(return)]->h_next[0])
+orig(::primary_hashtable[post(return)]->h_next[0]) == orig(::primary_hashtable[post(return)-1]->h_next[0])
+::hashpower == 4
+::primary_hashtable has only one value
+::primary_hashtable != null
+it[] elements != null
+it[].h_next->h_next == [null]
+it[].h_next->h_next elements == null
+it[].h_next->nkey elements one of { 1, 14 }
+it[].h_next->nkey one of { [1], [14] }
+it[].nkey elements >= 1
+return == 1
+size(::primary_hashtable[]) == 16
+size(::primary_hashtable[]->h_next[0]) == 16
+::primary_hashtable[return]->h_next[0] == null
+orig(::primary_hashtable[post(return)]->h_next[0]) == null
+::hashpower < orig(hv)
+orig(it) in ::primary_hashtable[]
+it[return-1].h_next->h_next in ::primary_hashtable[]
+orig(::primary_hashtable[post(return)]) in ::primary_hashtable[]
+orig(::primary_hashtable[post(return)-1]) in ::primary_hashtable[]
+orig(it[post(return)-1].h_next) in ::primary_hashtable[]
+::primary_hashtable[return]->h_next[0] in ::primary_hashtable[][0]
+it[return-1] in ::primary_hashtable[][0]
+orig(::primary_hashtable[post(return)][0]) in ::primary_hashtable[][0]
+orig(::primary_hashtable[post(return)-1][0]) in ::primary_hashtable[][0]
+orig(::primary_hashtable[post(return)]->h_next[0]) in ::primary_hashtable[][0]
+it[return-1].h_next[0] in ::primary_hashtable[]->h_next[0]
+orig(::primary_hashtable[post(return)]->h_next[0]) in ::primary_hashtable[]->h_next[0]
+it[] elements == it[return-1]
+it[].h_next elements == it[return-1].h_next
+it[].h_next[0] elements == it[return-1].h_next[0]
+it[].h_next->h_next == orig(it[].h_next) (elementwise)
+it[].h_next->h_next is the reverse of orig(it[].h_next)
+it[].h_next->h_next elements == it[return-1].h_next->h_next
+it[].h_next->h_next elements == orig(it[post(return)-1].h_next)
+orig(it[post(return)-1].h_next) in it[].h_next->h_next
+it[].h_next->nkey elements == it[return-1].h_next->nkey
+it[].nkey elements == it[return-1].nkey
+it[return-1].h_next in orig(::primary_hashtable[])
+it[return-1].h_next->h_next in orig(::primary_hashtable[])
+orig(it[post(return)-1].h_next) in orig(::primary_hashtable[])
+::primary_hashtable[return]->h_next[0] in orig(::primary_hashtable[][0])
+it[return-1].h_next[0] in orig(::primary_hashtable[][0])
+orig(::primary_hashtable[post(return)]->h_next[0]) in orig(::primary_hashtable[][0])
+::primary_hashtable[return]->h_next[0] in orig(::primary_hashtable[]->h_next[0])
+it[return-1].h_next->h_next in orig(it[].h_next)
+orig(it[].h_next) elements == it[return-1].h_next->h_next
+orig(it[].h_next) elements == orig(it[post(return)-1].h_next)
+===========================================================================
+..create_item():::ENTER
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[][0]) == size(::primary_hashtable[]->h_next[0])
+::hashpower == 4
+::primary_hashtable has only one value
+::primary_hashtable != null
+size(::primary_hashtable[]) == 16
+size(::primary_hashtable[][0]) == 16
+size(::primary_hashtable[]->h_next[0]) == 16
+===========================================================================
+..create_item():::EXIT
+::hashpower == orig(::hashpower)
+::primary_hashtable == orig(::primary_hashtable)
+::primary_hashtable[] == orig(::primary_hashtable[])
+::primary_hashtable[][0] == orig(::primary_hashtable[][0])
+::primary_hashtable[]->h_next[0] == orig(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[][0]) == size(::primary_hashtable[]->h_next[0])
+::hashpower == 4
+::primary_hashtable has only one value
+::primary_hashtable != null
+return != null
+return[] elements != null
+return[].h_next == [null]
+return[].h_next elements == null
+return[].nkey elements >= 1
+size(::primary_hashtable[]) == 16
+size(::primary_hashtable[][0]) == 16
+size(::primary_hashtable[]->h_next[0]) == 16
+size(return[]) == 1
+orig(key) in return[].data
+===========================================================================
+..main():::ENTER
+::hashpower == 16
+::primary_hashtable == null
+===========================================================================
+..main():::EXIT
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+::primary_hashtable[return][0] == ::primary_hashtable[return]->h_next[0]
+::hashpower == 4
+::primary_hashtable has only one value
+::primary_hashtable[] has only one value, of length 16
+::primary_hashtable[][0] has only one value, of length 16
+::primary_hashtable[]->h_next[0] has only one value, of length 16
+return == 0
+size(::primary_hashtable[]) == 16
+::primary_hashtable[return] == null
+::primary_hashtable[return][0] == null
+===========================================================================
+memcached_hashtable_standalone.c.hash_func():::ENTER
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[][0]) == size(::primary_hashtable[]->h_next[0])
+::hashpower == 4
+::primary_hashtable has only one value
+::primary_hashtable != null
+size(::primary_hashtable[]) == 16
+size(::primary_hashtable[][0]) == 16
+size(::primary_hashtable[]->h_next[0]) == 16
+===========================================================================
+memcached_hashtable_standalone.c.hash_func():::EXIT
+::hashpower == orig(::hashpower)
+::primary_hashtable == orig(::primary_hashtable)
+::primary_hashtable[] == orig(::primary_hashtable[])
+::primary_hashtable[][0] == orig(::primary_hashtable[][0])
+::primary_hashtable[]->h_next[0] == orig(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[]) == size(::primary_hashtable[][0])
+size(::primary_hashtable[]) == size(::primary_hashtable[]->h_next[0])
+size(::primary_hashtable[][0]) == size(::primary_hashtable[]->h_next[0])
+::hashpower == 4
+::primary_hashtable has only one value
+::primary_hashtable != null
+size(::primary_hashtable[]) == 16
+size(::primary_hashtable[][0]) == 16
+size(::primary_hashtable[]->h_next[0]) == 16
+::hashpower < return
+Exiting Daikon.
